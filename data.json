@@ -1,0 +1,245 @@
+{
+    "System": [
+        {
+            "System_name": "BK E-Learning",
+            "Domain": "e-learning.hcmut.edu.vn"
+        }
+    ],
+    "Users": [
+        {
+            "University_ID": 100001,
+            "First_Name": "John",
+            "Last_Name": "Doe",
+            "Email": "john.doe@hcmut.edu.vn",
+            "Phone_Number": 8401234567,
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079123456789",
+            "System_name": "BK E-Learning"
+        },
+        {
+            "University_ID": 100002,
+            "First_Name": "Jane",
+            "Last_Name": "Smith",
+            "Email": "jane.smith@hcmut.edu.vn",
+            "Phone_Number": 8409876543,
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079987654321",
+            "System_name": "BK E-Learning"
+        },
+        {
+            "University_ID": 200001,
+            "First_Name": "David",
+            "Last_Name": "Wilson",
+            "Email": "david.wilson@hcmut.edu.vn",
+            "Phone_Number": 8405555555,
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079555555555",
+            "System_name": "BK E-Learning"
+        }
+    ],
+    "Account": [
+        {
+            "University_ID": 100001,
+            "Password": "hashedpassword123"
+        },
+        {
+            "University_ID": 100002,
+            "Password": "hashedpassword456"
+        },
+        {
+            "University_ID": 200001,
+            "Password": "hashedpassword789"
+        }
+    ],
+    "Admin": [
+        {
+            "University_ID": 100001,
+            "Type": "Coordinator"
+        }
+    ],
+    "Student": [
+        {
+            "University_ID": 100002,
+            "Major": "Computer Science",
+            "Current_degree": "Bachelor"
+        }
+    ],
+    "Department": [
+        {
+            "Department_Name": "Computer Science and Engineering",
+            "University_ID": 100001
+        }
+    ],
+    "Tutor": [
+        {
+            "University_ID": 200001,
+            "Name": "Dr. David Wilson",
+            "Academic_Rank": "Associate Professor",
+            "Details": "PhD in Computer Science",
+            "Issuance_Date": "2020-01-01",
+            "Department_Name": "Computer Science and Engineering"
+        }
+    ],
+    "Course": [
+        {
+            "Course_ID": 1,
+            "Name": "Database Systems",
+            "Credit": 4,
+            "Start_Date": "2025-09-01"
+        }
+    ],
+    "Section": [
+        {
+            "Section_ID": 1,
+            "Course_ID": 1,
+            "Semester": "251"
+        }
+    ],
+    "Teaches": [
+        {
+            "Tutor_ID": 200001,
+            "Section_ID": 1,
+            "Course_ID": 1,
+            "Role_Specification": "Main Lecturer",
+            "Timestamp": "2025-09-01T08:00:00"
+        }
+    ],
+    "Assessment": [
+        {
+            "Assessment_ID": 1,
+            "University_ID": 100002,
+            "Section_ID": 1,
+            "Course_ID": 1,
+            "Grade": 8.5,
+            "Registration_Date": "2025-09-01",
+            "Potential_Withdrawal_Date": "2025-12-31",
+            "Status": "Approved"
+        }
+    ],
+    "Building": [
+        {
+            "Building_ID": 1
+        }
+    ],
+    "Room": [
+        {
+            "Room_ID": 1,
+            "Building_ID": 1,
+            "Capacity": 60,
+            "RoomType": "Lecture"
+        }
+    ],
+    "Takes_Place": [
+        {
+            "Section_ID": 1,
+            "Course_ID": 1,
+            "Room_ID": 1,
+            "Building_ID": 1
+        }
+    ],
+    "Equipment": [
+        {
+            "Equipment": "Projector",
+            "Room_ID": 1,
+            "Building_ID": 1,
+            "Quantity": 1,
+            "Status": "Available"
+        }
+    ],
+    "Platform": [
+        {
+            "Platform_ID": 1,
+            "Name": "MS Teams"
+        }
+    ],
+    "Online": [
+        {
+            "Platform_ID": 1,
+            "Section_ID": 1,
+            "Course_ID": 1
+        }
+    ],
+    "Link": [
+        {
+            "link": "https://teams.microsoft.com/course/db-systems",
+            "Platform_ID": 1
+        }
+    ],
+    "Quiz": [
+        {
+            "University_ID": 100002,
+            "Section_ID": 1,
+            "Course_ID": 1,
+            "Assessment_ID": 1,
+            "Grading_method": "Highest Attemp",
+            "pass_score": 5.0,
+            "Time_limits": "01:30:00",
+            "Start_Date": "2025-10-15T09:00:00",
+            "End_Date": "2025-10-15T10:30:00",
+            "Responses": "A, B, C, D",
+            "completion_status": "Passed",
+            "score": 8.5,
+            "content": "Midterm Quiz",
+            "types": "Multiple Choice",
+            "Weight": 0.3,
+            "Correct_answer": "B"
+        }
+    ],
+    "Assignment": [
+        {
+            "University_ID": 100002,
+            "Section_ID": 1,
+            "Course_ID": 1,
+            "Assessment_ID": 1,
+            "MaxScore": 10,
+            "accepted_specification": "PDF, DOC",
+            "submission_deadline": "2025-10-31T23:59:59",
+            "instructions": "Submit your database design report"
+        }
+    ],
+    "Submission": [
+        {
+            "University_ID": 100002,
+            "Section_ID": 1,
+            "Course_ID": 1,
+            "Assessment_ID": 1,
+            "Submission_No": 1,
+            "accepted_specification": "PDF",
+            "late_flag_indicator": 0,
+            "SubmitDate": "2025-10-30T22:45:00",
+            "attached_files": "assignment2_report.pdf",
+            "status": "Submitted"
+        }
+    ],
+    "Review": [
+        {
+            "Review_ID": 1,
+            "Submission_No": 1,
+            "University_ID": 200001,
+            "Score": 9,
+            "Comments": "Excellent work on the database design"
+        }
+    ],
+    "Feedback": [
+        {
+            "Feedback_ID": 1,
+            "Section_ID": 1,
+            "Course_ID": 1,
+            "Assessment_ID": 1,
+            "University_ID": 100002,
+            "Feedback_Text": "The course materials were very helpful"
+        }
+    ],
+    "Audit_Log": [
+        {
+            "LogID": 1,
+            "System_name": "BK E-Learning"
+        }
+    ],
+    "Reference_To": [
+        {
+            "LogID": 1,
+            "University_ID": 100002
+        }
+    ]
+}
