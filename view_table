@@ -1,10 +1,8 @@
--- Chọn database trước
 USE lms_system; 
 GO
 
--- Xem vài dòng đầu (tránh SELECT * trên bảng lớn)
-SELECT TOP (100) *
+SELECT dbo.[Users].*
 FROM dbo.Users
-ORDER BY University_ID;  -- thay ORDER BY cột thực tế để có thứ tự ổn định
 
-
+SELECT dbo.[System].*
+FROM dbo.[System]
