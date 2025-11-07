@@ -1,0 +1,4180 @@
+{
+    "Users": [
+        {
+            "University_ID": 2352001,
+            "First_Name": "AN",
+            "Last_Name": "BÙI KHÁNH",
+            "Email": "an.bui2352001@hcmut.edu.vn",
+            "Phone_Number": "0985798801",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079716576379"
+        },
+        {
+            "University_ID": 2352002,
+            "First_Name": "AN",
+            "Last_Name": "ĐÀM HOÀI",
+            "Email": "an.damdha0623@hcmut.edu.vn",
+            "Phone_Number": "0977446117",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079984653972"
+        },
+        {
+            "University_ID": 2352012,
+            "First_Name": "AN",
+            "Last_Name": "NGUYỄN TRƯỜNG",
+            "Email": "an.nguyen1325@hcmut.edu.vn",
+            "Phone_Number": "8402261946",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079659837837"
+        },
+        {
+            "University_ID": 2352013,
+            "First_Name": "AN",
+            "Last_Name": "NGUYỄN VĂN",
+            "Email": "an.nguyenvan9205@hcmut.edu.vn",
+            "Phone_Number": "0971499846",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079196511881"
+        },
+        {
+            "University_ID": 2352016,
+            "First_Name": "An",
+            "Last_Name": "Phạm Nam",
+            "Email": "an.pham3101@hcmut.edu.vn",
+            "Phone_Number": "0938867395",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079452848674"
+        },
+        {
+            "University_ID": 2352080,
+            "First_Name": "ÂN",
+            "Last_Name": "TRẦN CHÍ",
+            "Email": "an.tran052352080@hcmut.edu.vn",
+            "Phone_Number": "0947433161",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079788327014"
+        },
+        {
+            "University_ID": 2352017,
+            "First_Name": "AN",
+            "Last_Name": "TRẦN ĐOÀN BÌNH",
+            "Email": "an.tran3008@hcmut.edu.vn",
+            "Phone_Number": "8406740907",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079188506818"
+        },
+        {
+            "University_ID": 2352023,
+            "First_Name": "ANH",
+            "Last_Name": "CHU QUỐC",
+            "Email": "anh.chuquoc207@hcmut.edu.vn",
+            "Phone_Number": "0992203006",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079686962351"
+        },
+        {
+            "University_ID": 2352032,
+            "First_Name": "ANH",
+            "Last_Name": "HỒ NAM",
+            "Email": "anh.honam@hcmut.edu.vn",
+            "Phone_Number": "0927415216",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079790804265"
+        },
+        {
+            "University_ID": 2352030,
+            "First_Name": "Anh",
+            "Last_Name": "Hoàng Đức Hiếu",
+            "Email": "anh.hoangduchieu815@hcmut.edu.vn",
+            "Phone_Number": "0976185802",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079645084472"
+        },
+        {
+            "University_ID": 2352031,
+            "First_Name": "ANH",
+            "Last_Name": "HOÀNG HÀ PHƯƠNG",
+            "Email": "anh.hoangpanh2608@hcmut.edu.vn",
+            "Phone_Number": "8407688709",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079936220453"
+        },
+        {
+            "University_ID": 2352038,
+            "First_Name": "Anh",
+            "Last_Name": "Nguyễn Bùi Tuấn",
+            "Email": "anh.nguyentuan2005@hcmut.edu.vn",
+            "Phone_Number": "0931775328",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079615349884"
+        },
+        {
+            "University_ID": 2352041,
+            "First_Name": "ANH",
+            "Last_Name": "NGUYỄN HOÀNG",
+            "Email": "anh.nguyenhoang2495@hcmut.edu.vn",
+            "Phone_Number": "0971262348",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079440684076"
+        },
+        {
+            "University_ID": 2310100,
+            "First_Name": "Anh",
+            "Last_Name": "Nguyễn Hoàng Phương",
+            "Email": "anh.nguyenhoang78@hcmut.edu.vn",
+            "Phone_Number": "0997567046",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079657257302"
+        },
+        {
+            "University_ID": 2352044,
+            "First_Name": "Anh",
+            "Last_Name": "Nguyễn Khắc Duy",
+            "Email": "anh.nguyenm4st3rf1sh@hcmut.edu.vn",
+            "Phone_Number": "0932090940",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079899535011"
+        },
+        {
+            "University_ID": 2352052,
+            "First_Name": "ANH",
+            "Last_Name": "NGUYỄN THẾ",
+            "Email": "anh.nguyenthek23@hcmut.edu.vn",
+            "Phone_Number": "0937640585",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079490034427"
+        },
+        {
+            "University_ID": 2352053,
+            "First_Name": "ANH",
+            "Last_Name": "NGUYỄN THIỆN",
+            "Email": "anh.nguyencse2352053@hcmut.edu.vn",
+            "Phone_Number": "0904455895",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079427283252"
+        },
+        {
+            "University_ID": 2352056,
+            "First_Name": "Anh",
+            "Last_Name": "Nguyễn Tuấn",
+            "Email": "anh.nguyentuanezra@hcmut.edu.vn",
+            "Phone_Number": "0937395547",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079624117630"
+        },
+        {
+            "University_ID": 2352067,
+            "First_Name": "Anh",
+            "Last_Name": "Trần Lâm",
+            "Email": "anh.tranlam@hcmut.edu.vn",
+            "Phone_Number": "0982358802",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079424423117"
+        },
+        {
+            "University_ID": 2352074,
+            "First_Name": "ANH",
+            "Last_Name": "VŨ ĐỨC VIỆT",
+            "Email": "anh.vu3577@hcmut.edu.vn",
+            "Phone_Number": "0906339464",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079233444461"
+        },
+        {
+            "University_ID": 2352082,
+            "First_Name": "Bách",
+            "Last_Name": "Hoàng Xuân",
+            "Email": "bach.hoang2407khmt@hcmut.edu.vn",
+            "Phone_Number": "0986479738",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079285316653"
+        },
+        {
+            "University_ID": 2352114,
+            "First_Name": "BẰNG",
+            "Last_Name": "CAO THANH",
+            "Email": "bang.caothanh455@hcmut.edu.vn",
+            "Phone_Number": "8403927636",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079979526934"
+        },
+        {
+            "University_ID": 2252079,
+            "First_Name": "BẰNG",
+            "Last_Name": "TIÊU TRÍ",
+            "Email": "bang.tieudaryn1803@hcmut.edu.vn",
+            "Phone_Number": "0948558332",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079735658937"
+        },
+        {
+            "University_ID": 2352085,
+            "First_Name": "Bảo",
+            "Last_Name": "Cát Quân",
+            "Email": "bao.cat10219@hcmut.edu.vn",
+            "Phone_Number": "0967180442",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079965047906"
+        },
+        {
+            "University_ID": 2352087,
+            "First_Name": "Bảo",
+            "Last_Name": "Đồng Gia",
+            "Email": "bao.dong1822005@hcmut.edu.vn",
+            "Phone_Number": "0913237349",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079800902174"
+        },
+        {
+            "University_ID": 2352088,
+            "First_Name": "BẢO",
+            "Last_Name": "HOÀNG GIA",
+            "Email": "bao.hoanggiabao244h@hcmut.edu.vn",
+            "Phone_Number": "0946529261",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079156282604"
+        },
+        {
+            "University_ID": 2352092,
+            "First_Name": "Bảo",
+            "Last_Name": "Lê Nghiêm Ngọc",
+            "Email": "bao.lenghiem2205@hcmut.edu.vn",
+            "Phone_Number": "0946461583",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079233935715"
+        },
+        {
+            "University_ID": 2352095,
+            "First_Name": "BẢO",
+            "Last_Name": "NGUYỄN ĐỨC GIA",
+            "Email": "bao.nguyenducgia05082005@hcmut.edu.vn",
+            "Phone_Number": "0981306491",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079576007505"
+        },
+        {
+            "University_ID": 2352097,
+            "First_Name": "BẢO",
+            "Last_Name": "NGUYỄN LÊ GIA",
+            "Email": "bao.nguyenbaobk4105@hcmut.edu.vn",
+            "Phone_Number": "0943626746",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079695356193"
+        },
+        {
+            "University_ID": 2352100,
+            "First_Name": "Bảo",
+            "Last_Name": "Nguyễn Phước Quý",
+            "Email": "bao.nguyen090105@hcmut.edu.vn",
+            "Phone_Number": "0949281917",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079413434800"
+        },
+        {
+            "University_ID": 2352109,
+            "First_Name": "Bảo",
+            "Last_Name": "Trần Ngọc",
+            "Email": "bao.tran2410105@hcmut.edu.vn",
+            "Phone_Number": "0935786548",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079125352298"
+        },
+        {
+            "University_ID": 2352110,
+            "First_Name": "BẢO",
+            "Last_Name": "TRẦN QUỐC",
+            "Email": "bao.tran2352110@hcmut.edu.vn",
+            "Phone_Number": "8409146189",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079651828764"
+        },
+        {
+            "University_ID": 2352112,
+            "First_Name": "BẢO",
+            "Last_Name": "TRỊNH VŨ THIÊN",
+            "Email": "bao.trinhbaokowjbu@hcmut.edu.vn",
+            "Phone_Number": "0948617313",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079490734094"
+        },
+        {
+            "University_ID": 2352116,
+            "First_Name": "Biểu",
+            "Last_Name": "Trần Lam",
+            "Email": "bieu.tranlam1704@hcmut.edu.vn",
+            "Phone_Number": "0979680703",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079703029411"
+        },
+        {
+            "University_ID": 2352117,
+            "First_Name": "Bình",
+            "Last_Name": "Lê Quốc",
+            "Email": "binh.leorangutan@hcmut.edu.vn",
+            "Phone_Number": "8405891756",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079520907869"
+        },
+        {
+            "University_ID": 2352120,
+            "First_Name": "Bình",
+            "Last_Name": "Nguyễn",
+            "Email": "binh.nguyen0511127678@hcmut.edu.vn",
+            "Phone_Number": "0929433956",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079223589720"
+        },
+        {
+            "University_ID": 2352123,
+            "First_Name": "BÌNH",
+            "Last_Name": "NGUYỄN THÁI",
+            "Email": "binh.nguyenthai235212@hcmut.edu.vn",
+            "Phone_Number": "0961391613",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079537752320"
+        },
+        {
+            "University_ID": 2352124,
+            "First_Name": "Bình",
+            "Last_Name": "Nguyễn Trọng",
+            "Email": "binh.nguyen872005@hcmut.edu.vn",
+            "Phone_Number": "0905067264",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079845548502"
+        },
+        {
+            "University_ID": 2352130,
+            "First_Name": "Cẩn",
+            "Last_Name": "Nguyễn Đình Ngọc",
+            "Email": "can.nguyencan8305@hcmut.edu.vn",
+            "Phone_Number": "0996687149",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079651102851"
+        },
+        {
+            "University_ID": 2352137,
+            "First_Name": "CHI",
+            "Last_Name": "PHAN NGỌC LAN",
+            "Email": "chi.phanlanchi1906@hcmut.edu.vn",
+            "Phone_Number": "0947371216",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079827183281"
+        },
+        {
+            "University_ID": 2352139,
+            "First_Name": "Chính",
+            "Last_Name": "Trần Đức",
+            "Email": "chinh.tranduc1110@hcmut.edu.vn",
+            "Phone_Number": "0933886592",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079176063744"
+        },
+        {
+            "University_ID": 2352145,
+            "First_Name": "CƯƠNG",
+            "Last_Name": "HOÀNG KIM",
+            "Email": "cuong.hoang2005@hcmut.edu.vn",
+            "Phone_Number": "8403095141",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079620738759"
+        },
+        {
+            "University_ID": 2310402,
+            "First_Name": "CƯỜNG",
+            "Last_Name": "PHAN ĐÌNH",
+            "Email": "cuong.phan240705@hcmut.edu.vn",
+            "Phone_Number": "0912096730",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079448072911"
+        },
+        {
+            "University_ID": 2352152,
+            "First_Name": "CƯỜNG",
+            "Last_Name": "TRƯƠNG VĨNH",
+            "Email": "cuong.truong2352152@hcmut.edu.vn",
+            "Phone_Number": "0961214887",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079588171622"
+        },
+        {
+            "University_ID": 2352154,
+            "First_Name": "Danh",
+            "Last_Name": "Lê Công",
+            "Email": "danh.le369@hcmut.edu.vn",
+            "Phone_Number": "0979457824",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079965589487"
+        },
+        {
+            "University_ID": 2352157,
+            "First_Name": "Danh",
+            "Last_Name": "Nguyễn Hoàng",
+            "Email": "danh.nguyenmain@hcmut.edu.vn",
+            "Phone_Number": "0961320134",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079245120221"
+        },
+        {
+            "University_ID": 2352162,
+            "First_Name": "Di",
+            "Last_Name": "Đỗ Hữu",
+            "Email": "di.do07020@hcmut.edu.vn",
+            "Phone_Number": "0926681691",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079699929746"
+        },
+        {
+            "University_ID": 2352166,
+            "First_Name": "Duân",
+            "Last_Name": "Trần Minh",
+            "Email": "duan.trancatoxg9705@hcmut.edu.vn",
+            "Phone_Number": "0923655207",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079483499943"
+        },
+        {
+            "University_ID": 2352204,
+            "First_Name": "Dũng",
+            "Last_Name": "Dương Công Chí",
+            "Email": "dung.duong290805@hcmut.edu.vn",
+            "Phone_Number": "0983546414",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079674043484"
+        },
+        {
+            "University_ID": 2352205,
+            "First_Name": "DŨNG",
+            "Last_Name": "ĐẶNG QUANG",
+            "Email": "dung.dang1410@hcmut.edu.vn",
+            "Phone_Number": "8403977634",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079602135258"
+        },
+        {
+            "University_ID": 2352217,
+            "First_Name": "Dương",
+            "Last_Name": "Nguyễn Đình",
+            "Email": "duong.nguyen2110@hcmut.edu.vn",
+            "Phone_Number": "0982270729",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079353515399"
+        },
+        {
+            "University_ID": 2352173,
+            "First_Name": "DUY",
+            "Last_Name": "ĐỖ MINH",
+            "Email": "duy.dominh1607@hcmut.edu.vn",
+            "Phone_Number": "0983181706",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079485322379"
+        },
+        {
+            "University_ID": 2352178,
+            "First_Name": "DUY",
+            "Last_Name": "LÊ THANH",
+            "Email": "duy.lethanh@hcmut.edu.vn",
+            "Phone_Number": "0966793877",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079628364988"
+        },
+        {
+            "University_ID": 2352179,
+            "First_Name": "Duy",
+            "Last_Name": "Ngô Trần Đình",
+            "Email": "duy.ngo25062005@hcmut.edu.vn",
+            "Phone_Number": "8409235626",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079130536807"
+        },
+        {
+            "University_ID": 2352181,
+            "First_Name": "Duy",
+            "Last_Name": "Nguyễn Anh",
+            "Email": "duy.nguyen280805@hcmut.edu.vn",
+            "Phone_Number": "0912295791",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079947929077"
+        },
+        {
+            "University_ID": 2352182,
+            "First_Name": "DUY",
+            "Last_Name": "NGUYỄN BÁ",
+            "Email": "duy.nguyen05@hcmut.edu.vn",
+            "Phone_Number": "0962188807",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079295581197"
+        },
+        {
+            "University_ID": 2352190,
+            "First_Name": "DUY",
+            "Last_Name": "NGUYỄN QUỐC",
+            "Email": "duy.nguyen276@hcmut.edu.vn",
+            "Phone_Number": "0992063534",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079240291067"
+        },
+        {
+            "University_ID": 2352192,
+            "First_Name": "DUY",
+            "Last_Name": "PHẠM QUANG ANH",
+            "Email": "duy.pham23852@hcmut.edu.vn",
+            "Phone_Number": "0912618922",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079404294020"
+        },
+        {
+            "University_ID": 2352196,
+            "First_Name": "Duy",
+            "Last_Name": "Trần Quốc",
+            "Email": "duy.tran235xxxx@hcmut.edu.vn",
+            "Phone_Number": "0926973049",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079638947280"
+        },
+        {
+            "University_ID": 2352198,
+            "First_Name": "DUY",
+            "Last_Name": "TRƯƠNG ĐÔNG",
+            "Email": "duy.truongdong1808@hcmut.edu.vn",
+            "Phone_Number": "0943873138",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079509533270"
+        },
+        {
+            "University_ID": 2352248,
+            "First_Name": "ĐĂNG",
+            "Last_Name": "BÙI TRẦN HẢI",
+            "Email": "dang.buidang3112@hcmut.edu.vn",
+            "Phone_Number": "0902217656",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079736956854"
+        },
+        {
+            "University_ID": 2352249,
+            "First_Name": "ĐĂNG",
+            "Last_Name": "ĐOÀN QUANG",
+            "Email": "dang.doanok@hcmut.edu.vn",
+            "Phone_Number": "8403635191",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079357321758"
+        },
+        {
+            "University_ID": 2352254,
+            "First_Name": "ĐĂNG",
+            "Last_Name": "TRẦN HẢI",
+            "Email": "dang.tranhai2005@hcmut.edu.vn",
+            "Phone_Number": "8407121406",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079373449208"
+        },
+        {
+            "University_ID": 2352257,
+            "First_Name": "ĐĂNG",
+            "Last_Name": "VÕ LÊ HẢI",
+            "Email": "dang.vomi15012005@hcmut.edu.vn",
+            "Phone_Number": "0939099805",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079724077830"
+        },
+        {
+            "University_ID": 2352220,
+            "First_Name": "ĐẠT",
+            "Last_Name": "DƯƠNG DUY",
+            "Email": "dat.duongduyktmt@hcmut.edu.vn",
+            "Phone_Number": "0998893731",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079207056970"
+        },
+        {
+            "University_ID": 2352221,
+            "First_Name": "Đạt",
+            "Last_Name": "Dương Minh",
+            "Email": "dat.duongminh@hcmut.edu.vn",
+            "Phone_Number": "0935260309",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079529355530"
+        },
+        {
+            "University_ID": 2352223,
+            "First_Name": "ĐẠT",
+            "Last_Name": "ĐÀO DUY",
+            "Email": "dat.daocs2327@hcmut.edu.vn",
+            "Phone_Number": "0991172515",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079295479074"
+        },
+        {
+            "University_ID": 2352226,
+            "First_Name": "Đạt",
+            "Last_Name": "Đỗ Thành",
+            "Email": "dat.dothanh@hcmut.edu.vn",
+            "Phone_Number": "8409410027",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079244522415"
+        },
+        {
+            "University_ID": 2352228,
+            "First_Name": "ĐẠT",
+            "Last_Name": "HUỲNH QUỐC",
+            "Email": "dat.huynhcuc@hcmut.edu.vn",
+            "Phone_Number": "0934196345",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079199756760"
+        },
+        {
+            "University_ID": 2352230,
+            "First_Name": "Đạt",
+            "Last_Name": "Lữ Đình Quốc",
+            "Email": "dat.lu02122005@hcmut.edu.vn",
+            "Phone_Number": "0989736522",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079102857711"
+        },
+        {
+            "University_ID": 2352235,
+            "First_Name": "ĐẠT",
+            "Last_Name": "NGUYỄN TẤN",
+            "Email": "dat.nguyen2352235@hcmut.edu.vn",
+            "Phone_Number": "0915465698",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079544199992"
+        },
+        {
+            "University_ID": 2352237,
+            "First_Name": "ĐẠT",
+            "Last_Name": "NGUYỄN THÀNH",
+            "Email": "dat.nguyen1206@hcmut.edu.vn",
+            "Phone_Number": "0966435001",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079642498821"
+        },
+        {
+            "University_ID": 2352236,
+            "First_Name": "Đạt",
+            "Last_Name": "Nguyễn Thành",
+            "Email": "dat.nguyenthanh2236@hcmut.edu.vn",
+            "Phone_Number": "0949944017",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079691277699"
+        },
+        {
+            "University_ID": 2352244,
+            "First_Name": "ĐẠT",
+            "Last_Name": "TỐNG HỮU",
+            "Email": "dat.tonghuu@hcmut.edu.vn",
+            "Phone_Number": "0909907664",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079458802433"
+        },
+        {
+            "University_ID": 2352258,
+            "First_Name": "ĐIỀN",
+            "Last_Name": "NGUYỄN PHÚC",
+            "Email": "dien.nguyen2605@hcmut.edu.vn",
+            "Phone_Number": "0997385262",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079124166206"
+        },
+        {
+            "University_ID": 2352259,
+            "First_Name": "Điền",
+            "Last_Name": "Nguyễn Phúc",
+            "Email": "dien.nguyen2352259@hcmut.edu.vn",
+            "Phone_Number": "0996545090",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079583179648"
+        },
+        {
+            "University_ID": 2352268,
+            "First_Name": "Đức",
+            "Last_Name": "Phạm Tấn",
+            "Email": "duc.phamtan@hcmut.edu.vn",
+            "Phone_Number": "0925720999",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079483490195"
+        },
+        {
+            "University_ID": 2352270,
+            "First_Name": "Đức",
+            "Last_Name": "Phương Xương",
+            "Email": "duc.phuongcosiiii@hcmut.edu.vn",
+            "Phone_Number": "0939332889",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079712335240"
+        },
+        {
+            "University_ID": 2352271,
+            "First_Name": "ĐỨC",
+            "Last_Name": "TRẦN ANH",
+            "Email": "duc.trananh0502@hcmut.edu.vn",
+            "Phone_Number": "8405014478",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079697094984"
+        },
+        {
+            "University_ID": 2352281,
+            "First_Name": "Giang",
+            "Last_Name": "Trần Long",
+            "Email": "giang.tranlong@hcmut.edu.vn",
+            "Phone_Number": "0977257319",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079642274590"
+        },
+        {
+            "University_ID": 2352284,
+            "First_Name": "GIÁP",
+            "Last_Name": "TRẦN NGUYÊN",
+            "Email": "giap.trannguyen@hcmut.edu.vn",
+            "Phone_Number": "8408017197",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079463713445"
+        },
+        {
+            "University_ID": 2352288,
+            "First_Name": "HÀ",
+            "Last_Name": "NGUYỄN NGỌC CÁT",
+            "Email": "ha.nguyenk23cse@hcmut.edu.vn",
+            "Phone_Number": "0984417341",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079700149614"
+        },
+        {
+            "University_ID": 2352303,
+            "First_Name": "HẢI",
+            "Last_Name": "HOÀNG THƯỢNG",
+            "Email": "hai.hoang05@hcmut.edu.vn",
+            "Phone_Number": "0964125297",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079138854945"
+        },
+        {
+            "University_ID": 2352308,
+            "First_Name": "HẢI",
+            "Last_Name": "TRẦN TẤN",
+            "Email": "hai.trantan2005@hcmut.edu.vn",
+            "Phone_Number": "0994856066",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079998460451"
+        },
+        {
+            "University_ID": 2352291,
+            "First_Name": "Hào",
+            "Last_Name": "Châu Hùng",
+            "Email": "hao.chauhhc1003@hcmut.edu.vn",
+            "Phone_Number": "8406444035",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079911975274"
+        },
+        {
+            "University_ID": 2310846,
+            "First_Name": "HÀO",
+            "Last_Name": "LÊ MINH",
+            "Email": "hao.le6125@hcmut.edu.vn",
+            "Phone_Number": "0977507636",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079653685583"
+        },
+        {
+            "University_ID": 2352295,
+            "First_Name": "HÀO",
+            "Last_Name": "NGÔ ĐĂNG",
+            "Email": "hao.ngondhcrqh719@hcmut.edu.vn",
+            "Phone_Number": "0909253457",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079638243626"
+        },
+        {
+            "University_ID": 2352296,
+            "First_Name": "Hào",
+            "Last_Name": "Nguyễn Hữu",
+            "Email": "hao.nguyenhuu2811@hcmut.edu.vn",
+            "Phone_Number": "8403964344",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079684716960"
+        },
+        {
+            "University_ID": 2352297,
+            "First_Name": "Hào",
+            "Last_Name": "Phạm Viết",
+            "Email": "hao.phamharuprudnc@hcmut.edu.vn",
+            "Phone_Number": "0988971263",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079946508052"
+        },
+        {
+            "University_ID": 2352300,
+            "First_Name": "Hào",
+            "Last_Name": "Trương Trí",
+            "Email": "hao.truongmywtag@hcmut.edu.vn",
+            "Phone_Number": "0918246928",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079179500105"
+        },
+        {
+            "University_ID": 2352343,
+            "First_Name": "HIỆP",
+            "Last_Name": "TRỊNH GIA",
+            "Email": "hiep.trinhgia@hcmut.edu.vn",
+            "Phone_Number": "0978292523",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079833257520"
+        },
+        {
+            "University_ID": 2310945,
+            "First_Name": "Hiếu",
+            "Last_Name": "Hoàng Đình",
+            "Email": "hieu.hoanglangxitrum@hcmut.edu.vn",
+            "Phone_Number": "8405479544",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079615913261"
+        },
+        {
+            "University_ID": 2352324,
+            "First_Name": "HIẾU",
+            "Last_Name": "LƯƠNG ĐỨC",
+            "Email": "hieu.luong250105@hcmut.edu.vn",
+            "Phone_Number": "0971939329",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079422042960"
+        },
+        {
+            "University_ID": 2352328,
+            "First_Name": "Hiếu",
+            "Last_Name": "Nguyễn Công",
+            "Email": "hieu.nguyen05@hcmut.edu.vn",
+            "Phone_Number": "0998675419",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079173547351"
+        },
+        {
+            "University_ID": 2352330,
+            "First_Name": "HIẾU",
+            "Last_Name": "NGUYỄN NHẬT",
+            "Email": "hieu.nguyen260705@hcmut.edu.vn",
+            "Phone_Number": "0966990884",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079478586862"
+        },
+        {
+            "University_ID": 2352331,
+            "First_Name": "HIẾU",
+            "Last_Name": "NGUYỄN THANH",
+            "Email": "hieu.nguyennth2005@hcmut.edu.vn",
+            "Phone_Number": "0971823637",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079688481473"
+        },
+        {
+            "University_ID": 2352334,
+            "First_Name": "Hiếu",
+            "Last_Name": "Phạm Minh",
+            "Email": "hieu.pham20612@hcmut.edu.vn",
+            "Phone_Number": "0927151173",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079171659053"
+        },
+        {
+            "University_ID": 2350006,
+            "First_Name": "HIẾU",
+            "Last_Name": "PHẠM TRUNG",
+            "Email": "hieu.pham2204@hcmut.edu.vn",
+            "Phone_Number": "0965330349",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079270172622"
+        },
+        {
+            "University_ID": 2352336,
+            "First_Name": "Hiếu",
+            "Last_Name": "Trần Đức Minh",
+            "Email": "hieu.tranducminh@hcmut.edu.vn",
+            "Phone_Number": "0989840224",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079936215803"
+        },
+        {
+            "University_ID": 2352338,
+            "First_Name": "Hiếu",
+            "Last_Name": "Trần Nguyễn Minh",
+            "Email": "hieu.tranengineering@hcmut.edu.vn",
+            "Phone_Number": "0965143153",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079370775138"
+        },
+        {
+            "University_ID": 2352346,
+            "First_Name": "HOÀNG",
+            "Last_Name": "CHU LÊ",
+            "Email": "hoang.chule2005@hcmut.edu.vn",
+            "Phone_Number": "0948439166",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079783946230"
+        },
+        {
+            "University_ID": 2211073,
+            "First_Name": "HOÀNG",
+            "Last_Name": "HỒ MINH",
+            "Email": "hoang.hominh230304@hcmut.edu.vn",
+            "Phone_Number": "0999123283",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079484336639"
+        },
+        {
+            "University_ID": 2352349,
+            "First_Name": "Hoàng",
+            "Last_Name": "Lê Quốc",
+            "Email": "hoang.lehenry765@hcmut.edu.vn",
+            "Phone_Number": "8404447421",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079114145668"
+        },
+        {
+            "University_ID": 2352350,
+            "First_Name": "HOÀNG",
+            "Last_Name": "NGUYỄN GIA",
+            "Email": "hoang.nguyen2352350@hcmut.edu.vn",
+            "Phone_Number": "0967251134",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079346069112"
+        },
+        {
+            "University_ID": 2352352,
+            "First_Name": "Hoàng",
+            "Last_Name": "Nguyễn Minh",
+            "Email": "hoang.nguyen2352352@hcmut.edu.vn",
+            "Phone_Number": "8401243970",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079905317853"
+        },
+        {
+            "University_ID": 2352354,
+            "First_Name": "HOÀNG",
+            "Last_Name": "NGUYỄN THẾ",
+            "Email": "hoang.nguyenthe@hcmut.edu.vn",
+            "Phone_Number": "0944058345",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079738714207"
+        },
+        {
+            "University_ID": 2352355,
+            "First_Name": "HOÀNG",
+            "Last_Name": "NGUYỄN VĂN",
+            "Email": "hoang.nguyen03052005@hcmut.edu.vn",
+            "Phone_Number": "0948939215",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079506120922"
+        },
+        {
+            "University_ID": 2352358,
+            "First_Name": "HOÀNG",
+            "Last_Name": "TRỊNH NGUYỄN HUY",
+            "Email": "hoang.trinhnguyenhuy@hcmut.edu.vn",
+            "Phone_Number": "0906533621",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079475324153"
+        },
+        {
+            "University_ID": 2352359,
+            "First_Name": "HOÀNG",
+            "Last_Name": "TRƯƠNG PHƯỚC MINH",
+            "Email": "hoang.truong08152005@hcmut.edu.vn",
+            "Phone_Number": "0942646342",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079739935676"
+        },
+        {
+            "University_ID": 2350008,
+            "First_Name": "HÙNG",
+            "Last_Name": "ĐẶNG",
+            "Email": "hung.dangrstzka@hcmut.edu.vn",
+            "Phone_Number": "0904509629",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079647370734"
+        },
+        {
+            "University_ID": 2352420,
+            "First_Name": "HÙNG",
+            "Last_Name": "ĐẶNG SINH",
+            "Email": "hung.dang2109@hcmut.edu.vn",
+            "Phone_Number": "0943408290",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079704573202"
+        },
+        {
+            "University_ID": 2352421,
+            "First_Name": "HÙNG",
+            "Last_Name": "HỒ HUY",
+            "Email": "hung.hokhmtclc@hcmut.edu.vn",
+            "Phone_Number": "0935451752",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079897260257"
+        },
+        {
+            "University_ID": 2352428,
+            "First_Name": "HƯNG",
+            "Last_Name": "LÊ MẠNH",
+            "Email": "hung.lehungle282@hcmut.edu.vn",
+            "Phone_Number": "8406874164",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079917365729"
+        },
+        {
+            "University_ID": 2252277,
+            "First_Name": "HƯNG",
+            "Last_Name": "LÊ MINH",
+            "Email": "hung.leminhbk@hcmut.edu.vn",
+            "Phone_Number": "0977644984",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079367577222"
+        },
+        {
+            "University_ID": 2352429,
+            "First_Name": "HƯNG",
+            "Last_Name": "LƯ THUẬN",
+            "Email": "hung.luthuan@hcmut.edu.vn",
+            "Phone_Number": "0996943100",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079711828404"
+        },
+        {
+            "University_ID": 2352430,
+            "First_Name": "Hưng",
+            "Last_Name": "Lưu Đại",
+            "Email": "hung.luubighung@hcmut.edu.vn",
+            "Phone_Number": "0915052454",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079836820219"
+        },
+        {
+            "University_ID": 2352431,
+            "First_Name": "HƯNG",
+            "Last_Name": "NGÔ QUANG",
+            "Email": "hung.ngoquang1508@hcmut.edu.vn",
+            "Phone_Number": "0938913671",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079960305973"
+        },
+        {
+            "University_ID": 2352432,
+            "First_Name": "Hưng",
+            "Last_Name": "Ngô Quốc",
+            "Email": "hung.ngoprob@hcmut.edu.vn",
+            "Phone_Number": "8407974046",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079726166275"
+        },
+        {
+            "University_ID": 2352434,
+            "First_Name": "HƯNG",
+            "Last_Name": "NGUYỄN CHẤN",
+            "Email": "hung.nguyen080505@hcmut.edu.vn",
+            "Phone_Number": "0922755205",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079392362879"
+        },
+        {
+            "University_ID": 2352422,
+            "First_Name": "HÙNG",
+            "Last_Name": "NGUYỄN GIA",
+            "Email": "hung.nguyenfreddybear@hcmut.edu.vn",
+            "Phone_Number": "0962519168",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079785593440"
+        },
+        {
+            "University_ID": 2352435,
+            "First_Name": "HƯNG",
+            "Last_Name": "NGUYỄN KHÁNH",
+            "Email": "hung.nguyenshogun@hcmut.edu.vn",
+            "Phone_Number": "0988908925",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079603603416"
+        },
+        {
+            "University_ID": 2352436,
+            "First_Name": "HƯNG",
+            "Last_Name": "NGUYỄN MINH",
+            "Email": "hung.nguyen565@hcmut.edu.vn",
+            "Phone_Number": "0932973353",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079414933001"
+        },
+        {
+            "University_ID": 2352439,
+            "First_Name": "HƯNG",
+            "Last_Name": "NGUYỄN TẤN",
+            "Email": "hung.nguyenth05@hcmut.edu.vn",
+            "Phone_Number": "0979456826",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079975392655"
+        },
+        {
+            "University_ID": 2352441,
+            "First_Name": "Hưng",
+            "Last_Name": "Nguyễn Tiến",
+            "Email": "hung.nguyenk23cse@hcmut.edu.vn",
+            "Phone_Number": "8402717758",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079190812292"
+        },
+        {
+            "University_ID": 2352424,
+            "First_Name": "Hùng",
+            "Last_Name": "Nguyễn Việt",
+            "Email": "hung.nguyensubin106@hcmut.edu.vn",
+            "Phone_Number": "0932055262",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079604353446"
+        },
+        {
+            "University_ID": 2352444,
+            "First_Name": "Hưng",
+            "Last_Name": "Thượng Đình",
+            "Email": "hung.thuongpeanut2005@hcmut.edu.vn",
+            "Phone_Number": "0962591386",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079694836271"
+        },
+        {
+            "University_ID": 2352425,
+            "First_Name": "Hùng",
+            "Last_Name": "Trần Văn",
+            "Email": "hung.tranvan611@hcmut.edu.vn",
+            "Phone_Number": "0929347738",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079857390169"
+        },
+        {
+            "University_ID": 2352450,
+            "First_Name": "Hưng",
+            "Last_Name": "Vũ Bá Phùng",
+            "Email": "hung.vu1132@hcmut.edu.vn",
+            "Phone_Number": "0982443051",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079338385194"
+        },
+        {
+            "University_ID": 2352452,
+            "First_Name": "HƯNG",
+            "Last_Name": "VŨ THUẬN",
+            "Email": "hung.vu234@hcmut.edu.vn",
+            "Phone_Number": "0929194552",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079627691750"
+        },
+        {
+            "University_ID": 2352455,
+            "First_Name": "Hương",
+            "Last_Name": "Trần Phạm Đinh",
+            "Email": "huong.tran280805@hcmut.edu.vn",
+            "Phone_Number": "0999049663",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079829916745"
+        },
+        {
+            "University_ID": 2352372,
+            "First_Name": "HUY",
+            "Last_Name": "ĐINH AN",
+            "Email": "huy.dinh30001@hcmut.edu.vn",
+            "Phone_Number": "0922698209",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079291944830"
+        },
+        {
+            "University_ID": 2352373,
+            "First_Name": "Huy",
+            "Last_Name": "Đinh Quốc",
+            "Email": "huy.dinh12052005@hcmut.edu.vn",
+            "Phone_Number": "0964744306",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079296250633"
+        },
+        {
+            "University_ID": 2352378,
+            "First_Name": "HUY",
+            "Last_Name": "HỒ MINH",
+            "Email": "huy.ho2352378@hcmut.edu.vn",
+            "Phone_Number": "0906305588",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079997616825"
+        },
+        {
+            "University_ID": 2352379,
+            "First_Name": "HUY",
+            "Last_Name": "HỒ QUỐC",
+            "Email": "huy.hoiconic05@hcmut.edu.vn",
+            "Phone_Number": "0928015901",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079110495373"
+        },
+        {
+            "University_ID": 2352376,
+            "First_Name": "HUY",
+            "Last_Name": "HOÀNG KHANG",
+            "Email": "huy.hoangkhang@hcmut.edu.vn",
+            "Phone_Number": "0983450139",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079293916589"
+        },
+        {
+            "University_ID": 2352381,
+            "First_Name": "HUY",
+            "Last_Name": "HUỲNH NHẬT",
+            "Email": "huy.huynh2352381@hcmut.edu.vn",
+            "Phone_Number": "0906230958",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079669997996"
+        },
+        {
+            "University_ID": 2352383,
+            "First_Name": "HUY",
+            "Last_Name": "LÊ GIA",
+            "Email": "huy.legia1207@hcmut.edu.vn",
+            "Phone_Number": "0911178700",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079658931525"
+        },
+        {
+            "University_ID": 2352395,
+            "First_Name": "HUY",
+            "Last_Name": "NGUYỄN QUANG",
+            "Email": "huy.nguyenonze@hcmut.edu.vn",
+            "Phone_Number": "0949486198",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079212775161"
+        },
+        {
+            "University_ID": 2352397,
+            "First_Name": "Huy",
+            "Last_Name": "Nguyễn Quốc",
+            "Email": "huy.nguyennqh@hcmut.edu.vn",
+            "Phone_Number": "0995588151",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079591080457"
+        },
+        {
+            "University_ID": 2352399,
+            "First_Name": "HUY",
+            "Last_Name": "NGUYỄN THANH",
+            "Email": "huy.nguyen1412@hcmut.edu.vn",
+            "Phone_Number": "0923352817",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079281623620"
+        },
+        {
+            "University_ID": 2352400,
+            "First_Name": "Huy",
+            "Last_Name": "Nguyễn Thiệu",
+            "Email": "huy.nguyen05@hcmut.edu.vn",
+            "Phone_Number": "0916889131",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079285044290"
+        },
+        {
+            "University_ID": 2352404,
+            "First_Name": "Huy",
+            "Last_Name": "Phạm Ngọc",
+            "Email": "huy.phamngoc2005@hcmut.edu.vn",
+            "Phone_Number": "0931472015",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079842550842"
+        },
+        {
+            "University_ID": 2352405,
+            "First_Name": "HUY",
+            "Last_Name": "PHẠM QUANG",
+            "Email": "huy.pham06012005@hcmut.edu.vn",
+            "Phone_Number": "0978396744",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079656218973"
+        },
+        {
+            "University_ID": 2352406,
+            "First_Name": "HUY",
+            "Last_Name": "PHÙNG GIA",
+            "Email": "huy.phungktmtk23@hcmut.edu.vn",
+            "Phone_Number": "0911402653",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079617757475"
+        },
+        {
+            "University_ID": 2352416,
+            "First_Name": "HUY",
+            "Last_Name": "VÕ QUANG",
+            "Email": "huy.vo225@hcmut.edu.vn",
+            "Phone_Number": "0912568223",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079424767808"
+        },
+        {
+            "University_ID": 2352417,
+            "First_Name": "Huy",
+            "Last_Name": "Võ Việt",
+            "Email": "huy.voviete@hcmut.edu.vn",
+            "Phone_Number": "0942218987",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079667669452"
+        },
+        {
+            "University_ID": 2352457,
+            "First_Name": "Hy",
+            "Last_Name": "Nguyễn Minh",
+            "Email": "hy.nguyenminhhy@hcmut.edu.vn",
+            "Phone_Number": "0905041833",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079729917877"
+        },
+        {
+            "University_ID": 2352458,
+            "First_Name": "Hy",
+            "Last_Name": "Trương Gia",
+            "Email": "hy.truong251005@hcmut.edu.vn",
+            "Phone_Number": "0936568642",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079659369148"
+        },
+        {
+            "University_ID": 2352461,
+            "First_Name": "Kha",
+            "Last_Name": "Phạm Võ Tiến",
+            "Email": "kha.pham0605@hcmut.edu.vn",
+            "Phone_Number": "0948878079",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079178905108"
+        },
+        {
+            "University_ID": 2352464,
+            "First_Name": "KHANG",
+            "Last_Name": "ĐẶNG THÁI",
+            "Email": "khang.dang1809@hcmut.edu.vn",
+            "Phone_Number": "0995563522",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079130877980"
+        },
+        {
+            "University_ID": 2352465,
+            "First_Name": "KHANG",
+            "Last_Name": "HOÀNG ĐỨC MINH",
+            "Email": "khang.hoangbased420@hcmut.edu.vn",
+            "Phone_Number": "0902262377",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079538764649"
+        },
+        {
+            "University_ID": 2350011,
+            "First_Name": "Khang",
+            "Last_Name": "Huỳnh Vương",
+            "Email": "khang.huynh2350011@hcmut.edu.vn",
+            "Phone_Number": "0963818778",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079766930383"
+        },
+        {
+            "University_ID": 2352470,
+            "First_Name": "KHANG",
+            "Last_Name": "LÊ NGUYÊN",
+            "Email": "khang.le2710@hcmut.edu.vn",
+            "Phone_Number": "8405270846",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079560698421"
+        },
+        {
+            "University_ID": 2352471,
+            "First_Name": "Khang",
+            "Last_Name": "Lê Phúc",
+            "Email": "khang.lekhangle23@hcmut.edu.vn",
+            "Phone_Number": "0987475321",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079715914553"
+        },
+        {
+            "University_ID": 2352475,
+            "First_Name": "Khang",
+            "Last_Name": "Nguyễn Duy",
+            "Email": "khang.nguyen28022005@hcmut.edu.vn",
+            "Phone_Number": "0904404976",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079535990373"
+        },
+        {
+            "University_ID": 2352479,
+            "First_Name": "Khang",
+            "Last_Name": "Nguyễn Hoàng",
+            "Email": "khang.nguyen2352479@hcmut.edu.vn",
+            "Phone_Number": "0915603968",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079811115019"
+        },
+        {
+            "University_ID": 2352481,
+            "First_Name": "KHANG",
+            "Last_Name": "NGUYỄN KHẮC THÁI",
+            "Email": "khang.nguyen021204@hcmut.edu.vn",
+            "Phone_Number": "0989587550",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079742603149"
+        },
+        {
+            "University_ID": 2352488,
+            "First_Name": "KHANG",
+            "Last_Name": "NGUYỄN QUỐC",
+            "Email": "khang.nguyentanphuoc@hcmut.edu.vn",
+            "Phone_Number": "0996005708",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079183967759"
+        },
+        {
+            "University_ID": 2352490,
+            "First_Name": "KHANG",
+            "Last_Name": "NGUYỄN THẾ",
+            "Email": "khang.nguyenktmt23@hcmut.edu.vn",
+            "Phone_Number": "0918963328",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079623870901"
+        },
+        {
+            "University_ID": 2352492,
+            "First_Name": "Khang",
+            "Last_Name": "Nguyễn Từ Nhật",
+            "Email": "khang.nguyentusteven@hcmut.edu.vn",
+            "Phone_Number": "0997328806",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079407087542"
+        },
+        {
+            "University_ID": 2352496,
+            "First_Name": "Khang",
+            "Last_Name": "Phạm Nguyên",
+            "Email": "khang.pham1306@hcmut.edu.vn",
+            "Phone_Number": "0926052677",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079192238434"
+        },
+        {
+            "University_ID": 2352495,
+            "First_Name": "KHANG",
+            "Last_Name": "PHAN QUÝ",
+            "Email": "khang.phanquy2352495@hcmut.edu.vn",
+            "Phone_Number": "0906885993",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079956299082"
+        },
+        {
+            "University_ID": 2352499,
+            "First_Name": "KHANG",
+            "Last_Name": "TÀO NGUYỄN QUANG",
+            "Email": "khang.tao206bkuhcm@hcmut.edu.vn",
+            "Phone_Number": "0982895462",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079639575099"
+        },
+        {
+            "University_ID": 2352501,
+            "First_Name": "Khang",
+            "Last_Name": "Trần Gia",
+            "Email": "khang.trankiritomato@hcmut.edu.vn",
+            "Phone_Number": "0903587132",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079104663858"
+        },
+        {
+            "University_ID": 2352502,
+            "First_Name": "Khang",
+            "Last_Name": "Trần Hoàng Vỹ",
+            "Email": "khang.tran2106@hcmut.edu.vn",
+            "Phone_Number": "0906066279",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079527887673"
+        },
+        {
+            "University_ID": 2352503,
+            "First_Name": "Khang",
+            "Last_Name": "Trần Lê Nguyên",
+            "Email": "khang.tran1908@hcmut.edu.vn",
+            "Phone_Number": "0925567766",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079548855499"
+        },
+        {
+            "University_ID": 2352504,
+            "First_Name": "Khang",
+            "Last_Name": "Trần Liên",
+            "Email": "khang.tran0209@hcmut.edu.vn",
+            "Phone_Number": "0965047666",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079132002641"
+        },
+        {
+            "University_ID": 2352505,
+            "First_Name": "KHANG",
+            "Last_Name": "TRẦN NGUYÊN",
+            "Email": "khang.tranhamhochoi@hcmut.edu.vn",
+            "Phone_Number": "0929379087",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079222529382"
+        },
+        {
+            "University_ID": 2352514,
+            "First_Name": "KHÁNH",
+            "Last_Name": "CAO NGUYỄN GIA",
+            "Email": "khanh.cao3011@hcmut.edu.vn",
+            "Phone_Number": "0942725151",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079875755864"
+        },
+        {
+            "University_ID": 2352515,
+            "First_Name": "Khánh",
+            "Last_Name": "Đặng Quốc",
+            "Email": "khanh.dangk23@hcmut.edu.vn",
+            "Phone_Number": "0961087861",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079320228582"
+        },
+        {
+            "University_ID": 2352517,
+            "First_Name": "Khánh",
+            "Last_Name": "Đồng Công",
+            "Email": "khanh.dongcong01@hcmut.edu.vn",
+            "Phone_Number": "0902817067",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079437190574"
+        },
+        {
+            "University_ID": 2352519,
+            "First_Name": "KHÁNH",
+            "Last_Name": "LÊ BẢO",
+            "Email": "khanh.lebao1210lhp@hcmut.edu.vn",
+            "Phone_Number": "0927951042",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079355965176"
+        },
+        {
+            "University_ID": 2352522,
+            "First_Name": "Khánh",
+            "Last_Name": "Lê Nguyễn Nam",
+            "Email": "khanh.lehideyo74@hcmut.edu.vn",
+            "Phone_Number": "0928178165",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079556403430"
+        },
+        {
+            "University_ID": 2352525,
+            "First_Name": "Khánh",
+            "Last_Name": "Nguyễn Mạnh Quốc",
+            "Email": "khanh.nguyenmanh@hcmut.edu.vn",
+            "Phone_Number": "0937316279",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079654287718"
+        },
+        {
+            "University_ID": 2352533,
+            "First_Name": "KHÁNH",
+            "Last_Name": "TRẦN HOÀNG",
+            "Email": "khanh.tranhoang@hcmut.edu.vn",
+            "Phone_Number": "0996187017",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079825504245"
+        },
+        {
+            "University_ID": 2352545,
+            "First_Name": "KHIÊM",
+            "Last_Name": "PHẠM GIA",
+            "Email": "khiem.phamgia9404@hcmut.edu.vn",
+            "Phone_Number": "0992587290",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079989556428"
+        },
+        {
+            "University_ID": 2352548,
+            "First_Name": "KHOA",
+            "Last_Name": "BẾ NGUYỄN ĐĂNG",
+            "Email": "khoa.beyondlimit@hcmut.edu.vn",
+            "Phone_Number": "0942297431",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079897992287"
+        },
+        {
+            "University_ID": 2352550,
+            "First_Name": "KHOA",
+            "Last_Name": "CAO LÊ MINH",
+            "Email": "khoa.caoleminh@hcmut.edu.vn",
+            "Phone_Number": "0925288748",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079323850596"
+        },
+        {
+            "University_ID": 2352551,
+            "First_Name": "KHOA",
+            "Last_Name": "DƯƠNG ĐĂNG",
+            "Email": "khoa.duongdang@hcmut.edu.vn",
+            "Phone_Number": "0993217264",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079299301613"
+        },
+        {
+            "University_ID": 2352554,
+            "First_Name": "Khoa",
+            "Last_Name": "Đỗ Đăng",
+            "Email": "khoa.do250805@hcmut.edu.vn",
+            "Phone_Number": "0901700953",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079207083738"
+        },
+        {
+            "University_ID": 2352556,
+            "First_Name": "Khoa",
+            "Last_Name": "Hoàng Minh",
+            "Email": "khoa.hoangminh@hcmut.edu.vn",
+            "Phone_Number": "0904223494",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079921435264"
+        },
+        {
+            "University_ID": 2352563,
+            "First_Name": "KHOA",
+            "Last_Name": "LÊ TẤN MINH",
+            "Email": "khoa.letanminh@hcmut.edu.vn",
+            "Phone_Number": "0966436034",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079208017218"
+        },
+        {
+            "University_ID": 2352564,
+            "First_Name": "Khoa",
+            "Last_Name": "Lê Trần Đăng",
+            "Email": "khoa.ledangkhoa@hcmut.edu.vn",
+            "Phone_Number": "0964995367",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079798231480"
+        },
+        {
+            "University_ID": 2352569,
+            "First_Name": "KHOA",
+            "Last_Name": "NGUYỄN CÔNG",
+            "Email": "khoa.nguyen0501@hcmut.edu.vn",
+            "Phone_Number": "0901550277",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079808960899"
+        },
+        {
+            "University_ID": 2352571,
+            "First_Name": "KHOA",
+            "Last_Name": "NGUYỄN ĐĂNG",
+            "Email": "khoa.nguyendangkhoa24@hcmut.edu.vn",
+            "Phone_Number": "0923135723",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079867571960"
+        },
+        {
+            "University_ID": 2352573,
+            "First_Name": "KHOA",
+            "Last_Name": "NGUYỄN ĐÌNH",
+            "Email": "khoa.nguyen0752005@hcmut.edu.vn",
+            "Phone_Number": "0923175846",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079957820044"
+        },
+        {
+            "University_ID": 2352575,
+            "First_Name": "KHOA",
+            "Last_Name": "NGUYỄN NGỌC MINH",
+            "Email": "khoa.nguyennnminhkhoa@hcmut.edu.vn",
+            "Phone_Number": "0914936437",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079499621465"
+        },
+        {
+            "University_ID": 2352576,
+            "First_Name": "Khoa",
+            "Last_Name": "Nguyễn Tấn",
+            "Email": "khoa.nguyen2352576@hcmut.edu.vn",
+            "Phone_Number": "0991541627",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079481728542"
+        },
+        {
+            "University_ID": 2352582,
+            "First_Name": "Khoa",
+            "Last_Name": "Phạm Đăng",
+            "Email": "khoa.pham2352582@hcmut.edu.vn",
+            "Phone_Number": "0983266478",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079889153609"
+        },
+        {
+            "University_ID": 2352585,
+            "First_Name": "KHOA",
+            "Last_Name": "PHẠM HỒ MINH",
+            "Email": "khoa.phamhominh@hcmut.edu.vn",
+            "Phone_Number": "0939311805",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079245989070"
+        },
+        {
+            "University_ID": 2352588,
+            "First_Name": "KHOA",
+            "Last_Name": "TRẦN ANH",
+            "Email": "khoa.tran050313@hcmut.edu.vn",
+            "Phone_Number": "0927765234",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079353076287"
+        },
+        {
+            "University_ID": 2352589,
+            "First_Name": "Khoa",
+            "Last_Name": "Trần Anh",
+            "Email": "khoa.trananh0305@hcmut.edu.vn",
+            "Phone_Number": "0994378969",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079402689845"
+        },
+        {
+            "University_ID": 2352590,
+            "First_Name": "KHOA",
+            "Last_Name": "TRẦN ĐĂNG",
+            "Email": "khoa.trandang053663@hcmut.edu.vn",
+            "Phone_Number": "8403100494",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079866899313"
+        },
+        {
+            "University_ID": 2352594,
+            "First_Name": "KHOA",
+            "Last_Name": "VĂN CÔNG",
+            "Email": "khoa.van1406@hcmut.edu.vn",
+            "Phone_Number": "0969363250",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079809822277"
+        },
+        {
+            "University_ID": 2352597,
+            "First_Name": "KHOA",
+            "Last_Name": "VŨ ĐĂNG",
+            "Email": "khoa.vuhcmut@hcmut.edu.vn",
+            "Phone_Number": "0904237634",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079929062880"
+        },
+        {
+            "University_ID": 2352600,
+            "First_Name": "KHÔI",
+            "Last_Name": "CAO ANH",
+            "Email": "khoi.caokh915@hcmut.edu.vn",
+            "Phone_Number": "0961819652",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079455779655"
+        },
+        {
+            "University_ID": 2352601,
+            "First_Name": "Khôi",
+            "Last_Name": "Doãn Anh",
+            "Email": "khoi.doancauanzin@hcmut.edu.vn",
+            "Phone_Number": "0965018507",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079380742377"
+        },
+        {
+            "University_ID": 2311663,
+            "First_Name": "KHÔI",
+            "Last_Name": "ĐỖ TRỊNH MINH",
+            "Email": "khoi.dotrminhkhoi@hcmut.edu.vn",
+            "Phone_Number": "0925962063",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079203883707"
+        },
+        {
+            "University_ID": 2352605,
+            "First_Name": "KHÔI",
+            "Last_Name": "ĐỖ TUẤN",
+            "Email": "khoi.domk030105@hcmut.edu.vn",
+            "Phone_Number": "0923149730",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079775260442"
+        },
+        {
+            "University_ID": 2350013,
+            "First_Name": "Khôi",
+            "Last_Name": "Huỳnh Bá",
+            "Email": "khoi.huynhmaytinh@hcmut.edu.vn",
+            "Phone_Number": "0987003764",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079460763350"
+        },
+        {
+            "University_ID": 2352608,
+            "First_Name": "KHÔI",
+            "Last_Name": "HUỲNH MINH",
+            "Email": "khoi.huynh14905@hcmut.edu.vn",
+            "Phone_Number": "0948509959",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079242583497"
+        },
+        {
+            "University_ID": 2352611,
+            "First_Name": "KHÔI",
+            "Last_Name": "NGUYỄN ĐÌNH",
+            "Email": "khoi.nguyen02072005@hcmut.edu.vn",
+            "Phone_Number": "0939107585",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079324566568"
+        },
+        {
+            "University_ID": 2352613,
+            "First_Name": "KHÔI",
+            "Last_Name": "NGUYỄN ĐỨC ANH",
+            "Email": "khoi.nguyen3012@hcmut.edu.vn",
+            "Phone_Number": "8405719434",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079283604522"
+        },
+        {
+            "University_ID": 2352614,
+            "First_Name": "Khôi",
+            "Last_Name": "Nguyễn Hữu Minh",
+            "Email": "khoi.nguyenhuuminh@hcmut.edu.vn",
+            "Phone_Number": "0939081283",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079413338338"
+        },
+        {
+            "University_ID": 2352619,
+            "First_Name": "Khôi",
+            "Last_Name": "Nguyễn Minh",
+            "Email": "khoi.nguyenminhhkhoi@hcmut.edu.vn",
+            "Phone_Number": "0964758204",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079131557836"
+        },
+        {
+            "University_ID": 2352622,
+            "First_Name": "Khôi",
+            "Last_Name": "Phạm Lê Minh",
+            "Email": "khoi.pham2005ktmt@hcmut.edu.vn",
+            "Phone_Number": "0947294972",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079798155000"
+        },
+        {
+            "University_ID": 2352623,
+            "First_Name": "Khôi",
+            "Last_Name": "Phạm Nhật",
+            "Email": "khoi.phamn@hcmut.edu.vn",
+            "Phone_Number": "0901944038",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079446269475"
+        },
+        {
+            "University_ID": 2352621,
+            "First_Name": "KHÔI",
+            "Last_Name": "PHAN TRẦN ĐÌNH",
+            "Email": "khoi.phantrandinh25082005@hcmut.edu.vn",
+            "Phone_Number": "0906103838",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079128855289"
+        },
+        {
+            "University_ID": 2352625,
+            "First_Name": "Khôi",
+            "Last_Name": "Trần Nguyễn Minh",
+            "Email": "khoi.tranbestofme20@hcmut.edu.vn",
+            "Phone_Number": "0999666888",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079818468549"
+        },
+        {
+            "University_ID": 2352626,
+            "First_Name": "KHÔI",
+            "Last_Name": "TRẦN PHAN ĐĂNG",
+            "Email": "khoi.tranphandang@hcmut.edu.vn",
+            "Phone_Number": "0932757496",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079246046584"
+        },
+        {
+            "University_ID": 2352631,
+            "First_Name": "KHUÊ",
+            "Last_Name": "NGUYỄN MINH",
+            "Email": "khue.nguyensally631@hcmut.edu.vn",
+            "Phone_Number": "0925193148",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079153353909"
+        },
+        {
+            "University_ID": 2352636,
+            "First_Name": "KHƯƠNG",
+            "Last_Name": "HUỲNH XUÂN",
+            "Email": "khuong.huynhasd8314577@hcmut.edu.vn",
+            "Phone_Number": "0969988906",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079844853499"
+        },
+        {
+            "University_ID": 2352638,
+            "First_Name": "KHƯƠNG",
+            "Last_Name": "TRẦN ĐÌNH DUY",
+            "Email": "khuong.tran2906@hcmut.edu.vn",
+            "Phone_Number": "0939209775",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079143331929"
+        },
+        {
+            "University_ID": 2352641,
+            "First_Name": "KIÊN",
+            "Last_Name": "MAI TRUNG",
+            "Email": "kien.mai2005@hcmut.edu.vn",
+            "Phone_Number": "8403983899",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079504826609"
+        },
+        {
+            "University_ID": 2352642,
+            "First_Name": "Kiên",
+            "Last_Name": "Ngô Xuân",
+            "Email": "kien.ngokienngo101@hcmut.edu.vn",
+            "Phone_Number": "0929415630",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079924254441"
+        },
+        {
+            "University_ID": 2352644,
+            "First_Name": "KIÊN",
+            "Last_Name": "NGUYỄN TRUNG",
+            "Email": "kien.nguyen175@hcmut.edu.vn",
+            "Phone_Number": "0986660512",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079367579635"
+        },
+        {
+            "University_ID": 2352647,
+            "First_Name": "KIỆN",
+            "Last_Name": "TRẦN VỸ",
+            "Email": "kien.tran1808@hcmut.edu.vn",
+            "Phone_Number": "8401781522",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079273848496"
+        },
+        {
+            "University_ID": 2352648,
+            "First_Name": "KIỆT",
+            "Last_Name": "BÙI ANH",
+            "Email": "kiet.bui45esta@hcmut.edu.vn",
+            "Phone_Number": "0928906646",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079400864433"
+        },
+        {
+            "University_ID": 2352649,
+            "First_Name": "Kiệt",
+            "Last_Name": "Lương Thế",
+            "Email": "kiet.luong1360@hcmut.edu.vn",
+            "Phone_Number": "0992218838",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079910309123"
+        },
+        {
+            "University_ID": 2352652,
+            "First_Name": "Kiệt",
+            "Last_Name": "Nguyễn Tuấn",
+            "Email": "kiet.nguyenhelan304@hcmut.edu.vn",
+            "Phone_Number": "0979238335",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079924594144"
+        },
+        {
+            "University_ID": 2352660,
+            "First_Name": "Kim",
+            "Last_Name": "Hoàng Thiên",
+            "Email": "kim.hoangthien@hcmut.edu.vn",
+            "Phone_Number": "8405920468",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079747564435"
+        },
+        {
+            "University_ID": 2352661,
+            "First_Name": "KIM",
+            "Last_Name": "NGUYỄN NGỌC",
+            "Email": "kim.nguyenngoc@hcmut.edu.vn",
+            "Phone_Number": "0922196105",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079501739994"
+        },
+        {
+            "University_ID": 2352679,
+            "First_Name": "LINH",
+            "Last_Name": "NGUYỄN QUANG",
+            "Email": "linh.nguyenquang280405@hcmut.edu.vn",
+            "Phone_Number": "0966741233",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079452829160"
+        },
+        {
+            "University_ID": 2214089,
+            "First_Name": "LỘC",
+            "Last_Name": "BÙI ĐÌNH AN",
+            "Email": "loc.buidinhan@hcmut.edu.vn",
+            "Phone_Number": "0901675530",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079289945945"
+        },
+        {
+            "University_ID": 2352708,
+            "First_Name": "Lộc",
+            "Last_Name": "Đinh Cao Thiên",
+            "Email": "loc.dinhbh@hcmut.edu.vn",
+            "Phone_Number": "0925795290",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079229154617"
+        },
+        {
+            "University_ID": 2350016,
+            "First_Name": "LỘC",
+            "Last_Name": "PHAN TẤN",
+            "Email": "loc.phan1705@hcmut.edu.vn",
+            "Phone_Number": "0905523150",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079266875201"
+        },
+        {
+            "University_ID": 2352712,
+            "First_Name": "LỘC",
+            "Last_Name": "PHAN TẤN",
+            "Email": "loc.phantan26@hcmut.edu.vn",
+            "Phone_Number": "0908238824",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079559895984"
+        },
+        {
+            "University_ID": 2352687,
+            "First_Name": "Long",
+            "Last_Name": "Dương Bảo",
+            "Email": "long.duongbaolong@hcmut.edu.vn",
+            "Phone_Number": "0997760288",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079635340830"
+        },
+        {
+            "University_ID": 2352688,
+            "First_Name": "LONG",
+            "Last_Name": "LÊ PHẠM TIẾN",
+            "Email": "long.lephamtien@hcmut.edu.vn",
+            "Phone_Number": "0913534176",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079703171907"
+        },
+        {
+            "University_ID": 2352689,
+            "First_Name": "Long",
+            "Last_Name": "Nguyễn",
+            "Email": "long.nguyen27879@hcmut.edu.vn",
+            "Phone_Number": "0937439205",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079936665025"
+        },
+        {
+            "University_ID": 2352690,
+            "First_Name": "LONG",
+            "Last_Name": "NGUYỄN ĐÌNH PHI",
+            "Email": "long.nguyendinhphi@hcmut.edu.vn",
+            "Phone_Number": "0912063755",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079273526398"
+        },
+        {
+            "University_ID": 2352693,
+            "First_Name": "Long",
+            "Last_Name": "Nguyễn Song Thiên",
+            "Email": "long.nguyencse2023@hcmut.edu.vn",
+            "Phone_Number": "0994252240",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079338812517"
+        },
+        {
+            "University_ID": 2352694,
+            "First_Name": "LONG",
+            "Last_Name": "NGUYỄN TAM",
+            "Email": "long.nguyen2694@hcmut.edu.vn",
+            "Phone_Number": "0928940690",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079112239127"
+        },
+        {
+            "University_ID": 2311916,
+            "First_Name": "LONG",
+            "Last_Name": "NGUYỄN VĂN HẢI",
+            "Email": "long.nguyen010305@hcmut.edu.vn",
+            "Phone_Number": "8407028983",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079220757589"
+        },
+        {
+            "University_ID": 2352696,
+            "First_Name": "Long",
+            "Last_Name": "Nguyễn Vũ",
+            "Email": "long.nguyenty@hcmut.edu.vn",
+            "Phone_Number": "0979034400",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079867861760"
+        },
+        {
+            "University_ID": 2352697,
+            "First_Name": "LONG",
+            "Last_Name": "PHAN HUY",
+            "Email": "long.phan0175@hcmut.edu.vn",
+            "Phone_Number": "0902235491",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079501909046"
+        },
+        {
+            "University_ID": 2352698,
+            "First_Name": "Long",
+            "Last_Name": "Quách Kiến",
+            "Email": "long.quach45@hcmut.edu.vn",
+            "Phone_Number": "0912246020",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079313894721"
+        },
+        {
+            "University_ID": 2352699,
+            "First_Name": "Long",
+            "Last_Name": "Thái Thiện Hải",
+            "Email": "long.thaithienhai@hcmut.edu.vn",
+            "Phone_Number": "0924586630",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079482064588"
+        },
+        {
+            "University_ID": 2352703,
+            "First_Name": "LONG",
+            "Last_Name": "TRẦN BẢO PHÚC",
+            "Email": "long.tranbaophuc@hcmut.edu.vn",
+            "Phone_Number": "0962347642",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079325614143"
+        },
+        {
+            "University_ID": 2352704,
+            "First_Name": "Long",
+            "Last_Name": "Trần Hữu Hoàng",
+            "Email": "long.tran2109@hcmut.edu.vn",
+            "Phone_Number": "0972409795",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079704148367"
+        },
+        {
+            "University_ID": 2352707,
+            "First_Name": "LONG",
+            "Last_Name": "VŨ HOÀNG",
+            "Email": "long.vuhoang3105@hcmut.edu.vn",
+            "Phone_Number": "0923250277",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079782826393"
+        },
+        {
+            "University_ID": 2352726,
+            "First_Name": "MẠNH",
+            "Last_Name": "LÊ ĐỨC",
+            "Email": "manh.le1510@hcmut.edu.vn",
+            "Phone_Number": "8409744505",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079788132334"
+        },
+        {
+            "University_ID": 2352727,
+            "First_Name": "Mạnh",
+            "Last_Name": "Nguyễn Đức",
+            "Email": "manh.nguyendante10255@hcmut.edu.vn",
+            "Phone_Number": "0917292136",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079934275655"
+        },
+        {
+            "University_ID": 2352730,
+            "First_Name": "Minh",
+            "Last_Name": "Bùi Nguyễn Anh",
+            "Email": "minh.buinguyenanh@hcmut.edu.vn",
+            "Phone_Number": "0906539548",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079121480309"
+        },
+        {
+            "University_ID": 2352732,
+            "First_Name": "MINH",
+            "Last_Name": "BÙI QUANG",
+            "Email": "minh.buiquang2005@hcmut.edu.vn",
+            "Phone_Number": "0933140229",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079217866578"
+        },
+        {
+            "University_ID": 2352736,
+            "First_Name": "MINH",
+            "Last_Name": "HUỲNH CHÁNH",
+            "Email": "minh.huynhvn29@hcmut.edu.vn",
+            "Phone_Number": "0982366441",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079946951493"
+        },
+        {
+            "University_ID": 2352742,
+            "First_Name": "Minh",
+            "Last_Name": "Lê Nguyễn Bảo",
+            "Email": "minh.lebaominh11@hcmut.edu.vn",
+            "Phone_Number": "0965631555",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079729140443"
+        },
+        {
+            "University_ID": 2352743,
+            "First_Name": "MINH",
+            "Last_Name": "LÊ NGUYỄN NHẬT",
+            "Email": "minh.lecomsci@hcmut.edu.vn",
+            "Phone_Number": "0949846564",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079846270639"
+        },
+        {
+            "University_ID": 2352741,
+            "First_Name": "MINH",
+            "Last_Name": "LÊ NGUYÊN NHẬT",
+            "Email": "minh.lenhat2108@hcmut.edu.vn",
+            "Phone_Number": "0996564186",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079339652932"
+        },
+        {
+            "University_ID": 2352750,
+            "First_Name": "Minh",
+            "Last_Name": "Nguyễn Hiền",
+            "Email": "minh.nguyen05082005@hcmut.edu.vn",
+            "Phone_Number": "0938588551",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079475501385"
+        },
+        {
+            "University_ID": 2352751,
+            "First_Name": "Minh",
+            "Last_Name": "Nguyễn Hoàng Đa",
+            "Email": "minh.nguyenhoangda@hcmut.edu.vn",
+            "Phone_Number": "0935534200",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079557727804"
+        },
+        {
+            "University_ID": 2352752,
+            "First_Name": "Minh",
+            "Last_Name": "Nguyễn Mạnh Tri",
+            "Email": "minh.nguyenmanh@hcmut.edu.vn",
+            "Phone_Number": "0977121330",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079625421632"
+        },
+        {
+            "University_ID": 2352756,
+            "First_Name": "Minh",
+            "Last_Name": "Nguyễn Trần Hoàng",
+            "Email": "minh.nguyentranhoang@hcmut.edu.vn",
+            "Phone_Number": "0935566479",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079999636580"
+        },
+        {
+            "University_ID": 2352761,
+            "First_Name": "MINH",
+            "Last_Name": "PHẠM QUANG",
+            "Email": "minh.phamquang1201@hcmut.edu.vn",
+            "Phone_Number": "0903934142",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079927622062"
+        },
+        {
+            "University_ID": 2352758,
+            "First_Name": "MINH",
+            "Last_Name": "PHAN ĐỨC",
+            "Email": "minh.phansscm2206@hcmut.edu.vn",
+            "Phone_Number": "0948918198",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079778328802"
+        },
+        {
+            "University_ID": 2352765,
+            "First_Name": "MINH",
+            "Last_Name": "TRỊNH LÊ",
+            "Email": "minh.trinh2603@hcmut.edu.vn",
+            "Phone_Number": "0933872790",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079843674657"
+        },
+        {
+            "University_ID": 2352768,
+            "First_Name": "Minh",
+            "Last_Name": "Võ Vương Huy",
+            "Email": "minh.vovuong@hcmut.edu.vn",
+            "Phone_Number": "0997903793",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079956861391"
+        },
+        {
+            "University_ID": 2352776,
+            "First_Name": "NAM",
+            "Last_Name": "NGUYỄN HOÀI",
+            "Email": "nam.nguyen2135@hcmut.edu.vn",
+            "Phone_Number": "0972651696",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079378920619"
+        },
+        {
+            "University_ID": 2352780,
+            "First_Name": "Nam",
+            "Last_Name": "Nguyễn Việt",
+            "Email": "nam.nguyenviet@hcmut.edu.vn",
+            "Phone_Number": "0996749933",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079737433927"
+        },
+        {
+            "University_ID": 2352785,
+            "First_Name": "NAM",
+            "Last_Name": "PHẠM NHẬT",
+            "Email": "nam.phamnhat1301@hcmut.edu.vn",
+            "Phone_Number": "0908399903",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079434597260"
+        },
+        {
+            "University_ID": 2352786,
+            "First_Name": "NAM",
+            "Last_Name": "PHẠM THÀNH",
+            "Email": "nam.pham203@hcmut.edu.vn",
+            "Phone_Number": "0985037021",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079673280489"
+        },
+        {
+            "University_ID": 2352787,
+            "First_Name": "NAM",
+            "Last_Name": "TRƯƠNG GIA KỲ",
+            "Email": "nam.truonggiaky@hcmut.edu.vn",
+            "Phone_Number": "0908707289",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079417352500"
+        },
+        {
+            "University_ID": 2352797,
+            "First_Name": "NGÂN",
+            "Last_Name": "PHẠM THANH BẢO",
+            "Email": "ngan.pham11@hcmut.edu.vn",
+            "Phone_Number": "0967019185",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079163805398"
+        },
+        {
+            "University_ID": 2353373,
+            "First_Name": "Ngân",
+            "Last_Name": "Võ Hoàng",
+            "Email": "ngan.vo08052005@hcmut.edu.vn",
+            "Phone_Number": "8404191463",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079351053116"
+        },
+        {
+            "University_ID": 2352799,
+            "First_Name": "NGHI",
+            "Last_Name": "NGÔ TIỂU",
+            "Email": "nghi.ngotieu@hcmut.edu.vn",
+            "Phone_Number": "0986597883",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079995870709"
+        },
+        {
+            "University_ID": 2352805,
+            "First_Name": "NGHĨA",
+            "Last_Name": "HUỲNH KIM",
+            "Email": "nghia.huynh2352805@hcmut.edu.vn",
+            "Phone_Number": "0995092238",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079266007134"
+        },
+        {
+            "University_ID": 2352806,
+            "First_Name": "NGHĨA",
+            "Last_Name": "NGUYỄN ĐẶNG MINH",
+            "Email": "nghia.nguyenseto2507@hcmut.edu.vn",
+            "Phone_Number": "0912198967",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079814313483"
+        },
+        {
+            "University_ID": 2352812,
+            "First_Name": "NGỌC",
+            "Last_Name": "LÊ MINH",
+            "Email": "ngoc.leminh2605@hcmut.edu.vn",
+            "Phone_Number": "0937094662",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079337615571"
+        },
+        {
+            "University_ID": 2352814,
+            "First_Name": "Ngọc",
+            "Last_Name": "Nguyễn Nguyên",
+            "Email": "ngoc.nguyen2352814@hcmut.edu.vn",
+            "Phone_Number": "8402104656",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079496129979"
+        },
+        {
+            "University_ID": 2352819,
+            "First_Name": "NGÔN",
+            "Last_Name": "MAI THIỆN",
+            "Email": "ngon.maithien05@hcmut.edu.vn",
+            "Phone_Number": "0925937513",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079732587764"
+        },
+        {
+            "University_ID": 2250013,
+            "First_Name": "NGUYÊN",
+            "Last_Name": "HÀ TƯỜNG",
+            "Email": "nguyen.hatuong0107@hcmut.edu.vn",
+            "Phone_Number": "0998761759",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079165859495"
+        },
+        {
+            "University_ID": 2352831,
+            "First_Name": "NGUYÊN",
+            "Last_Name": "NGUYỄN PHÚC",
+            "Email": "nguyen.nguyenfeliks0612@hcmut.edu.vn",
+            "Phone_Number": "0982783414",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079519084315"
+        },
+        {
+            "University_ID": 2352832,
+            "First_Name": "Nguyên",
+            "Last_Name": "Nguyễn Thành",
+            "Email": "nguyen.nguyenthanhk23@hcmut.edu.vn",
+            "Phone_Number": "0927276253",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079750453255"
+        },
+        {
+            "University_ID": 2352839,
+            "First_Name": "Nguyên",
+            "Last_Name": "Trần Thanh",
+            "Email": "nguyen.tran0405@hcmut.edu.vn",
+            "Phone_Number": "0978437913",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079804766691"
+        },
+        {
+            "University_ID": 2352849,
+            "First_Name": "NHÂN",
+            "Last_Name": "NGÔ NGUYỄN THÀNH",
+            "Email": "nhan.ngo2352849@hcmut.edu.vn",
+            "Phone_Number": "0901488335",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079777033970"
+        },
+        {
+            "University_ID": 2352850,
+            "First_Name": "Nhân",
+            "Last_Name": "Nguyễn Hiếu",
+            "Email": "nhan.nguyenhieu2407@hcmut.edu.vn",
+            "Phone_Number": "0918318919",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079785940109"
+        },
+        {
+            "University_ID": 2352851,
+            "First_Name": "Nhân",
+            "Last_Name": "Nguyễn Lê Hiền",
+            "Email": "nhan.nguyenlehien0207@hcmut.edu.vn",
+            "Phone_Number": "0907521318",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079376000407"
+        },
+        {
+            "University_ID": 2352852,
+            "First_Name": "NHÂN",
+            "Last_Name": "NGUYỄN TRUNG",
+            "Email": "nhan.nguyenpercy@hcmut.edu.vn",
+            "Phone_Number": "0983405103",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079424454275"
+        },
+        {
+            "University_ID": 2352855,
+            "First_Name": "Nhật",
+            "Last_Name": "Bùi Đoàn Minh",
+            "Email": "nhat.buimnh2712@hcmut.edu.vn",
+            "Phone_Number": "0969740687",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079321505560"
+        },
+        {
+            "University_ID": 2352856,
+            "First_Name": "NHẬT",
+            "Last_Name": "CHÂU ANH",
+            "Email": "nhat.chauanh@hcmut.edu.vn",
+            "Phone_Number": "0995548070",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079222508780"
+        },
+        {
+            "University_ID": 2352857,
+            "First_Name": "NHẬT",
+            "Last_Name": "ĐẶNG XUÂN MINH",
+            "Email": "nhat.dangxuanminh@hcmut.edu.vn",
+            "Phone_Number": "0997565774",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079909713071"
+        },
+        {
+            "University_ID": 2352858,
+            "First_Name": "NHẬT",
+            "Last_Name": "HỒ MINH",
+            "Email": "nhat.hominh@hcmut.edu.vn",
+            "Phone_Number": "0947645623",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079371503542"
+        },
+        {
+            "University_ID": 2352863,
+            "First_Name": "Nhật",
+            "Last_Name": "Phạm Minh",
+            "Email": "nhat.phamminh10925@hcmut.edu.vn",
+            "Phone_Number": "0983074804",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079567317272"
+        },
+        {
+            "University_ID": 2352877,
+            "First_Name": "NHƯ",
+            "Last_Name": "ĐỖ QUỲNH",
+            "Email": "nhu.do0510@hcmut.edu.vn",
+            "Phone_Number": "8407628641",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079423976163"
+        },
+        {
+            "University_ID": 2352881,
+            "First_Name": "Phan",
+            "Last_Name": "Trương Anh",
+            "Email": "phan.truongbraddock@hcmut.edu.vn",
+            "Phone_Number": "0901564480",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079665164701"
+        },
+        {
+            "University_ID": 2352883,
+            "First_Name": "PHÁT",
+            "Last_Name": "LÂM HỒNG",
+            "Email": "phat.lamtheboldone@hcmut.edu.vn",
+            "Phone_Number": "0929914080",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079196863464"
+        },
+        {
+            "University_ID": 2352885,
+            "First_Name": "Phát",
+            "Last_Name": "Nguyễn Cao",
+            "Email": "phat.nguyen2005@hcmut.edu.vn",
+            "Phone_Number": "0979087583",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079156525702"
+        },
+        {
+            "University_ID": 2352890,
+            "First_Name": "PHÁT",
+            "Last_Name": "NGUYỄN TẤN",
+            "Email": "phat.nguyentanphat73@hcmut.edu.vn",
+            "Phone_Number": "0975033339",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079265102458"
+        },
+        {
+            "University_ID": 2352889,
+            "First_Name": "Phát",
+            "Last_Name": "Nguyễn Tấn",
+            "Email": "phat.nguyentanphat188@hcmut.edu.vn",
+            "Phone_Number": "0945558115",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079332714991"
+        },
+        {
+            "University_ID": 2352894,
+            "First_Name": "PHÁT",
+            "Last_Name": "NGUYỄN THÀNH",
+            "Email": "phat.nguyenpro@hcmut.edu.vn",
+            "Phone_Number": "0971698152",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079818584705"
+        },
+        {
+            "University_ID": 2352896,
+            "First_Name": "Phát",
+            "Last_Name": "Nguyễn Văn Hoàng",
+            "Email": "phat.nguyennvhp010405@hcmut.edu.vn",
+            "Phone_Number": "0997636183",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079734411000"
+        },
+        {
+            "University_ID": 2352897,
+            "First_Name": "Phát",
+            "Last_Name": "Ôn Đức",
+            "Email": "phat.onduc@hcmut.edu.vn",
+            "Phone_Number": "0938189982",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079828979769"
+        },
+        {
+            "University_ID": 2352899,
+            "First_Name": "PHÁT",
+            "Last_Name": "PHẠM HỒNG",
+            "Email": "phat.phamhong@hcmut.edu.vn",
+            "Phone_Number": "0914782767",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079582492504"
+        },
+        {
+            "University_ID": 2352901,
+            "First_Name": "Phi",
+            "Last_Name": "Nguyễn Kim Hoàng",
+            "Email": "phi.nguyenken1102@hcmut.edu.vn",
+            "Phone_Number": "0981252827",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079137177464"
+        },
+        {
+            "University_ID": 2352903,
+            "First_Name": "PHONG",
+            "Last_Name": "ĐỖ THÁI",
+            "Email": "phong.do2352903@hcmut.edu.vn",
+            "Phone_Number": "0996345704",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079982031603"
+        },
+        {
+            "University_ID": 2352905,
+            "First_Name": "PHONG",
+            "Last_Name": "LÊ NGỌC UY",
+            "Email": "phong.le9999@hcmut.edu.vn",
+            "Phone_Number": "0915286560",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079371538654"
+        },
+        {
+            "University_ID": 2352906,
+            "First_Name": "PHONG",
+            "Last_Name": "NGUYỄN HỮU NAM",
+            "Email": "phong.nguyenhuunam@hcmut.edu.vn",
+            "Phone_Number": "0975422871",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079845103633"
+        },
+        {
+            "University_ID": 2352908,
+            "First_Name": "Phong",
+            "Last_Name": "Nguyễn Thanh",
+            "Email": "phong.nguyen099@hcmut.edu.vn",
+            "Phone_Number": "0929951711",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079320525047"
+        },
+        {
+            "University_ID": 2352910,
+            "First_Name": "PHONG",
+            "Last_Name": "PHẠM THANH",
+            "Email": "phong.phamthanh2408@hcmut.edu.vn",
+            "Phone_Number": "0993261395",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079994018861"
+        },
+        {
+            "University_ID": 2352916,
+            "First_Name": "Phú",
+            "Last_Name": "Nguyễn Đặng Thiên",
+            "Email": "phu.nguyenkoromoro@hcmut.edu.vn",
+            "Phone_Number": "8401695736",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079502051585"
+        },
+        {
+            "University_ID": 2352919,
+            "First_Name": "Phú",
+            "Last_Name": "Nguyễn Vĩnh",
+            "Email": "phu.nguyen113@hcmut.edu.vn",
+            "Phone_Number": "0968854447",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079702376090"
+        },
+        {
+            "University_ID": 2352923,
+            "First_Name": "Phú",
+            "Last_Name": "Trần Hoàng Thiên",
+            "Email": "phu.tranphu1109@hcmut.edu.vn",
+            "Phone_Number": "0905829750",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079606629395"
+        },
+        {
+            "University_ID": 2352924,
+            "First_Name": "Phú",
+            "Last_Name": "Trương Hoàng",
+            "Email": "phu.truonghoang@hcmut.edu.vn",
+            "Phone_Number": "0909289467",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079549747105"
+        },
+        {
+            "University_ID": 2352931,
+            "First_Name": "PHÚC",
+            "Last_Name": "LÊ NGUYỄN GIA",
+            "Email": "phuc.legia2352931@hcmut.edu.vn",
+            "Phone_Number": "0933245268",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079972908268"
+        },
+        {
+            "University_ID": 2352935,
+            "First_Name": "PHÚC",
+            "Last_Name": "LỤC TẤN",
+            "Email": "phuc.lucnormalkid@hcmut.edu.vn",
+            "Phone_Number": "0972797614",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079543189915"
+        },
+        {
+            "University_ID": 2352936,
+            "First_Name": "PHÚC",
+            "Last_Name": "LƯU THIÊN",
+            "Email": "phuc.luu151926@hcmut.edu.vn",
+            "Phone_Number": "0922286721",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079246520038"
+        },
+        {
+            "University_ID": 2352938,
+            "First_Name": "Phúc",
+            "Last_Name": "Nguyễn Hữu",
+            "Email": "phuc.nguyen0310@hcmut.edu.vn",
+            "Phone_Number": "0968421885",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079194631096"
+        },
+        {
+            "University_ID": 2352941,
+            "First_Name": "PHÚC",
+            "Last_Name": "PHAN MINH",
+            "Email": "phuc.phanminh142@hcmut.edu.vn",
+            "Phone_Number": "8406441388",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079184029074"
+        },
+        {
+            "University_ID": 2352964,
+            "First_Name": "PHƯỚC",
+            "Last_Name": "NGUYỄN HỮU",
+            "Email": "phuoc.nguyenhuu@hcmut.edu.vn",
+            "Phone_Number": "0935593123",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079800960288"
+        },
+        {
+            "University_ID": 2352965,
+            "First_Name": "PHƯỚC",
+            "Last_Name": "NGUYỄN LƯƠNG",
+            "Email": "phuoc.nguyenluong@hcmut.edu.vn",
+            "Phone_Number": "0992436615",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079905222076"
+        },
+        {
+            "University_ID": 2352966,
+            "First_Name": "Phước",
+            "Last_Name": "Trần Công Hoàng",
+            "Email": "phuoc.tranbenjamin@hcmut.edu.vn",
+            "Phone_Number": "0945439404",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079670765374"
+        },
+        {
+            "University_ID": 2352948,
+            "First_Name": "Phương",
+            "Last_Name": "Bùi Huy",
+            "Email": "phuong.buihuy@hcmut.edu.vn",
+            "Phone_Number": "0906317965",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079115998343"
+        },
+        {
+            "University_ID": 2352950,
+            "First_Name": "PHƯƠNG",
+            "Last_Name": "LÂM MỸ",
+            "Email": "phuong.lammyk23@hcmut.edu.vn",
+            "Phone_Number": "8409734702",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079723639712"
+        },
+        {
+            "University_ID": 2352954,
+            "First_Name": "PHƯƠNG",
+            "Last_Name": "NGUYỄN HỒ MINH",
+            "Email": "phuong.nguyen28529@hcmut.edu.vn",
+            "Phone_Number": "0985192634",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079513614956"
+        },
+        {
+            "University_ID": 2352959,
+            "First_Name": "Phương",
+            "Last_Name": "Trần Hoàng",
+            "Email": "phuong.trandn027@hcmut.edu.vn",
+            "Phone_Number": "0905732755",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079266209204"
+        },
+        {
+            "University_ID": 2352960,
+            "First_Name": "PHƯƠNG",
+            "Last_Name": "TRẦN MAI",
+            "Email": "phuong.tranolive@hcmut.edu.vn",
+            "Phone_Number": "0992025766",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079980124898"
+        },
+        {
+            "University_ID": 2352980,
+            "First_Name": "Quân",
+            "Last_Name": "Bùi Viết Anh",
+            "Email": "quan.buivietanh@hcmut.edu.vn",
+            "Phone_Number": "0976825546",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079550449694"
+        },
+        {
+            "University_ID": 2352983,
+            "First_Name": "Quân",
+            "Last_Name": "Đặng Mậu Anh",
+            "Email": "quan.dangmauanh@hcmut.edu.vn",
+            "Phone_Number": "0922301722",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079370750258"
+        },
+        {
+            "University_ID": 2352985,
+            "First_Name": "Quân",
+            "Last_Name": "Đặng Nguyên",
+            "Email": "quan.dang1104@hcmut.edu.vn",
+            "Phone_Number": "0995835883",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079369937736"
+        },
+        {
+            "University_ID": 2352986,
+            "First_Name": "QUÂN",
+            "Last_Name": "ĐINH HOÀNG",
+            "Email": "quan.dinhhoang@hcmut.edu.vn",
+            "Phone_Number": "0982127786",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079775609636"
+        },
+        {
+            "University_ID": 2352988,
+            "First_Name": "Quân",
+            "Last_Name": "Hồ Lê Minh",
+            "Email": "quan.ho168536@hcmut.edu.vn",
+            "Phone_Number": "0905531088",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079893163063"
+        },
+        {
+            "University_ID": 2352990,
+            "First_Name": "Quân",
+            "Last_Name": "Lại Minh",
+            "Email": "quan.laiminh1505@hcmut.edu.vn",
+            "Phone_Number": "0909770736",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079275015261"
+        },
+        {
+            "University_ID": 2352991,
+            "First_Name": "QUÂN",
+            "Last_Name": "LÂM MINH TÙNG",
+            "Email": "quan.lambk23@hcmut.edu.vn",
+            "Phone_Number": "0967106906",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079956401667"
+        },
+        {
+            "University_ID": 2352993,
+            "First_Name": "Quân",
+            "Last_Name": "Lê Mạnh",
+            "Email": "quan.le1stpopo@hcmut.edu.vn",
+            "Phone_Number": "0945306141",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079274458338"
+        },
+        {
+            "University_ID": 2352994,
+            "First_Name": "QUÂN",
+            "Last_Name": "LỤC DUY MINH",
+            "Email": "quan.lucduyminh@hcmut.edu.vn",
+            "Phone_Number": "0942330900",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079569181004"
+        },
+        {
+            "University_ID": 2352998,
+            "First_Name": "Quân",
+            "Last_Name": "Nguyễn Hoàng",
+            "Email": "quan.nguyenhoangkmt23@hcmut.edu.vn",
+            "Phone_Number": "0934851389",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079885915295"
+        },
+        {
+            "University_ID": 2353002,
+            "First_Name": "QUÂN",
+            "Last_Name": "NGUYỄN LÊ HẢI",
+            "Email": "quan.nguyenlehai@hcmut.edu.vn",
+            "Phone_Number": "0939025820",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079227541189"
+        },
+        {
+            "University_ID": 2353005,
+            "First_Name": "QUÂN",
+            "Last_Name": "NGUYỄN MINH",
+            "Email": "quan.nguyenminh2408@hcmut.edu.vn",
+            "Phone_Number": "0913087449",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079941355789"
+        },
+        {
+            "University_ID": 2353003,
+            "First_Name": "QUÂN",
+            "Last_Name": "NGUYỄN MINH",
+            "Email": "quan.nguyenrandomword@hcmut.edu.vn",
+            "Phone_Number": "0918140366",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079794478258"
+        },
+        {
+            "University_ID": 2353004,
+            "First_Name": "Quân",
+            "Last_Name": "Nguyễn Minh",
+            "Email": "quan.nguyenwhateven@hcmut.edu.vn",
+            "Phone_Number": "0983016317",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079637924420"
+        },
+        {
+            "University_ID": 2353007,
+            "First_Name": "Quân",
+            "Last_Name": "Nguyễn Vinh Anh",
+            "Email": "quan.nguyenvinhanh@hcmut.edu.vn",
+            "Phone_Number": "0984427716",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079305254472"
+        },
+        {
+            "University_ID": 2353011,
+            "First_Name": "QUÂN",
+            "Last_Name": "PHẠM ANH",
+            "Email": "quan.phamquan071204@hcmut.edu.vn",
+            "Phone_Number": "0965429482",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079893972551"
+        },
+        {
+            "University_ID": 2353008,
+            "First_Name": "QUÂN",
+            "Last_Name": "PHAN ĐÌNH ANH",
+            "Email": "quan.phanilbl@hcmut.edu.vn",
+            "Phone_Number": "0965052737",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079287412089"
+        },
+        {
+            "University_ID": 2353014,
+            "First_Name": "Quân",
+            "Last_Name": "Trần Anh",
+            "Email": "quan.trananh003@hcmut.edu.vn",
+            "Phone_Number": "0915022646",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079267025046"
+        },
+        {
+            "University_ID": 2353017,
+            "First_Name": "Quân",
+            "Last_Name": "Trịnh Lương Nhất",
+            "Email": "quan.trinhquasar@hcmut.edu.vn",
+            "Phone_Number": "0904281349",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079191458117"
+        },
+        {
+            "University_ID": 2353019,
+            "First_Name": "Quân",
+            "Last_Name": "Trương Minh",
+            "Email": "quan.truong2353019@hcmut.edu.vn",
+            "Phone_Number": "0983319516",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079283538686"
+        },
+        {
+            "University_ID": 2352967,
+            "First_Name": "QUANG",
+            "Last_Name": "NGÔ PHƯƠNG",
+            "Email": "quang.ngophuong@hcmut.edu.vn",
+            "Phone_Number": "0933482963",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079738089425"
+        },
+        {
+            "University_ID": 2352968,
+            "First_Name": "QUANG",
+            "Last_Name": "NGÔ VĨNH",
+            "Email": "quang.ngovinh@hcmut.edu.vn",
+            "Phone_Number": "0999782193",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079580578328"
+        },
+        {
+            "University_ID": 2352969,
+            "First_Name": "Quang",
+            "Last_Name": "Nguyễn Bùi",
+            "Email": "quang.nguyenquang187@hcmut.edu.vn",
+            "Phone_Number": "0996431325",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079939835591"
+        },
+        {
+            "University_ID": 2352972,
+            "First_Name": "QUANG",
+            "Last_Name": "NGUYỄN MINH",
+            "Email": "quang.nguyenquang9305@hcmut.edu.vn",
+            "Phone_Number": "0945018702",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079153420853"
+        },
+        {
+            "University_ID": 2350022,
+            "First_Name": "QUANG",
+            "Last_Name": "NGUYỄN TRẦN MINH",
+            "Email": "quang.nguyen030605@hcmut.edu.vn",
+            "Phone_Number": "0926340405",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079118169707"
+        },
+        {
+            "University_ID": 2352975,
+            "First_Name": "Quang",
+            "Last_Name": "Phạm Duy",
+            "Email": "quang.phamduy261205@hcmut.edu.vn",
+            "Phone_Number": "0941298081",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079798368969"
+        },
+        {
+            "University_ID": 2352976,
+            "First_Name": "QUANG",
+            "Last_Name": "PHẠM TRÍ",
+            "Email": "quang.phamtri@hcmut.edu.vn",
+            "Phone_Number": "0911487769",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079120815149"
+        },
+        {
+            "University_ID": 2352977,
+            "First_Name": "QUANG",
+            "Last_Name": "TRẦN ĐÌNH",
+            "Email": "quang.tran2005@hcmut.edu.vn",
+            "Phone_Number": "0972574398",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079128557481"
+        },
+        {
+            "University_ID": 2353024,
+            "First_Name": "Quốc",
+            "Last_Name": "Hồ Minh",
+            "Email": "quoc.ho244@hcmut.edu.vn",
+            "Phone_Number": "0917130345",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079865863577"
+        },
+        {
+            "University_ID": 2353025,
+            "First_Name": "Quốc",
+            "Last_Name": "Huỳnh Vỹ",
+            "Email": "quoc.huynh2801@hcmut.edu.vn",
+            "Phone_Number": "0941654700",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079498080974"
+        },
+        {
+            "University_ID": 2353027,
+            "First_Name": "QUỐC",
+            "Last_Name": "NGUYỄN HOÀNG",
+            "Email": "quoc.nguyenhoang2305@hcmut.edu.vn",
+            "Phone_Number": "0967159245",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079453613688"
+        },
+        {
+            "University_ID": 2353035,
+            "First_Name": "QUÝ",
+            "Last_Name": "ĐOÀN THIÊN",
+            "Email": "quy.doanthien@hcmut.edu.vn",
+            "Phone_Number": "0928068594",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079696437234"
+        },
+        {
+            "University_ID": 2353034,
+            "First_Name": "QUYỀN",
+            "Last_Name": "LÊ CHƯƠNG",
+            "Email": "quyen.lechuong@hcmut.edu.vn",
+            "Phone_Number": "0905361366",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079911604387"
+        },
+        {
+            "University_ID": 2353031,
+            "First_Name": "QUYÊN",
+            "Last_Name": "NGÔ DIỄM",
+            "Email": "quyen.ngo6905@hcmut.edu.vn",
+            "Phone_Number": "0989887812",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079902334180"
+        },
+        {
+            "University_ID": 2353037,
+            "First_Name": "QUỲNH",
+            "Last_Name": "LÊ ĐẶNG KHÁNH",
+            "Email": "quynh.le2mgbk23606@hcmut.edu.vn",
+            "Phone_Number": "0974974013",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079374492480"
+        },
+        {
+            "University_ID": 2353041,
+            "First_Name": "QUỲNH",
+            "Last_Name": "VÕ THỊ NHƯ",
+            "Email": "quynh.vo01@hcmut.edu.vn",
+            "Phone_Number": "0906250251",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079488109052"
+        },
+        {
+            "University_ID": 2353046,
+            "First_Name": "SÁNG",
+            "Last_Name": "NGUYỄN NGỌC",
+            "Email": "sang.nguyenntommy@hcmut.edu.vn",
+            "Phone_Number": "0969022274",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079889799262"
+        },
+        {
+            "University_ID": 2353044,
+            "First_Name": "SANG",
+            "Last_Name": "TRẦN PHƯỚC",
+            "Email": "sang.tranphuoc4405@hcmut.edu.vn",
+            "Phone_Number": "0912150233",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079725726070"
+        },
+        {
+            "University_ID": 2353045,
+            "First_Name": "Sang",
+            "Last_Name": "Trương Xuân",
+            "Email": "sang.truong2005@hcmut.edu.vn",
+            "Phone_Number": "0907059900",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079907177759"
+        },
+        {
+            "University_ID": 2353047,
+            "First_Name": "Siêu",
+            "Last_Name": "Bùi Đức",
+            "Email": "sieu.buiduc@hcmut.edu.vn",
+            "Phone_Number": "0999629994",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079777368332"
+        },
+        {
+            "University_ID": 2353051,
+            "First_Name": "Sơn",
+            "Last_Name": "Nguyễn Nam",
+            "Email": "son.nguyennam131005@hcmut.edu.vn",
+            "Phone_Number": "0962816967",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079729790773"
+        },
+        {
+            "University_ID": 2353053,
+            "First_Name": "Sơn",
+            "Last_Name": "Phan Quốc Đại",
+            "Email": "son.phanquocdai@hcmut.edu.vn",
+            "Phone_Number": "0926208836",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079510480816"
+        },
+        {
+            "University_ID": 2353055,
+            "First_Name": "SƠN",
+            "Last_Name": "TRẦN HÙNG",
+            "Email": "son.transvbkk23@hcmut.edu.vn",
+            "Phone_Number": "0941977647",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079347093499"
+        },
+        {
+            "University_ID": 2353056,
+            "First_Name": "Sơn",
+            "Last_Name": "Trịnh Đức",
+            "Email": "son.trinh230505@hcmut.edu.vn",
+            "Phone_Number": "0903251782",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079839804195"
+        },
+        {
+            "University_ID": 2353057,
+            "First_Name": "SƠN",
+            "Last_Name": "VÕ HOÀNG",
+            "Email": "son.vo2353057@hcmut.edu.vn",
+            "Phone_Number": "0908615172",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079808398728"
+        },
+        {
+            "University_ID": 2353059,
+            "First_Name": "TÀI",
+            "Last_Name": "LƯƠNG TẤN",
+            "Email": "tai.luongbku@hcmut.edu.vn",
+            "Phone_Number": "0992746881",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079140624073"
+        },
+        {
+            "University_ID": 2353062,
+            "First_Name": "TÀI",
+            "Last_Name": "NGUYỄN THÀNH",
+            "Email": "tai.nguyen206k23@hcmut.edu.vn",
+            "Phone_Number": "0998349755",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079347157198"
+        },
+        {
+            "University_ID": 2350023,
+            "First_Name": "TÀI",
+            "Last_Name": "PHẠM ANH",
+            "Email": "tai.pham2209@hcmut.edu.vn",
+            "Phone_Number": "0983912779",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079295384320"
+        },
+        {
+            "University_ID": 2353065,
+            "First_Name": "TÀI",
+            "Last_Name": "TRẦN THÁI",
+            "Email": "tai.tranzk23@hcmut.edu.vn",
+            "Phone_Number": "0941611199",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079115546063"
+        },
+        {
+            "University_ID": 2353072,
+            "First_Name": "TÂN",
+            "Last_Name": "ĐỖ NGỌC",
+            "Email": "tan.dongoc@hcmut.edu.vn",
+            "Phone_Number": "0966652383",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079768646395"
+        },
+        {
+            "University_ID": 2353073,
+            "First_Name": "TÂN",
+            "Last_Name": "ĐỖ THANH",
+            "Email": "tan.dothanh2506@hcmut.edu.vn",
+            "Phone_Number": "0965938871",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079185346692"
+        },
+        {
+            "University_ID": 2353074,
+            "First_Name": "TÂN",
+            "Last_Name": "HỨA GIA",
+            "Email": "tan.huacsek23@hcmut.edu.vn",
+            "Phone_Number": "0936431969",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079133825708"
+        },
+        {
+            "University_ID": 2353077,
+            "First_Name": "TÂN",
+            "Last_Name": "LÝ TRẦN",
+            "Email": "tan.lytran@hcmut.edu.vn",
+            "Phone_Number": "0961622148",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079479182489"
+        },
+        {
+            "University_ID": 2353081,
+            "First_Name": "TÂN",
+            "Last_Name": "VÕ NHẬT",
+            "Email": "tan.vonhatcse@hcmut.edu.vn",
+            "Phone_Number": "0905489140",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079150410633"
+        },
+        {
+            "University_ID": 2353086,
+            "First_Name": "THÁI",
+            "Last_Name": "BÙI QUỐC",
+            "Email": "thai.bui1569@hcmut.edu.vn",
+            "Phone_Number": "0922457110",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079502048122"
+        },
+        {
+            "University_ID": 2353088,
+            "First_Name": "Thái",
+            "Last_Name": "Đặng Quốc",
+            "Email": "thai.dangthaibkuhcm@hcmut.edu.vn",
+            "Phone_Number": "0921107118",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079153794118"
+        },
+        {
+            "University_ID": 2353087,
+            "First_Name": "THÁI",
+            "Last_Name": "ĐÀO PHÚ",
+            "Email": "thai.daocs2353087@hcmut.edu.vn",
+            "Phone_Number": "0963867198",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079810941012"
+        },
+        {
+            "University_ID": 2353091,
+            "First_Name": "THÁI",
+            "Last_Name": "NGUYỄN DUY",
+            "Email": "thai.nguyenkhmtbk@hcmut.edu.vn",
+            "Phone_Number": "0915706839",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079972452738"
+        },
+        {
+            "University_ID": 2353094,
+            "First_Name": "Thái",
+            "Last_Name": "Trương Quốc",
+            "Email": "thai.truongquocquangbinh@hcmut.edu.vn",
+            "Phone_Number": "0905980404",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079313277942"
+        },
+        {
+            "University_ID": 2353117,
+            "First_Name": "THĂNG",
+            "Last_Name": "BÙI LA",
+            "Email": "thang.buila@hcmut.edu.vn",
+            "Phone_Number": "0918310893",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079396614117"
+        },
+        {
+            "University_ID": 2353121,
+            "First_Name": "Thắng",
+            "Last_Name": "Nguyễn Minh Việt",
+            "Email": "thang.nguyen150525vn@hcmut.edu.vn",
+            "Phone_Number": "0918951234",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079704866746"
+        },
+        {
+            "University_ID": 2353123,
+            "First_Name": "Thắng",
+            "Last_Name": "Nguyễn Văn",
+            "Email": "thang.nguyenvan2005@hcmut.edu.vn",
+            "Phone_Number": "0948569791",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079461275793"
+        },
+        {
+            "University_ID": 2353124,
+            "First_Name": "Thắng",
+            "Last_Name": "Trần Mạnh",
+            "Email": "thang.tranmanh090205@hcmut.edu.vn",
+            "Phone_Number": "0987337107",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079884720329"
+        },
+        {
+            "University_ID": 2353095,
+            "First_Name": "Thành",
+            "Last_Name": "Dương Trí",
+            "Email": "thanh.duongmeomeo@hcmut.edu.vn",
+            "Phone_Number": "0993615116",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079223120716"
+        },
+        {
+            "University_ID": 2353096,
+            "First_Name": "Thành",
+            "Last_Name": "Đỗ Tài",
+            "Email": "thanh.do2353096@hcmut.edu.vn",
+            "Phone_Number": "0922386439",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079527517105"
+        },
+        {
+            "University_ID": 2353097,
+            "First_Name": "Thành",
+            "Last_Name": "Hồ Công",
+            "Email": "thanh.hocong@hcmut.edu.vn",
+            "Phone_Number": "0993105041",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079516907806"
+        },
+        {
+            "University_ID": 2353083,
+            "First_Name": "Thanh",
+            "Last_Name": "Huỳnh Văn",
+            "Email": "thanh.huynh04092005@hcmut.edu.vn",
+            "Phone_Number": "0939602016",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079463521220"
+        },
+        {
+            "University_ID": 2353100,
+            "First_Name": "Thành",
+            "Last_Name": "Nguyễn Công",
+            "Email": "thanh.nguyenkongthenh@hcmut.edu.vn",
+            "Phone_Number": "0968635151",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079281489651"
+        },
+        {
+            "University_ID": 2353101,
+            "First_Name": "THÀNH",
+            "Last_Name": "NGUYỄN DUY",
+            "Email": "thanh.nguyen09012005@hcmut.edu.vn",
+            "Phone_Number": "8401826488",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079418839375"
+        },
+        {
+            "University_ID": 2353084,
+            "First_Name": "Thanh",
+            "Last_Name": "Phan Bá",
+            "Email": "thanh.phancsbk@hcmut.edu.vn",
+            "Phone_Number": "8406003367",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079872078862"
+        },
+        {
+            "University_ID": 2353104,
+            "First_Name": "Thành",
+            "Last_Name": "Tăng Công",
+            "Email": "thanh.tangconghcmut@hcmut.edu.vn",
+            "Phone_Number": "0964664354",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079764740079"
+        },
+        {
+            "University_ID": 2353108,
+            "First_Name": "Thành",
+            "Last_Name": "Võ Trung",
+            "Email": "thanh.voktmtk23@hcmut.edu.vn",
+            "Phone_Number": "0991384828",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079937150092"
+        },
+        {
+            "University_ID": 2353115,
+            "First_Name": "THẢO",
+            "Last_Name": "NGUYỄN THANH",
+            "Email": "thao.nguyen1262005@hcmut.edu.vn",
+            "Phone_Number": "0946328270",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079905205631"
+        },
+        {
+            "University_ID": 2353116,
+            "First_Name": "Thảo",
+            "Last_Name": "Trần Huỳnh Mai",
+            "Email": "thao.tran101205@hcmut.edu.vn",
+            "Phone_Number": "8408593936",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079236320201"
+        },
+        {
+            "University_ID": 2353126,
+            "First_Name": "THẾ",
+            "Last_Name": "NGUYỄN DIỆP NGUYÊN",
+            "Email": "the.nguyen2353126@hcmut.edu.vn",
+            "Phone_Number": "0976894816",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079599749448"
+        },
+        {
+            "University_ID": 2353131,
+            "First_Name": "THIỆN",
+            "Last_Name": "LẠI NGUYỄN GIA",
+            "Email": "thien.laihcmut75@hcmut.edu.vn",
+            "Phone_Number": "0978984048",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079506435896"
+        },
+        {
+            "University_ID": 2353132,
+            "First_Name": "THIỆN",
+            "Last_Name": "LÊ PHƯỚC MINH",
+            "Email": "thien.let1n2442005@hcmut.edu.vn",
+            "Phone_Number": "8402768014",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079456768911"
+        },
+        {
+            "University_ID": 2353136,
+            "First_Name": "Thịnh",
+            "Last_Name": "Bùi Anh",
+            "Email": "thinh.buianh@hcmut.edu.vn",
+            "Phone_Number": "0993319688",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079221265941"
+        },
+        {
+            "University_ID": 2353139,
+            "First_Name": "Thịnh",
+            "Last_Name": "Lưu Tôn",
+            "Email": "thinh.luu15082005@hcmut.edu.vn",
+            "Phone_Number": "0981408406",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079943269924"
+        },
+        {
+            "University_ID": 2353140,
+            "First_Name": "Thịnh",
+            "Last_Name": "Nguyễn Đức",
+            "Email": "thinh.nguyenthinh2503@hcmut.edu.vn",
+            "Phone_Number": "0987826838",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079130551581"
+        },
+        {
+            "University_ID": 2353146,
+            "First_Name": "THOẠI",
+            "Last_Name": "THÁI HOÀNG GIA",
+            "Email": "thoai.thaihoanggia09@hcmut.edu.vn",
+            "Phone_Number": "0902476375",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079538677301"
+        },
+        {
+            "University_ID": 2353147,
+            "First_Name": "THOẠI",
+            "Last_Name": "TRẦN NGỌC",
+            "Email": "thoai.trannngock23@hcmut.edu.vn",
+            "Phone_Number": "0982449797",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079109917424"
+        },
+        {
+            "University_ID": 2353150,
+            "First_Name": "Thông",
+            "Last_Name": "Võ Duy",
+            "Email": "thong.vo13112005@hcmut.edu.vn",
+            "Phone_Number": "0992048130",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079149111696"
+        },
+        {
+            "University_ID": 2353157,
+            "First_Name": "THỤ",
+            "Last_Name": "TRỊNH VIẾT",
+            "Email": "thu.trinh2353157@hcmut.edu.vn",
+            "Phone_Number": "0946690330",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079201630950"
+        },
+        {
+            "University_ID": 2353153,
+            "First_Name": "Thuận",
+            "Last_Name": "Ngô Minh",
+            "Email": "thuan.ngostudyhcmut@hcmut.edu.vn",
+            "Phone_Number": "0928122637",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079952636250"
+        },
+        {
+            "University_ID": 2353167,
+            "First_Name": "Thức",
+            "Last_Name": "Nguyễn Ngọc Duy",
+            "Email": "thuc.nguyen010105@hcmut.edu.vn",
+            "Phone_Number": "0947835183",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079762538593"
+        },
+        {
+            "University_ID": 2353169,
+            "First_Name": "Thy",
+            "Last_Name": "Nguyễn Anh",
+            "Email": "thy.nguyenanh@hcmut.edu.vn",
+            "Phone_Number": "0976544183",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079872525486"
+        },
+        {
+            "University_ID": 2353174,
+            "First_Name": "TIẾN",
+            "Last_Name": "ĐINH",
+            "Email": "tien.dinh2110@hcmut.edu.vn",
+            "Phone_Number": "0962995580",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079208568130"
+        },
+        {
+            "University_ID": 2353175,
+            "First_Name": "TIẾN",
+            "Last_Name": "ĐOÀN VĨ",
+            "Email": "tien.doan116@hcmut.edu.vn",
+            "Phone_Number": "0988365245",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079391808570"
+        },
+        {
+            "University_ID": 2353177,
+            "First_Name": "TIẾN",
+            "Last_Name": "MAI CHUNG",
+            "Email": "tien.maichung@hcmut.edu.vn",
+            "Phone_Number": "0901164361",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079771864935"
+        },
+        {
+            "University_ID": 2353187,
+            "First_Name": "Tín",
+            "Last_Name": "Nguyễn Trung",
+            "Email": "tin.nguyen210205@hcmut.edu.vn",
+            "Phone_Number": "8402451769",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079216266706"
+        },
+        {
+            "University_ID": 2353188,
+            "First_Name": "Tín",
+            "Last_Name": "Nguyễn Trung",
+            "Email": "tin.nguyen26hcmut@hcmut.edu.vn",
+            "Phone_Number": "0929766887",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079503371813"
+        },
+        {
+            "University_ID": 2353192,
+            "First_Name": "Toàn",
+            "Last_Name": "Châu Kiến",
+            "Email": "toan.chaukien@hcmut.edu.vn",
+            "Phone_Number": "0946772396",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079580876115"
+        },
+        {
+            "University_ID": 2353196,
+            "First_Name": "TOÀN",
+            "Last_Name": "TRIỆU THUẬN",
+            "Email": "toan.trieuktmt23@hcmut.edu.vn",
+            "Phone_Number": "0921429044",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079914361384"
+        },
+        {
+            "University_ID": 2353201,
+            "First_Name": "TRÀ",
+            "Last_Name": "NGUYỄN THỊ MINH",
+            "Email": "tra.nguyenminhvt@hcmut.edu.vn",
+            "Phone_Number": "0916343188",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079920324534"
+        },
+        {
+            "University_ID": 2353202,
+            "First_Name": "TRÂM",
+            "Last_Name": "HOÀNG THUỲ",
+            "Email": "tram.hoang2805@hcmut.edu.vn",
+            "Phone_Number": "0973873832",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079865111264"
+        },
+        {
+            "University_ID": 2353207,
+            "First_Name": "TRÂN",
+            "Last_Name": "NGUYỄN PHÙNG BẢO",
+            "Email": "tran.nguyentori343589@hcmut.edu.vn",
+            "Phone_Number": "0985318045",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079438554005"
+        },
+        {
+            "University_ID": 2353226,
+            "First_Name": "Trí",
+            "Last_Name": "Hoàng Minh",
+            "Email": "tri.hoang1501@hcmut.edu.vn",
+            "Phone_Number": "0923235373",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079597865160"
+        },
+        {
+            "University_ID": 2353227,
+            "First_Name": "TRÍ",
+            "Last_Name": "LA MINH",
+            "Email": "tri.latri@hcmut.edu.vn",
+            "Phone_Number": "0934446205",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079784401319"
+        },
+        {
+            "University_ID": 2353228,
+            "First_Name": "TRÍ",
+            "Last_Name": "LÊ MINH",
+            "Email": "tri.leminh21050@hcmut.edu.vn",
+            "Phone_Number": "0907783010",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079694717724"
+        },
+        {
+            "University_ID": 2350029,
+            "First_Name": "TRÍ",
+            "Last_Name": "NGUYỄN LƯƠNG MINH",
+            "Email": "tri.nguyen1366@hcmut.edu.vn",
+            "Phone_Number": "0985032309",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079799936040"
+        },
+        {
+            "University_ID": 2353235,
+            "First_Name": "Trí",
+            "Last_Name": "Phạm Minh",
+            "Email": "tri.pham3112@hcmut.edu.vn",
+            "Phone_Number": "0972085262",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079217872163"
+        },
+        {
+            "University_ID": 2353214,
+            "First_Name": "Triết",
+            "Last_Name": "Nguyễn Minh",
+            "Email": "triet.nguyen2353214@hcmut.edu.vn",
+            "Phone_Number": "0998613542",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079592976972"
+        },
+        {
+            "University_ID": 2353217,
+            "First_Name": "Triết",
+            "Last_Name": "Võ Thanh Minh",
+            "Email": "triet.voz@hcmut.edu.vn",
+            "Phone_Number": "0935682885",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079581835138"
+        },
+        {
+            "University_ID": 2353219,
+            "First_Name": "TRIỀU",
+            "Last_Name": "LÊ HỮU",
+            "Email": "trieu.lemon@hcmut.edu.vn",
+            "Phone_Number": "0994243548",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079649133064"
+        },
+        {
+            "University_ID": 2353221,
+            "First_Name": "Triều",
+            "Last_Name": "Thịnh Hải",
+            "Email": "trieu.thinh24705@hcmut.edu.vn",
+            "Phone_Number": "8407806683",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079109012590"
+        },
+        {
+            "University_ID": 2353237,
+            "First_Name": "TRÌNH",
+            "Last_Name": "NGUYỄN ĐỖ KHÁNH",
+            "Email": "trinh.nguyenktmtclck23@hcmut.edu.vn",
+            "Phone_Number": "0915182868",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079564588762"
+        },
+        {
+            "University_ID": 2353264,
+            "First_Name": "TRỰC",
+            "Last_Name": "NGUYỄN MINH",
+            "Email": "truc.nguyenminh@hcmut.edu.vn",
+            "Phone_Number": "0934323354",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079735925599"
+        },
+        {
+            "University_ID": 2353259,
+            "First_Name": "TRÚC",
+            "Last_Name": "TRẦN THỤY THỦY",
+            "Email": "truc.tran2105@hcmut.edu.vn",
+            "Phone_Number": "8409912017",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079616912835"
+        },
+        {
+            "University_ID": 2353251,
+            "First_Name": "Trung",
+            "Last_Name": "Nguyễn Việt",
+            "Email": "trung.nguyen2353251@hcmut.edu.vn",
+            "Phone_Number": "0926824251",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079456964938"
+        },
+        {
+            "University_ID": 2353262,
+            "First_Name": "TRƯỜNG",
+            "Last_Name": "NGUYỄN ĐẶNG MINH",
+            "Email": "truong.nguyendang14@hcmut.edu.vn",
+            "Phone_Number": "8406371257",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079157307661"
+        },
+        {
+            "University_ID": 2353263,
+            "First_Name": "Trường",
+            "Last_Name": "Trần Vĩnh",
+            "Email": "truong.tranvinh675@hcmut.edu.vn",
+            "Phone_Number": "0977256375",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079616441574"
+        },
+        {
+            "University_ID": 2353289,
+            "First_Name": "Tú",
+            "Last_Name": "Hoàng Minh Cẩm",
+            "Email": "tu.hoangkd25@hcmut.edu.vn",
+            "Phone_Number": "0914580296",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079756173307"
+        },
+        {
+            "University_ID": 2353290,
+            "First_Name": "TÚ",
+            "Last_Name": "NGUYỄN ANH",
+            "Email": "tu.nguyendevwork@hcmut.edu.vn",
+            "Phone_Number": "0915781594",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079730220515"
+        },
+        {
+            "University_ID": 2353293,
+            "First_Name": "Tú",
+            "Last_Name": "Phạm Hồng Minh",
+            "Email": "tu.phampminhtu787@hcmut.edu.vn",
+            "Phone_Number": "0995120728",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079846126821"
+        },
+        {
+            "University_ID": 2353266,
+            "First_Name": "Tuấn",
+            "Last_Name": "Đặng Vũ Anh",
+            "Email": "tuan.dangvuanh2603@hcmut.edu.vn",
+            "Phone_Number": "0902522268",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079391796529"
+        },
+        {
+            "University_ID": 2353269,
+            "First_Name": "TUẤN",
+            "Last_Name": "NGÔ ĐỨC",
+            "Email": "tuan.ngotuan5@hcmut.edu.vn",
+            "Phone_Number": "0906455118",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079874482291"
+        },
+        {
+            "University_ID": 2353265,
+            "First_Name": "TUÂN",
+            "Last_Name": "PHẠM MINH",
+            "Email": "tuan.pham040405@hcmut.edu.vn",
+            "Phone_Number": "0964158757",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079965211433"
+        },
+        {
+            "University_ID": 2353275,
+            "First_Name": "Tuấn",
+            "Last_Name": "Phạm Quang",
+            "Email": "tuan.pham142@hcmut.edu.vn",
+            "Phone_Number": "0981354972",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079842245478"
+        },
+        {
+            "University_ID": 2353276,
+            "First_Name": "TUẤN",
+            "Last_Name": "TRẦN ANH",
+            "Email": "tuan.tran170205@hcmut.edu.vn",
+            "Phone_Number": "0917560981",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079822045862"
+        },
+        {
+            "University_ID": 2353278,
+            "First_Name": "TUẤN",
+            "Last_Name": "TRẦN DUY",
+            "Email": "tuan.tranraven621@hcmut.edu.vn",
+            "Phone_Number": "0936309867",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079933822028"
+        },
+        {
+            "University_ID": 2353281,
+            "First_Name": "TUỆ",
+            "Last_Name": "NGUYỄN ANH MINH",
+            "Email": "tue.nguyenpro2k5@hcmut.edu.vn",
+            "Phone_Number": "0964056301",
+            "Address": "258 Nguyen Trai, District 5, HCMC",
+            "National_ID": "079571617191"
+        },
+        {
+            "University_ID": 2350030,
+            "First_Name": "Tuệ",
+            "Last_Name": "Nguyễn Duy Nhật",
+            "Email": "tue.nguyenpc0401@hcmut.edu.vn",
+            "Phone_Number": "0902556727",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079234240184"
+        },
+        {
+            "University_ID": 2353302,
+            "First_Name": "TƯỜNG",
+            "Last_Name": "ĐỖ VIẾT DUY",
+            "Email": "tuong.do10012005@hcmut.edu.vn",
+            "Phone_Number": "0973990001",
+            "Address": "456 Nguyen Van Cu, District 5, HCMC",
+            "National_ID": "079622974872"
+        },
+        {
+            "University_ID": 2353300,
+            "First_Name": "Tướng",
+            "Last_Name": "Nguyễn Lê Cao",
+            "Email": "tuong.nguyen274@hcmut.edu.vn",
+            "Phone_Number": "8408444727",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079207558214"
+        },
+        {
+            "University_ID": 2353282,
+            "First_Name": "Tuyên",
+            "Last_Name": "Nguyễn Anh",
+            "Email": "tuyen.nguyennat2908@hcmut.edu.vn",
+            "Phone_Number": "8406428304",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079609262431"
+        },
+        {
+            "University_ID": 2353309,
+            "First_Name": "UYÊN",
+            "Last_Name": "TRƯƠNG THỤC",
+            "Email": "uyen.truongthuc@hcmut.edu.vn",
+            "Phone_Number": "0942643494",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079583636270"
+        },
+        {
+            "University_ID": 2353336,
+            "First_Name": "Vĩ",
+            "Last_Name": "Lê Hoàng Chí",
+            "Email": "vi.lehoangchi@hcmut.edu.vn",
+            "Phone_Number": "0997128822",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079656530388"
+        },
+        {
+            "University_ID": 2353338,
+            "First_Name": "VĨ",
+            "Last_Name": "NGUYỄN TRẦN",
+            "Email": "vi.nguyenoagami@hcmut.edu.vn",
+            "Phone_Number": "8409898474",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079106912762"
+        },
+        {
+            "University_ID": 2353317,
+            "First_Name": "Việt",
+            "Last_Name": "Đinh Ngọc",
+            "Email": "viet.dinhngoc2005@hcmut.edu.vn",
+            "Phone_Number": "0994690187",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079978737627"
+        },
+        {
+            "University_ID": 2353318,
+            "First_Name": "VIỆT",
+            "Last_Name": "HUỲNH NGUYỄN QUỐC",
+            "Email": "viet.huynh2102@hcmut.edu.vn",
+            "Phone_Number": "0941639356",
+            "Address": "321 Vo Van Tan, District 3, HCMC",
+            "National_ID": "079792180008"
+        },
+        {
+            "University_ID": 2353322,
+            "First_Name": "VIỆT",
+            "Last_Name": "NGUYỄN PHẠM LƯƠNG",
+            "Email": "viet.nguyen3095@hcmut.edu.vn",
+            "Phone_Number": "0994013383",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079944230716"
+        },
+        {
+            "University_ID": 2353316,
+            "First_Name": "VIẾT",
+            "Last_Name": "NGUYỄN VĂN",
+            "Email": "viet.nguyen05@hcmut.edu.vn",
+            "Phone_Number": "0942122974",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079936957717"
+        },
+        {
+            "University_ID": 2353326,
+            "First_Name": "VIỆT",
+            "Last_Name": "VŨ QUỐC",
+            "Email": "viet.vuvietvu205@hcmut.edu.vn",
+            "Phone_Number": "8401174220",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079426653344"
+        },
+        {
+            "University_ID": 2353328,
+            "First_Name": "Vinh",
+            "Last_Name": "Hoàng Thành",
+            "Email": "vinh.hoang29122005@hcmut.edu.vn",
+            "Phone_Number": "0933552258",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079910510302"
+        },
+        {
+            "University_ID": 2252909,
+            "First_Name": "VINH",
+            "Last_Name": "LÊ VŨ CÔNG",
+            "Email": "vinh.lehcm7304@hcmut.edu.vn",
+            "Phone_Number": "0918179500",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079248174287"
+        },
+        {
+            "University_ID": 2350034,
+            "First_Name": "VĨNH",
+            "Last_Name": "NGUYỄN TÔN",
+            "Email": "vinh.nguyen26082005@hcmut.edu.vn",
+            "Phone_Number": "0926938405",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079573872589"
+        },
+        {
+            "University_ID": 2353334,
+            "First_Name": "VINH",
+            "Last_Name": "VŨ TIẾN",
+            "Email": "vinh.vutvinh1412@hcmut.edu.vn",
+            "Phone_Number": "0995706185",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079416324224"
+        },
+        {
+            "University_ID": 2353335,
+            "First_Name": "VINH",
+            "Last_Name": "VŨ XUÂN",
+            "Email": "vinh.vuxuan512@hcmut.edu.vn",
+            "Phone_Number": "8405725242",
+            "Address": "789 Le Hong Phong, District 5, HCMC",
+            "National_ID": "079623126628"
+        },
+        {
+            "University_ID": 2353340,
+            "First_Name": "VŨ",
+            "Last_Name": "LÊ KIỀU ANH",
+            "Email": "vu.lekieu@hcmut.edu.vn",
+            "Phone_Number": "8401343096",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079247037370"
+        },
+        {
+            "University_ID": 2353341,
+            "First_Name": "VŨ",
+            "Last_Name": "LÊ PHƯỚC",
+            "Email": "vu.lephuocvu13@hcmut.edu.vn",
+            "Phone_Number": "0903139594",
+            "Address": "123 Ly Thuong Kiet, District 10, HCMC",
+            "National_ID": "079565961998"
+        },
+        {
+            "University_ID": 2353342,
+            "First_Name": "VŨ",
+            "Last_Name": "PHẠM QUANG",
+            "Email": "vu.phamquang1908@hcmut.edu.vn",
+            "Phone_Number": "0975683064",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079858053113"
+        },
+        {
+            "University_ID": 2353344,
+            "First_Name": "Vương",
+            "Last_Name": "Đặng Trí",
+            "Email": "vuong.dangtri@hcmut.edu.vn",
+            "Phone_Number": "0984469465",
+            "Address": "741 Nguyen Dinh Chieu, District 3, HCMC",
+            "National_ID": "079657652928"
+        },
+        {
+            "University_ID": 2353345,
+            "First_Name": "Vương",
+            "Last_Name": "Nguyễn Viết Tấn",
+            "Email": "vuong.nguyen2353345@hcmut.edu.vn",
+            "Phone_Number": "0988245854",
+            "Address": "147 Tran Hung Dao, District 1, HCMC",
+            "National_ID": "079160203153"
+        },
+        {
+            "University_ID": 2353353,
+            "First_Name": "Vy",
+            "Last_Name": "Hồ Lâm Khánh",
+            "Email": "vy.holamkhanh@hcmut.edu.vn",
+            "Phone_Number": "0983436563",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079174175605"
+        },
+        {
+            "University_ID": 2353360,
+            "First_Name": "VY",
+            "Last_Name": "TÔ NHÃ",
+            "Email": "vy.tonhavy05@hcmut.edu.vn",
+            "Phone_Number": "0948594444",
+            "Address": "654 Pasteur, District 3, HCMC",
+            "National_ID": "079791832141"
+        },
+        {
+            "University_ID": 2353370,
+            "First_Name": "Ý",
+            "Last_Name": "TRẦN THANH NHƯ",
+            "Email": "y.tranthanh@hcmut.edu.vn",
+            "Phone_Number": "0924653904",
+            "Address": "369 Bach Dang, Binh Thanh District, HCMC",
+            "National_ID": "079710032492"
+        },
+        {
+            "University_ID": 2353365,
+            "First_Name": "YÊN",
+            "Last_Name": "VÕ HOÀNG LAM",
+            "Email": "yen.vo280805@hcmut.edu.vn",
+            "Phone_Number": "0939572764",
+            "Address": "987 Dien Bien Phu, Binh Thanh District, HCMC",
+            "National_ID": "079424538256"
+        }
+    ]
+}

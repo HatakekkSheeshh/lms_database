@@ -1,8 +1,0 @@
-USE lms_system; 
-GO
-
-SELECT dbo.[Users].*
-FROM dbo.Users
-
-SELECT dbo.[System].*
-FROM dbo.[System]

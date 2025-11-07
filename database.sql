@@ -35,29 +35,20 @@ DROP TABLE IF EXISTS [Audit_Log];
 DROP TABLE IF EXISTS [Admin];
 DROP TABLE IF EXISTS [Account];
 DROP TABLE IF EXISTS [Users];
-DROP TABLE IF EXISTS [System];
-
-CREATE TABLE [System] (
-    System_name VARCHAR(50) PRIMARY KEY,
-    Domain VARCHAR(50) NOT NULL
-);
 
 CREATE TABLE [Users] (
     University_ID DECIMAL(7,0) PRIMARY KEY,
-    First_Name VARCHAR(50),
-    Last_Name VARCHAR(50),
-    Email VARCHAR(50) NOT NULL,
-    Phone_Number VARCHAR(10) CHECK (LEN(Phone_Number) = 10 or LEN(Phone_Number) = 11),
-    [Address] VARCHAR(50),
-    National_ID VARCHAR(12) UNIQUE CHECK (LEN(National_ID) = 12),
-    System_name VARCHAR(50) NOT NULL,
-    CONSTRAINT FK_User_System FOREIGN KEY (System_name)
-        REFERENCES [System](System_name)
+    First_Name NVARCHAR(50) COLLATE Vietnamese_100_CI_AS,
+    Last_Name NVARCHAR(50) COLLATE Vietnamese_100_CI_AS,
+    Email NVARCHAR(50) COLLATE Vietnamese_100_CI_AS NOT NULL,
+    Phone_Number NVARCHAR(10) COLLATE Vietnamese_100_CI_AS CHECK (LEN(Phone_Number) = 10 OR LEN(Phone_Number) = 11),
+    [Address] NVARCHAR(50) COLLATE Vietnamese_100_CI_AS,
+    National_ID NVARCHAR(12) COLLATE Vietnamese_100_CI_AS UNIQUE CHECK (LEN(National_ID) = 12)
 );
 
 CREATE TABLE [Account] (
     University_ID DECIMAL(7,0),
-    [Password] VARCHAR(50),
+    [Password] NVARCHAR(50),
     CONSTRAINT PK_Account PRIMARY KEY (University_ID),
     CONSTRAINT FK_Account_User FOREIGN KEY (University_ID)
         REFERENCES [Users](University_ID)
@@ -65,7 +56,7 @@ CREATE TABLE [Account] (
 
 CREATE TABLE [Admin] (
     University_ID DECIMAL(7,0) PRIMARY KEY,
-    [Type] VARCHAR(50) CHECK ([Type] IN (
+    [Type] NVARCHAR(50) CHECK ([Type] IN (
         'Coordinator',
         'Office of Academic Affairs',
         'Office of Student Affairs',
@@ -77,14 +68,11 @@ CREATE TABLE [Admin] (
 
 CREATE TABLE [Audit_Log] (
     LogID INT IDENTITY(0,1) PRIMARY KEY,
-    System_name VARCHAR(50) NOT NULL, 
     [timestamp] DATETIME NOT NULL DEFAULT GETDATE(),
-    affected_entities VARCHAR(255), 
-    section_creation VARCHAR(500),
-    deadline_extensions VARCHAR(500),
+    affected_entities NVARCHAR(255), 
+    section_creation NVARCHAR(500),
+    deadline_extensions NVARCHAR(500),
     grade_updates DECIMAL(2,2) CHECK (grade_updates BETWEEN 0 AND 10),
-    CONSTRAINT FK_AuditLog_System FOREIGN KEY (System_name)
-        REFERENCES [System](System_name)
 );
 
 CREATE TABLE [Reference_To] (
@@ -101,22 +89,22 @@ Create table [Student](
 	University_ID DECIMAL(7,0) PRIMARY KEY,
 	CONSTRAINT FK_Student_User FOREIGN KEY (University_ID)
         REFERENCES [Users](University_ID),
-	Major VARCHAR(50) not null,
-	Current_degree VARCHAR(50) DEFAULT 'Bachelor'
+	Major NVARCHAR(50) not null,
+	Current_degree NVARCHAR(50) DEFAULT 'Bachelor'
 );
 
 CREATE TABLE [Department] (
-    Department_Name VARCHAR(50) PRIMARY KEY,
+    Department_Name NVARCHAR(50) PRIMARY KEY,
     University_ID DECIMAL(7,0) 
 );
 
 CREATE TABLE [Tutor] (
     University_ID DECIMAL(7,0) PRIMARY KEY, 
-    [Name] VARCHAR(50) NOT NULL,
-    Academic_Rank VARCHAR(50),
-    [Details] VARCHAR(100),
+    [Name] NVARCHAR(50) NOT NULL,
+    Academic_Rank NVARCHAR(50),
+    [Details] NVARCHAR(100),
     Issuance_Date DATE,
-    Department_Name VARCHAR(50),
+    Department_Name NVARCHAR(50),
     
     CONSTRAINT FK_Tutor_User FOREIGN KEY (University_ID)
         REFERENCES [Users](University_ID),
@@ -134,7 +122,7 @@ GO
 
 CREATE TABLE [Course] (
     Course_ID INT IDENTITY(0,1) PRIMARY KEY,
-    [Name] VARCHAR(50) NOT NULL UNIQUE,
+    [Name] NVARCHAR(50) NOT NULL UNIQUE,
     Credit INT CHECK (Credit BETWEEN 1 AND 10),
     Start_Date DATE
 );
@@ -142,7 +130,7 @@ CREATE TABLE [Course] (
 CREATE TABLE [Section] (
     Section_ID INT IDENTITY(0,1) NOT NULL, 
     Course_ID INT NOT NULL,
-    Semester VARCHAR(10) NOT NULL,
+    Semester NVARCHAR(10) NOT NULL,
     
     CONSTRAINT PK_Section PRIMARY KEY (Section_ID, Course_ID), 
     
@@ -154,7 +142,7 @@ CREATE TABLE [Teaches] (
     University_ID DECIMAL(7,0),
     Section_ID INT,
     Course_ID INT,
-    Role_Specification VARCHAR(50),
+    Role_Specification NVARCHAR(50),
     [Timestamp] DATETIME,
     
     CONSTRAINT PK_Teaches PRIMARY KEY (University_ID, Section_ID, Course_ID),
@@ -174,7 +162,7 @@ CREATE TABLE [Assessment] (
     Grade DECIMAL(4,2) CHECK (Grade BETWEEN 0 AND 15), --có thể >10
     Registration_Date DATE DEFAULT GETDATE(),
     Potential_Withdrawal_Date DATE,
-    [Status] VARCHAR(50) DEFAULT 'Pending' CHECK ([Status] IN ('Pending', 'Approved', 'Rejected', 'Cancelled')),
+    [Status] NVARCHAR(50) DEFAULT 'Pending' CHECK ([Status] IN ('Pending', 'Approved', 'Rejected', 'Cancelled')),
     
     CONSTRAINT PK_Assessment PRIMARY KEY (University_ID, Section_ID, Course_ID, Assessment_ID),
     
@@ -188,7 +176,7 @@ CREATE TABLE [Assessment] (
 );
 
 CREATE TABLE [Feedback] (
-    feedback VARCHAR(255) NOT NULL,
+    feedback NVARCHAR(255) NOT NULL,
     University_ID DECIMAL(7,0) NOT NULL,
     Section_ID INT NOT NULL,
     Course_ID INT NOT NULL,
@@ -219,7 +207,7 @@ CREATE TABLE [Room](
 
 
 CREATE TABLE [Room_Equipment](
-    Equipment_Name VARCHAR(100) NOT NULL,
+    Equipment_Name NVARCHAR(100) NOT NULL,
     Building_ID INT NOT NULL,
     Room_ID INT NOT NULL,
     
@@ -246,12 +234,12 @@ CREATE TABLE [takes_place](
 
 CREATE TABLE [Platform](
 	Platform_ID INT IDENTITY(0,1) PRIMARY KEY,
-	[Name] VARCHAR(50)
+	[Name] NVARCHAR(50)
 );
 
 CREATE TABLE [Platform_Link](
     Platform_ID INT NOT NULL,
-    Link VARCHAR(255) NOT NULL,
+    Link NVARCHAR(255) NOT NULL,
     CONSTRAINT PK_Platform_Link PRIMARY KEY (Platform_ID, Link),
     CONSTRAINT FK_Link_Platform FOREIGN KEY (Platform_ID)
         REFERENCES [Platform](Platform_ID)
@@ -282,7 +270,7 @@ CREATE TABLE [Quiz] (
     CONSTRAINT FK_Quiz_Assessment FOREIGN KEY (University_ID, Section_ID, Course_ID, Assessment_ID)
         REFERENCES [Assessment](University_ID, Section_ID, Course_ID, Assessment_ID),
 
-    Grading_method VARCHAR(50) DEFAULT 'Highest Attemp' CHECK (Grading_method IN (
+    Grading_method NVARCHAR(50) DEFAULT 'Highest Attemp' CHECK (Grading_method IN (
         'Highest Attemp',
         'Last Attemp'
     )),
@@ -295,15 +283,15 @@ CREATE TABLE [Quiz] (
     
     CONSTRAINT CK_Quiz_Dates CHECK ([Start_Date] < End_Date),
     
-    Responses VARCHAR(100),
-    completion_status VARCHAR(100) DEFAULT 'Not Taken' CHECK (completion_status IN ('Not Taken', 'In Progress', 'Submitted', 'Passed', 'Failed')),
+    Responses NVARCHAR(100),
+    completion_status NVARCHAR(100) DEFAULT 'Not Taken' CHECK (completion_status IN ('Not Taken', 'In Progress', 'Submitted', 'Passed', 'Failed')),
     
     score DECIMAL(4,2) DEFAULT 0 CHECK (score BETWEEN 0 AND 10),
     
-    content VARCHAR(100) NOT NULL,
-    [types] VARCHAR(50),
+    content NVARCHAR(100) NOT NULL,
+    [types] NVARCHAR(50),
     [Weight] FLOAT CHECK (Weight >= 0),
-    Correct_answer VARCHAR(50) NOT NULL
+    Correct_answer NVARCHAR(50) NOT NULL
 );
 
 CREATE TABLE [Assignment] (
@@ -318,9 +306,9 @@ CREATE TABLE [Assignment] (
         REFERENCES [Assessment](University_ID, Section_ID, Course_ID, Assessment_ID),
 
     MaxScore INT DEFAULT 10 CHECK (MaxScore BETWEEN 0 AND 10),
-    accepted_specification VARCHAR(50),
+    accepted_specification NVARCHAR(50),
     submission_deadline DATETIME NOT NULL,
-    instructions VARCHAR(50)
+    instructions NVARCHAR(50)
 );
 
 CREATE TABLE [Submission] (
@@ -329,11 +317,11 @@ CREATE TABLE [Submission] (
     Section_ID INT NOT NULL,
     Course_ID INT NOT NULL,
     Assessment_ID INT NOT NULL,
-	accepted_specification VARCHAR(50),
+	accepted_specification NVARCHAR(50),
 	late_flag_indicator BIT DEFAULT 0,
 	SubmitDate DATETIME DEFAULT GETDATE(),
-	attached_files VARCHAR(50),
-	[status] VARCHAR(50) DEFAULT 'Submitted' CHECK ([status] IN ('No Submission', 'Submitted')),
+	attached_files NVARCHAR(50),
+	[status] NVARCHAR(50) DEFAULT 'Submitted' CHECK ([status] IN ('No Submission', 'Submitted')),
 	
     CONSTRAINT FK_Submission_Assignment FOREIGN KEY 
         (University_ID, Section_ID, Course_ID, Assessment_ID)
@@ -344,7 +332,7 @@ CREATE TABLE [review](
     Submission_No INT NOT NULL PRIMARY KEY,
     University_ID DECIMAL(7,0) NOT NULL,
     Score INT CHECK (Score BETWEEN 0 AND 10),
-    Comments VARCHAR(500),
+    Comments NVARCHAR(500),
 	
     CONSTRAINT FK_Review_Submission FOREIGN KEY (Submission_No)
         REFERENCES [Submission](Submission_No),
