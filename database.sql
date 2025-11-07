@@ -10,7 +10,6 @@ FROM sys.foreign_keys;
 EXEC sp_executesql @sql;
 PRINT @sql
 
-
 DROP TABLE IF EXISTS [Review];
 DROP TABLE IF EXISTS [Submission];
 DROP TABLE IF EXISTS [Assignment];
@@ -18,7 +17,7 @@ DROP TABLE IF EXISTS [Quiz];
 DROP TABLE IF EXISTS [Link];
 DROP TABLE IF EXISTS [Online];
 DROP TABLE IF EXISTS [Platform];
-DROP TABLE IF EXISTS [Equipment];
+DROP TABLE IF EXISTS [Room_Equipment];
 DROP TABLE IF EXISTS [Takes_Place];
 DROP TABLE IF EXISTS [Room];
 DROP TABLE IF EXISTS [Building];
@@ -30,6 +29,7 @@ DROP TABLE IF EXISTS [Course];
 DROP TABLE IF EXISTS [Tutor];
 DROP TABLE IF EXISTS [Student];
 DROP TABLE IF EXISTS [Department];
+DROP TABLE IF EXISTS [Platform_Link];
 DROP TABLE IF EXISTS [Reference_To];
 DROP TABLE IF EXISTS [Audit_Log];
 DROP TABLE IF EXISTS [Admin];
@@ -47,16 +47,16 @@ CREATE TABLE [Users] (
     First_Name VARCHAR(50),
     Last_Name VARCHAR(50),
     Email VARCHAR(50) NOT NULL,
-    Phone_Number VARCHAR(10) CHECK (LEN(Phone_Number) = 10),
+    Phone_Number VARCHAR(10) CHECK (LEN(Phone_Number) = 10 or LEN(Phone_Number) = 11),
     [Address] VARCHAR(50),
-    National_ID DECIMAL(12,0) UNIQUE,
+    National_ID VARCHAR(12) UNIQUE CHECK (LEN(National_ID) = 12),
     System_name VARCHAR(50) NOT NULL,
     CONSTRAINT FK_User_System FOREIGN KEY (System_name)
         REFERENCES [System](System_name)
 );
 
 CREATE TABLE [Account] (
-    University_ID DECIMAL(7,0), /* Phải là (7,0) để khớp với bảng [Users] */
+    University_ID DECIMAL(7,0),
     [Password] VARCHAR(50),
     CONSTRAINT PK_Account PRIMARY KEY (University_ID),
     CONSTRAINT FK_Account_User FOREIGN KEY (University_ID)
@@ -76,13 +76,13 @@ CREATE TABLE [Admin] (
 );
 
 CREATE TABLE [Audit_Log] (
-    LogID INT IDENTITY(1,1) PRIMARY KEY,
+    LogID INT IDENTITY(0,1) PRIMARY KEY,
     System_name VARCHAR(50) NOT NULL, 
     [timestamp] DATETIME NOT NULL DEFAULT GETDATE(),
     affected_entities VARCHAR(255), 
     section_creation VARCHAR(500),
     deadline_extensions VARCHAR(500),
-    grade_updates VARCHAR(500),
+    grade_updates DECIMAL(2,2) CHECK (grade_updates BETWEEN 0 AND 10),
     CONSTRAINT FK_AuditLog_System FOREIGN KEY (System_name)
         REFERENCES [System](System_name)
 );
@@ -109,7 +109,6 @@ CREATE TABLE [Department] (
     Department_Name VARCHAR(50) PRIMARY KEY,
     University_ID DECIMAL(7,0) 
 );
-GO
 
 CREATE TABLE [Tutor] (
     University_ID DECIMAL(7,0) PRIMARY KEY, 
@@ -134,14 +133,14 @@ ADD CONSTRAINT FK_Department_Tutor_Chair
 GO
 
 CREATE TABLE [Course] (
-    Course_ID INT IDENTITY(1,1) PRIMARY KEY,
+    Course_ID INT IDENTITY(0,1) PRIMARY KEY,
     [Name] VARCHAR(50) NOT NULL UNIQUE,
     Credit INT CHECK (Credit BETWEEN 1 AND 10),
     Start_Date DATE
 );
 
 CREATE TABLE [Section] (
-    Section_ID INT NOT NULL, 
+    Section_ID INT IDENTITY(0,1) NOT NULL, 
     Course_ID INT NOT NULL,
     Semester VARCHAR(10) NOT NULL,
     
@@ -204,11 +203,11 @@ CREATE TABLE [Feedback] (
 );
 
 create table [Building](
-	Building_ID INT IDENTITY(1,1) PRIMARY KEY
+	Building_ID INT IDENTITY(0,1) PRIMARY KEY
 );
 
 CREATE TABLE [Room](
-    Room_ID INT NOT NULL, 
+    Room_ID INT IDENTITY(0,1) NOT NULL, 
     Building_ID INT NOT NULL,
     Capacity INT DEFAULT 30 CHECK (Capacity BETWEEN 1 AND 300),
 
@@ -246,7 +245,7 @@ CREATE TABLE [takes_place](
 );
 
 CREATE TABLE [Platform](
-	Platform_ID INT IDENTITY(1,1) PRIMARY KEY,
+	Platform_ID INT IDENTITY(0,1) PRIMARY KEY,
 	[Name] VARCHAR(50)
 );
 
@@ -325,7 +324,7 @@ CREATE TABLE [Assignment] (
 );
 
 CREATE TABLE [Submission] (
-    Submission_No INT IDENTITY(1,1) PRIMARY KEY,
+    Submission_No INT IDENTITY(0,1) PRIMARY KEY,
     University_ID DECIMAL(7,0) NOT NULL,
     Section_ID INT NOT NULL,
     Course_ID INT NOT NULL,

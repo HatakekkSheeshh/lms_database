@@ -1,0 +1,81 @@
+# -------------------------
+# SQL Server data & backups
+# -------------------------
+*.mdf
+*.ndf
+*.ldf
+*.bak
+*.trn
+*.trc
+*.sqlplan
+*.xdl
+*.xel
+*.xem
+
+# Logs & temp files
+*.log
+*.tmp
+
+# -------------------------
+# SSDT / Visual Studio (.sqlproj)
+# -------------------------
+# Build folders
+[Bb]in/
+[Oo]bj/
+.vs/
+
+# User/machine-specific files
+*.user
+*.suo
+*.sqlproj.user
+*.dbmdl
+*.refactorlog
+
+# Release artifacts (do not commit)
+*.dacpac
+*.bacpac
+*.publish.xml
+
+# Test results
+[Tt]est[Rr]esults/
+*.trx
+
+# -------------------------
+# Azure Data Studio / VS Code
+# (keep only useful workspace configs)
+# -------------------------
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# -------------------------
+# Environment & secrets
+# -------------------------
+.env
+.env.*
+secrets.json
+local.settings.json
+
+# -------------------------
+# Docker (if you mount SQL Server data into the repo)
+# Rename these folders if you use different paths
+# -------------------------
+mssql_data/
+docker_data/
+data/mssql/
+
+# -------------------------
+# OS junk files
+# -------------------------
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+Desktop.ini
+
+
+./cache
+cache
+/cache
