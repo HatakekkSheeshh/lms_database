@@ -11,7 +11,7 @@ INSERT INTO [Users] (University_ID, First_Name, Last_Name, Email, Phone_Number, 
 VALUES
     (2352402, N'Huy-chan',       N'Phan Tien',        N'xoai.non@hcmut.edu.vn',                N'0999999999', N'497 Hoa Hao, District 10, HCMC',                 N'079200000000'),
     (2353280, N'Tuan-kun',       N'Vu Hai',           N'tuan.vuhai@hcmut.edu.vn',              N'0917672005', N'497 Hoa Hao, District 10, HCMC',                 N'080205001633'),
-    (2352022, N'Anh-sama',       N'Chu Nguyen Tuan',  N'anh.chunguyentuan@hcmut.edu.vn',       N'0962037357', N'6 Duong Van Duong, Tan Phu District, HCMC',      N'079200000002'),
+    (2352022, N'Anh-sama',       N'Chu Nguyen Tuan',  N'anh.chunguyentuan@hcmut.edu.vn',       N'0962037357', N'6 Duong Van Duong, Tan Phu District, HCMC',      N'001205050380'),
     (2352344, N'Hieu-ricon',     N'Nguyen Quoc',      N'hieu.nguyenronaldojr@hcmut.edu.vn',    N'0792107608', N'1 Nguyen Quang Bich, Tan Binh District, HCMC',   N'079205013433'),
     (2353103, N'Thanh-gencon',   N'Pham Quang Tien',  N'thanh.pham04052005@hcmut.edu.vn',      N'0902688812', N'No Info, HCMC',                                  N'079200000004'),
     (2352001, N'AN', N'BÙI KHÁNH', N'an.bui2352001@hcmut.edu.vn', N'0985798801', N'369 Bach Dang, Binh Thanh District, HCMC', N'079716576379'),
