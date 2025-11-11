@@ -1,0 +1,47 @@
+USE [database_systems_asm2];
+GO
+
+DECLARE @Current_Building_ID INT;
+DECLARE @Current_Room_ID INT;
+DECLARE @Current_Capacity INT;
+
+DECLARE room_cursor CURSOR FOR
+SELECT Building_ID, Room_ID, Capacity 
+FROM [Room];
+
+OPEN room_cursor;
+
+FETCH NEXT FROM room_cursor INTO @Current_Building_ID, @Current_Room_ID, @Current_Capacity;
+
+WHILE @@FETCH_STATUS = 0
+BEGIN
+
+    INSERT INTO [Room_Equipment] (Building_ID, Room_ID, Equipment_Name)
+    VALUES
+        (@Current_Building_ID, @Current_Room_ID, 'Whiteboard'),
+        (@Current_Building_ID, @Current_Room_ID, 'Dry-erase marker'),
+        (@Current_Building_ID, @Current_Room_ID, 'Power outlet'),
+        (@Current_Building_ID, @Current_Room_ID, 'Air conditioner');
+
+    IF @Current_Capacity > 50
+    BEGIN
+        INSERT INTO [Room_Equipment] (Building_ID, Room_ID, Equipment_Name)
+        VALUES
+            (@Current_Building_ID, @Current_Room_ID, 'Projector'),
+            (@Current_Building_ID, @Current_Room_ID, 'Projection screen'),
+            (@Current_Building_ID, @Current_Room_ID, 'Sound system (Speakers/Mic)');
+    END;
+
+    IF @Current_Capacity <= 40
+    BEGIN
+        INSERT INTO [Room_Equipment] (Building_ID, Room_ID, Equipment_Name)
+        VALUES
+            (@Current_Building_ID, @Current_Room_ID, 'Blackboard'),
+            (@Current_Building_ID, @Current_Room_ID, 'Chalk');
+    END;
+
+    FETCH NEXT FROM room_cursor INTO @Current_Building_ID, @Current_Room_ID, @Current_Capacity;
+END;
+
+CLOSE room_cursor;
+DEALLOCATE room_cursor;
