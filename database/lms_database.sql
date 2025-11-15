@@ -120,79 +120,90 @@ ADD CONSTRAINT FK_Department_Tutor_Chair
     REFERENCES [Tutor](University_ID);
 GO
 
+
 CREATE TABLE [Course] (
-    Course_ID INT IDENTITY(0,1) PRIMARY KEY,
-    [Name] NVARCHAR(50) NOT NULL UNIQUE,
-    Credit INT CHECK (Credit BETWEEN 1 AND 10),
+    Course_ID NVARCHAR(15) PRIMARY KEY,
+    [Name] NVARCHAR(100) NOT NULL,
+    Credit INT CHECK (Credit BETWEEN 0 AND 10),
     Start_Date DATE
 );
+GO
 
 CREATE TABLE [Section] (
-    Section_ID INT IDENTITY(0,1) NOT NULL, 
-    Course_ID INT NOT NULL,
+    Section_ID NVARCHAR(10) NOT NULL, 
+    Course_ID NVARCHAR(15) NOT NULL,
     Semester NVARCHAR(10) NOT NULL,
     
-    CONSTRAINT PK_Section PRIMARY KEY (Section_ID, Course_ID), 
+    CONSTRAINT PK_Section PRIMARY KEY (Section_ID, Course_ID, Semester), 
     
     CONSTRAINT FK_Section_Course FOREIGN KEY (Course_ID)
         REFERENCES [Course](Course_ID)
 );
+GO
 
 CREATE TABLE [Teaches] (
     University_ID DECIMAL(7,0),
-    Section_ID INT,
-    Course_ID INT,
+    Section_ID NVARCHAR(10) NOT NULL,
+    Course_ID NVARCHAR(15) NOT NULL, 
+    Semester NVARCHAR(10) NOT NULL, 
     Role_Specification NVARCHAR(50),
     [Timestamp] DATETIME,
     
-    CONSTRAINT PK_Teaches PRIMARY KEY (University_ID, Section_ID, Course_ID),
+    CONSTRAINT PK_Teaches PRIMARY KEY (University_ID, Section_ID, Course_ID, Semester),
     
     CONSTRAINT FK_Teaches_Tutor FOREIGN KEY (University_ID)
         REFERENCES [Tutor](University_ID),
         
-    CONSTRAINT FK_Teaches_Section FOREIGN KEY (Section_ID, Course_ID)
-        REFERENCES [Section](Section_ID, Course_ID)
+    CONSTRAINT FK_Teaches_Section FOREIGN KEY (Section_ID, Course_ID, Semester) 
+        REFERENCES [Section](Section_ID, Course_ID, Semester)
 );
+GO
 
 CREATE TABLE [Assessment] (
     University_ID DECIMAL(7,0) NOT NULL,
-    Section_ID INT NOT NULL,
-    Course_ID INT NOT NULL,
+    Section_ID NVARCHAR(10) NOT NULL, 
+    Course_ID NVARCHAR(15) NOT NULL, 
+    Semester NVARCHAR(10) NOT NULL,
     Assessment_ID INT NOT NULL, 
-    Grade DECIMAL(4,2) CHECK (Grade BETWEEN 0 AND 15), --có thể >10
+    Grade DECIMAL(4,2) CHECK (Grade BETWEEN 0 AND 15),
     Registration_Date DATE DEFAULT GETDATE(),
     Potential_Withdrawal_Date DATE,
     [Status] NVARCHAR(50) DEFAULT 'Pending' CHECK ([Status] IN ('Pending', 'Approved', 'Rejected', 'Cancelled')),
     
-    CONSTRAINT PK_Assessment PRIMARY KEY (University_ID, Section_ID, Course_ID, Assessment_ID),
+    CONSTRAINT PK_Assessment PRIMARY KEY (University_ID, Section_ID, Course_ID, Semester, Assessment_ID),
     
     CONSTRAINT CK_Assessment_Dates CHECK (Registration_Date <= Potential_Withdrawal_Date),
     
     CONSTRAINT FK_Assessment_Student FOREIGN KEY (University_ID)
         REFERENCES [Student](University_ID),
         
-    CONSTRAINT FK_Assessment_Section FOREIGN KEY (Section_ID, Course_ID)
-        REFERENCES [Section](Section_ID, Course_ID)
+    CONSTRAINT FK_Assessment_Section FOREIGN KEY (Section_ID, Course_ID, Semester) 
+        REFERENCES [Section](Section_ID, Course_ID, Semester)
 );
+GO
 
 CREATE TABLE [Feedback] (
     feedback NVARCHAR(255) NOT NULL,
     University_ID DECIMAL(7,0) NOT NULL,
-    Section_ID INT NOT NULL,
-    Course_ID INT NOT NULL,
+    Section_ID NVARCHAR(10) NOT NULL, 
+    Course_ID NVARCHAR(15) NOT NULL,
+    Semester NVARCHAR(10) NOT NULL,
     Assessment_ID INT NOT NULL,
     
     CONSTRAINT PK_Feedback PRIMARY KEY 
-        (feedback, University_ID, Section_ID, Course_ID, Assessment_ID),
+        (feedback, University_ID, Section_ID, Course_ID, Semester, Assessment_ID), 
         
     CONSTRAINT FK_Feedback_Assessment FOREIGN KEY 
-        (University_ID, Section_ID, Course_ID, Assessment_ID)
-        REFERENCES [Assessment](University_ID, Section_ID, Course_ID, Assessment_ID)
+        (University_ID, Section_ID, Course_ID, Semester, Assessment_ID) 
+        REFERENCES [Assessment](University_ID, Section_ID, Course_ID, Semester, Assessment_ID)
 );
+GO
 
-create table [Building](
-	Building_ID INT IDENTITY(0,1) PRIMARY KEY
+CREATE TABLE [Building](
+    Building_ID INT IDENTITY(0,1) PRIMARY KEY,
+    Building_Name NVARCHAR(10) NOT NULL UNIQUE
 );
+GO
 
 CREATE TABLE [Room](
     Room_ID INT IDENTITY(0,1) NOT NULL, 
@@ -204,7 +215,7 @@ CREATE TABLE [Room](
     CONSTRAINT FK_Room_Building FOREIGN KEY (Building_ID)
         REFERENCES [Building](Building_ID)
 );
-
+GO
 
 CREATE TABLE [Room_Equipment](
     Equipment_Name NVARCHAR(100) NOT NULL,
@@ -216,26 +227,30 @@ CREATE TABLE [Room_Equipment](
     CONSTRAINT FK_Equipment_Room FOREIGN KEY (Building_ID, Room_ID)
         REFERENCES [Room](Building_ID, Room_ID)
 );
+GO
 
 CREATE TABLE [takes_place](
-	Section_ID INT NOT NULL,
-	Course_ID INT NOT NULL,
+	Section_ID NVARCHAR(10) NOT NULL, 
+	Course_ID NVARCHAR(15) NOT NULL, 
+    Semester NVARCHAR(10) NOT NULL, 
 	Room_ID INT NOT NULL,
 	Building_ID INT NOT NULL,
 	
-	CONSTRAINT PK_Place PRIMARY KEY (Section_ID, Course_ID, Room_ID, Building_ID),
+	CONSTRAINT PK_Place PRIMARY KEY (Section_ID, Course_ID, Semester, Room_ID, Building_ID), 
 	
-	CONSTRAINT FK_Place_Section FOREIGN KEY (Section_ID, Course_ID)
-        REFERENCES [Section](Section_ID, Course_ID),
+	CONSTRAINT FK_Place_Section FOREIGN KEY (Section_ID, Course_ID, Semester)
+        REFERENCES [Section](Section_ID, Course_ID, Semester),
 
 	CONSTRAINT FK_Place_Room FOREIGN KEY (Building_ID, Room_ID)
-        REFERENCES [Room](Building_ID, Room_ID)
+        REFERENCES [Room](Building_ID, Room_ID)
 );
+GO
 
 CREATE TABLE [Platform](
 	Platform_ID INT IDENTITY(0,1) PRIMARY KEY,
 	[Name] NVARCHAR(50)
 );
+GO
 
 CREATE TABLE [Platform_Link](
     Platform_ID INT NOT NULL,
@@ -244,31 +259,36 @@ CREATE TABLE [Platform_Link](
     CONSTRAINT FK_Link_Platform FOREIGN KEY (Platform_ID)
         REFERENCES [Platform](Platform_ID)
 );
+GO
 
+-- 7. Bảng ONLINE --- ĐÃ SỬA ---
 CREATE TABLE [Online](
 	Platform_ID INT NOT NULL,
-	Section_ID INT NOT NULL,
-	Course_ID INT NOT NULL,
+	Section_ID NVARCHAR(10) NOT NULL, -- ĐÃ SỬA: từ INT sang NVARCHAR
+	Course_ID NVARCHAR(15) NOT NULL, -- ĐÃ SỬA: (từ script của bạn)
+    Semester NVARCHAR(10) NOT NULL, -- ĐÃ SỬA: Thêm Semester để khớp FK
 	
-	CONSTRAINT PK_Online PRIMARY KEY (Platform_ID, Section_ID, Course_ID),
+	CONSTRAINT PK_Online PRIMARY KEY (Platform_ID, Section_ID, Course_ID, Semester), -- ĐÃ SỬA: Thêm Semester vào PK
 	
 	CONSTRAINT FK_Online_Platform FOREIGN KEY (Platform_ID)
-        REFERENCES [Platform](Platform_ID),
+        REFERENCES [Platform](Platform_ID),
 	
-	CONSTRAINT FK_Online_Section FOREIGN KEY (Section_ID, Course_ID)
-      	REFERENCES [Section](Section_ID, Course_ID)
+	CONSTRAINT FK_Online_Section FOREIGN KEY (Section_ID, Course_ID, Semester) -- ĐÃ SỬA: Thêm Semester vào FK
+    	REFERENCES [Section](Section_ID, Course_ID, Semester)
 );
+GO
 
 CREATE TABLE [Quiz] (
     University_ID DECIMAL(7,0) NOT NULL,
-    Section_ID INT NOT NULL,
-    Course_ID INT NOT NULL,
+    Section_ID NVARCHAR(10) NOT NULL, 
+    Course_ID NVARCHAR(15) NOT NULL,
+    Semester NVARCHAR(10) NOT NULL, 
     Assessment_ID INT NOT NULL,
     
-    CONSTRAINT PK_Quiz PRIMARY KEY (University_ID, Section_ID, Course_ID, Assessment_ID),
+    CONSTRAINT PK_Quiz PRIMARY KEY (University_ID, Section_ID, Course_ID, Semester, Assessment_ID), 
     
-    CONSTRAINT FK_Quiz_Assessment FOREIGN KEY (University_ID, Section_ID, Course_ID, Assessment_ID)
-        REFERENCES [Assessment](University_ID, Section_ID, Course_ID, Assessment_ID),
+    CONSTRAINT FK_Quiz_Assessment FOREIGN KEY (University_ID, Section_ID, Course_ID, Semester, Assessment_ID) 
+        REFERENCES [Assessment](University_ID, Section_ID, Course_ID, Semester, Assessment_ID),
 
     Grading_method NVARCHAR(50) DEFAULT 'Highest Attemp' CHECK (Grading_method IN (
         'Highest Attemp',
@@ -293,29 +313,35 @@ CREATE TABLE [Quiz] (
     [Weight] FLOAT CHECK (Weight >= 0),
     Correct_answer NVARCHAR(50) NOT NULL
 );
+GO
+
 
 CREATE TABLE [Assignment] (
     University_ID DECIMAL(7,0) NOT NULL,
-    Section_ID INT NOT NULL,
-    Course_ID INT NOT NULL,
+    Section_ID NVARCHAR(10) NOT NULL, 
+    Course_ID NVARCHAR(15) NOT NULL, 
+    Semester NVARCHAR(10) NOT NULL,
     Assessment_ID INT NOT NULL,
     
-    CONSTRAINT PK_Assignment PRIMARY KEY (University_ID, Section_ID, Course_ID, Assessment_ID),
+    CONSTRAINT PK_Assignment PRIMARY KEY (University_ID, Section_ID, Course_ID, Semester, Assessment_ID), 
     
-    CONSTRAINT FK_Assignment_Assessment FOREIGN KEY (University_ID, Section_ID, Course_ID, Assessment_ID)
-        REFERENCES [Assessment](University_ID, Section_ID, Course_ID, Assessment_ID),
+    CONSTRAINT FK_Assignment_Assessment FOREIGN KEY (University_ID, Section_ID, Course_ID, Semester, Assessment_ID) 
+        REFERENCES [Assessment](University_ID, Section_ID, Course_ID, Semester, Assessment_ID),
 
     MaxScore INT DEFAULT 10 CHECK (MaxScore BETWEEN 0 AND 10),
     accepted_specification NVARCHAR(50),
     submission_deadline DATETIME NOT NULL,
     instructions NVARCHAR(50)
 );
+GO
+
 
 CREATE TABLE [Submission] (
     Submission_No INT IDENTITY(0,1) PRIMARY KEY,
     University_ID DECIMAL(7,0) NOT NULL,
-    Section_ID INT NOT NULL,
-    Course_ID INT NOT NULL,
+    Section_ID NVARCHAR(10) NOT NULL, 
+    Course_ID NVARCHAR(15) NOT NULL, 
+    Semester NVARCHAR(10) NOT NULL, 
     Assessment_ID INT NOT NULL,
 	accepted_specification NVARCHAR(50),
 	late_flag_indicator BIT DEFAULT 0,
@@ -324,9 +350,10 @@ CREATE TABLE [Submission] (
 	[status] NVARCHAR(50) DEFAULT 'Submitted' CHECK ([status] IN ('No Submission', 'Submitted')),
 	
     CONSTRAINT FK_Submission_Assignment FOREIGN KEY 
-        (University_ID, Section_ID, Course_ID, Assessment_ID)
-        REFERENCES [Assignment](University_ID, Section_ID, Course_ID, Assessment_ID)
+        (University_ID, Section_ID, Course_ID, Semester, Assessment_ID) 
+        REFERENCES [Assignment](University_ID, Section_ID, Course_ID, Semester, Assessment_ID)
 );
+GO
 
 CREATE TABLE [review](
     Submission_No INT NOT NULL PRIMARY KEY,
@@ -335,7 +362,8 @@ CREATE TABLE [review](
     Comments NVARCHAR(500),
 	
     CONSTRAINT FK_Review_Submission FOREIGN KEY (Submission_No)
-        REFERENCES [Submission](Submission_No),
+        REFERENCES [Submission](Submission_No),
 	CONSTRAINT FK_Review_Tutor FOREIGN KEY (University_ID)
-        REFERENCES [Tutor](University_ID)
+        REFERENCES [Tutor](University_ID)
 );
+GO
