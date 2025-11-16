@@ -1,6 +1,9 @@
 ﻿USE [lms_system];
 GO
 
+DELETE FROM [Tutor];
+GO
+
 INSERT INTO [Tutor] (University_ID, [Name], Academic_Rank, [Details], Issuance_Date, Department_Name)
 VALUES
 (4202, N'Nguyễn Thiên Ân', N'Lecturer', N'Focus on Embedded Systems and IoT', '2019-05-10', N'Computer Engineering'),

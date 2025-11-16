@@ -1,6 +1,9 @@
 ﻿USE [lms_system];
 GO
 
+DELETE FROM [Course];
+GO
+
 -- A. MATHEMATICS AND BASIC SCIENCES (Chung cho cả 2 ngành)
 INSERT INTO [Course] (Course_ID, [Name], Credit, Start_Date) VALUES (N'MT1003', N'Calculus 1', 4, NULL);
 INSERT INTO [Course] (Course_ID, [Name], Credit, Start_Date) VALUES (N'MT1005', N'Calculus 2', 4, NULL);

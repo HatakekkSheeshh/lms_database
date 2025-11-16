@@ -1,6 +1,9 @@
 USE [lms_system];
 GO
 
+DELETE FROM [Department];
+GO
+
 INSERT INTO [Department] (Department_Name, University_ID) VALUES
 (N'Information Systems', NULL),
 (N'Software Engineering', NULL),

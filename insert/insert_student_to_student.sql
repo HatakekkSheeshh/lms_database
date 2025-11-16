@@ -1,4 +1,10 @@
-INSERT INTO [Users] (University_ID, First_Name, Last_Name, Email, Phone_Number, [Address], National_ID)
+USE [lms_system];
+GO
+
+DELETE FROM [Student];
+GO
+
+INSERT INTO [Student] (University_ID, First_Name, Last_Name, Email, Phone_Number, [Address], National_ID)
 VALUES
     (2352402, N'Huy-chan',       N'Phan Tien',        N'xoai.non@hcmut.edu.vn',                N'0999999999', N'497 Hoa Hao, District 10, HCMC',                 N'079200000000'),
     (2353280, N'Tuan-kun',       N'Vu Hai',           N'tuan.vuhai@hcmut.edu.vn',              N'0917672005', N'497 Hoa Hao, District 10, HCMC',                 N'080205001633'),

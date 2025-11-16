@@ -1,6 +1,9 @@
 USE [lms_system];
 GO
 
+DELETE FROM [Room_Equipment];
+GO
+
 DECLARE @Current_Building_ID INT;
 DECLARE @Current_Room_ID INT;
 DECLARE @Current_Capacity INT;

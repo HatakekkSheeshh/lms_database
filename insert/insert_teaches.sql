@@ -1,6 +1,8 @@
 USE [lms_system];
 GO
 
+DELETE FROM [Teaches];
+GO
 
 DECLARE @Cur_Section_ID NVARCHAR(10);
 DECLARE @Cur_Course_ID NVARCHAR(15);

@@ -1,6 +1,9 @@
 USE [lms_system];
 GO
 
+DELETE FROM [Room];
+GO
+
 DECLARE @Current_Building_ID INT;
 DECLARE building_cursor CURSOR FOR
 SELECT Building_ID FROM [Building];

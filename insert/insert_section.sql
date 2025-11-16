@@ -1,6 +1,8 @@
-USE [database_systems_asm2];
+USE [lms_system];
 GO
 
+DELETE FROM [Section];
+GO
 
 DECLARE @Current_Course_ID NVARCHAR(15);
 DECLARE @Current_Semester NVARCHAR(10);

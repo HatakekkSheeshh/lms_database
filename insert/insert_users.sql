@@ -2,7 +2,6 @@ USE [lms_system];
 GO
 
 DELETE FROM [Users];
-
 GO
 
 -- Students to be inserted into the [Users] table
@@ -557,3 +556,18 @@ VALUES
 (3332, N'Vân', N'Lê Thanh', N'ltvan@hcmut.edu.vn', N'000000003332'),
 (2178, N'Vũ', N'Phạm Trần', N'ptvu@hcmut.edu.vn', N'000000002178'),
 (1967, N'Vững', N'Đoàn Minh', N'vungdm@hcmut.edu.vn', N'000000001967');
+
+GO
+
+-- Admin: Insert admins into Users table
+INSERT INTO [Users] (University_ID, First_Name, Last_Name, Email, National_ID)
+VALUES
+
+(9001, N'An', N'Nguyễn Văn', N'admin.an@hcmut.edu.vn', N'000000009001'),
+
+(9002, N'Bình', N'Trần Văn', N'admin.binh@hcmut.edu.vn', N'000000009002'),
+
+(9003, N'Cường', N'Lê Văn', N'admin.cuong@hcmut.edu.vn', N'000000009003'),
+
+(9004, N'Dung', N'Phạm Thị', N'admin.dung@hcmut.edu.vn', N'000000009004');
+GO
