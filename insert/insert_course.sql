@@ -1,4 +1,4 @@
-﻿USE [database_systems_asm2];
+﻿USE [lms_system];
 GO
 
 -- A. MATHEMATICS AND BASIC SCIENCES (Chung cho cả 2 ngành)

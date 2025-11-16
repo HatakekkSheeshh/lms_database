@@ -1,7 +1,6 @@
-USE [database_systems_asm2];
+USE [lms_system];
 GO
 
--- Step 1: Insert Departments with NULL for the University_ID (Chair)
 INSERT INTO [Department] (Department_Name, University_ID) VALUES
 (N'Information Systems', NULL),
 (N'Software Engineering', NULL),

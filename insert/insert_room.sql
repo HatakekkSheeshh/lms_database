@@ -1,4 +1,4 @@
-USE [database_systems_asm2];
+USE [lms_system];
 GO
 
 DECLARE @Current_Building_ID INT;
