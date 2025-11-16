@@ -1,3 +1,9 @@
+USE [lms_system];
+GO
+
+DELETE FROM [Building];
+GO
+
 INSERT INTO [Building] (Building_Name) VALUES
 -- Building with only numbers
 ('1'),

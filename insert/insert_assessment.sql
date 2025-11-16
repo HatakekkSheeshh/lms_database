@@ -65,11 +65,32 @@ BEGIN
             SET @Withdraw_Date = '2025-06-15'; 
         END
 
-        INSERT INTO [Assessment] (University_ID, Section_ID, Course_ID, Semester, Assessment_ID, Grade, Registration_Date, Potential_Withdrawal_Date, [Status])
-        VALUES (@Cur_Student_ID, @Cur_Section_ID, @Cur_Course_ID, @Cur_Semester, 1, @Midterm_Grade, @Reg_Date, @Withdraw_Date, 'Approved');
-
-        INSERT INTO [Assessment] (University_ID, Section_ID, Course_ID, Semester, Assessment_ID, Grade, Registration_Date, Potential_Withdrawal_Date, [Status])
-        VALUES (@Cur_Student_ID, @Cur_Section_ID, @Cur_Course_ID, @Cur_Semester, 2, @Final_Grade, @Reg_Date, @Withdraw_Date, 'Approved');
+        -- Insert one Assessment record with both Midterm_Grade and Final_Grade
+        -- Assessment_ID is now IDENTITY, so it will be auto-generated
+        INSERT INTO [Assessment] (
+            University_ID, 
+            Section_ID, 
+            Course_ID, 
+            Semester, 
+            Grade, 
+            Registration_Date, 
+            Potential_Withdrawal_Date, 
+            [Status],
+            Midterm_Grade,
+            Final_Grade
+        )
+        VALUES (
+            @Cur_Student_ID, 
+            @Cur_Section_ID, 
+            @Cur_Course_ID, 
+            @Cur_Semester, 
+            NULL,  -- Grade can be NULL if using separate Midterm_Grade and Final_Grade
+            @Reg_Date, 
+            @Withdraw_Date, 
+            'Approved',
+            @Midterm_Grade,
+            @Final_Grade
+        );
         
         FETCH NEXT FROM section_cursor INTO @Cur_Section_ID, @Cur_Course_ID, @Cur_Semester;
     END;

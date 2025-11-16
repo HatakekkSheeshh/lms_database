@@ -2,8 +2,8 @@ USE lms_system;
 GO
 
 -- View all data from Users table
-SELECT *
-FROM [Users];
+/* SELECT *
+FROM [Users]; */
 
 -- Or view specific columns
 -- SELECT University_ID, First_Name, Last_Name, Email, Phone_Number, [Address], National_ID, System_name
@@ -18,3 +18,7 @@ FROM [Users];
 -- SELECT TOP 10 *
 -- FROM [Users];
 
+/* SELECT *
+FROM [Teaches] */
+SELECT *
+FROM [Department]

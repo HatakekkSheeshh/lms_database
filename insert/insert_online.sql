@@ -1,10 +1,11 @@
 USE [lms_system];
 GO
-DECLARE @Platforms TABLE (Platform_ID INT);
-INSERT INTO @Platforms (Platform_ID) VALUES (0), (1), (2), (3), (4);
 
 DELETE FROM [Online];
 GO
+
+DECLARE @Platforms TABLE (Platform_ID INT);
+INSERT INTO @Platforms (Platform_ID) VALUES (0), (1), (2), (3), (4);
 
 DECLARE @Cur_Section_ID NVARCHAR(10);
 DECLARE @Cur_Course_ID NVARCHAR(15);
