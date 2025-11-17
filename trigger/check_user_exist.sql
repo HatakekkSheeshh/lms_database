@@ -14,10 +14,10 @@ BEGIN
         'Bachelor' AS Current_degree   -- Default
     FROM inserted i
     WHERE i.University_ID >= 2000000  -- Student ID pattern
-        AND NOT EXISTS (
-            SELECT 1 FROM [Tutor] t 
-            WHERE t.University_ID = i.University_ID --TODO:Theo Huy nghĩ thì uniID của bọn student vốn đã >2000000, ko thể trùng với admin hay là tutor được .-.
-        )
+        -- AND NOT EXISTS (
+        --     SELECT 1 FROM [Tutor] t 
+        --     WHERE t.University_ID = i.University_ID --TODO:Theo Huy nghĩ thì uniID của bọn student vốn đã >2000000, ko thể trùng với admin hay là tutor được .-.
+        -- )
         AND NOT EXISTS (
             SELECT 1 FROM [Student] s 
             WHERE s.University_ID = i.University_ID
