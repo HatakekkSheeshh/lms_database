@@ -30,8 +30,8 @@ DROP TABLE IF EXISTS [Tutor];
 DROP TABLE IF EXISTS [Student];
 DROP TABLE IF EXISTS [Department];
 DROP TABLE IF EXISTS [Platform_Link];
-DROP TABLE IF EXISTS [Reference_To];
-DROP TABLE IF EXISTS [Audit_Log];
+DROP TABLE IF EXISTS [Reference_To]; -- Phải DROP trước vì có FK đến Audit_Log
+DROP TABLE IF EXISTS [Audit_Log]; -- DROP sau Reference_To
 DROP TABLE IF EXISTS [Admin];
 DROP TABLE IF EXISTS [Account];
 DROP TABLE IF EXISTS [Users];
@@ -72,7 +72,7 @@ CREATE TABLE [Audit_Log] (
     affected_entities NVARCHAR(255), 
     section_creation NVARCHAR(500),
     deadline_extensions NVARCHAR(500),
-    grade_updates DECIMAL(2,2) CHECK (grade_updates BETWEEN 0 AND 10),
+    grade_updates NVARCHAR(1000), -- Đổi từ DECIMAL sang NVARCHAR để lưu log chi tiết
 );
 
 CREATE TABLE [Reference_To] (
