@@ -8,6 +8,17 @@ PRINT N'--------------------------------------------------';
 PRINT N'Start to insert Submissions for Assignments...';
 PRINT N'--------------------------------------------------';
 
+DECLARE @Assignments_Count INT;
+SELECT @Assignments_Count = COUNT(*) 
+FROM [Assignment]
+WHERE [University_ID] IS NOT NULL;
+
+IF @Assignments_Count = 0
+BEGIN
+    PRINT 'WARNING: Assignment table is empty. Please run insert_assignment.sql first.';
+    RAISERROR('Assignment table is empty. Cannot insert submissions.', 16, 1);
+END;
+
 DECLARE 
     @Cur_University_ID DECIMAL(7,0),
     @Cur_Section_ID NVARCHAR(10),

@@ -46,7 +46,14 @@ BEGIN
     BEGIN
         SELECT TOP 1 @Reviewer_Tutor_ID = University_ID FROM [Tutor] ORDER BY NEWID();
     END;
-    SELECT @Student_Grade_Decimal = Grade
+
+    SELECT @Student_Grade_Decimal = 
+        CASE
+            WHEN Midterm_Grade BETWEEN 0 AND 10 
+                AND Final_Grade IS NOT NULL 
+                    THEN ROUND((Midterm_Grade * 0.4 + Final_Grade * 0.6), 2)
+            ELSE 0
+        END
     FROM [Assessment]
     WHERE University_ID = @Cur_Student_ID
       AND Section_ID = @Cur_Section_ID

@@ -165,12 +165,13 @@ CREATE TABLE [Assessment] (
     Course_ID NVARCHAR(15) NOT NULL, 
     Semester NVARCHAR(10) NOT NULL,
     Assessment_ID INT IDENTITY(0,1) NOT NULL, 
-    Grade DECIMAL(4,2) CHECK (Grade BETWEEN 0 AND 15),
     Registration_Date DATE DEFAULT GETDATE(),
     Potential_Withdrawal_Date DATE,
     [Status] NVARCHAR(50) DEFAULT 'Pending' CHECK ([Status] IN ('Pending', 'Approved', 'Rejected', 'Cancelled')),
     Final_Grade DECIMAL(4,2) CHECK (Final_Grade BETWEEN 0 AND 13),
     Midterm_Grade DECIMAL(4,2) CHECK (Midterm_Grade BETWEEN 0 AND 13),
+    Quiz_Grade DECIMAL(4,2) CHECK (Quiz_Grade BETWEEN 0 AND 10),
+    Assignment_Grade DECIMAL(4,2) CHECK (Assignment_Grade BETWEEN 0 AND 10),
 
     CONSTRAINT PK_Assessment PRIMARY KEY (University_ID, Section_ID, Course_ID, Semester, Assessment_ID),
     

@@ -5,18 +5,6 @@ DELETE FROM [Building];
 GO
 
 INSERT INTO [Building] (Building_Name) VALUES
--- Building with only numbers
-('1'),
-('2'),
-('3'),
-('4'),
-('5'),
-('6'),
-('7'),
-('8'),
-('9'),
-('10'),
-
 -- start with A
 ('A1'),
 ('A2'),

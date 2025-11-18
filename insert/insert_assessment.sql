@@ -38,6 +38,8 @@ BEGIN
     DECLARE @Cur_Semester NVARCHAR(10);
     DECLARE @Midterm_Grade DECIMAL(4,2);
     DECLARE @Final_Grade DECIMAL(4,2);
+    DECLARE @Quiz_Grade DECIMAL(4,2);
+    DECLARE @Assignment_Grade DECIMAL(4,2);
 
     DECLARE @Reg_Date DATE;
     DECLARE @Withdraw_Date DATE;
@@ -53,6 +55,8 @@ BEGIN
     BEGIN
         SET @Midterm_Grade = ROUND(3.0 + (RAND() * 7.0), 1);
         SET @Final_Grade = ROUND(3.0 + (RAND() * 7.0), 1);
+        SET @Quiz_Grade = ROUND(3.0 + (RAND() * 7.0), 1);
+        SET @Assignment_Grade = ROUND(3.0 + (RAND() * 7.0), 1);
 
         IF @Cur_Semester = '241'
         BEGIN
@@ -65,31 +69,31 @@ BEGIN
             SET @Withdraw_Date = '2025-06-15'; 
         END
 
-        -- Insert one Assessment record with both Midterm_Grade and Final_Grade
-        -- Assessment_ID is now IDENTITY, so it will be auto-generated
         INSERT INTO [Assessment] (
             University_ID, 
             Section_ID, 
             Course_ID, 
             Semester, 
-            Grade, 
             Registration_Date, 
             Potential_Withdrawal_Date, 
             [Status],
             Midterm_Grade,
-            Final_Grade
+            Final_Grade,
+            Quiz_Grade,
+            Assignment_Grade
         )
         VALUES (
             @Cur_Student_ID, 
             @Cur_Section_ID, 
             @Cur_Course_ID, 
             @Cur_Semester, 
-            NULL,  -- Grade can be NULL if using separate Midterm_Grade and Final_Grade
             @Reg_Date, 
             @Withdraw_Date, 
             'Approved',
             @Midterm_Grade,
-            @Final_Grade
+            @Final_Grade,
+            @Quiz_Grade,
+            @Assignment_Grade
         );
         
         FETCH NEXT FROM section_cursor INTO @Cur_Section_ID, @Cur_Course_ID, @Cur_Semester;

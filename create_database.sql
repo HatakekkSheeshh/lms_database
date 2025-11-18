@@ -1,4 +1,4 @@
-USE master;
+/* USE master;
 GO
 
 -- Drop all connections to database first
@@ -7,9 +7,9 @@ BEGIN
     ALTER DATABASE [lms_system] SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
     DROP DATABASE [lms_system];
 END
-GO
+GO */
 
--- Create the database with default paths
+/* -- Create the database with default paths
 DECLARE @DefaultDataPath nvarchar(500) = CONVERT(nvarchar(500), SERVERPROPERTY('InstanceDefaultDataPath'))
 DECLARE @DefaultLogPath nvarchar(500) = CONVERT(nvarchar(500), SERVERPROPERTY('InstanceDefaultLogPath'))
 
@@ -35,4 +35,12 @@ LOG ON
     FILEGROWTH = 65536KB
 )
 COLLATE Vietnamese_100_CI_AS;')
+GO */
+
+/* 
+USE [lms_system];
 GO
+CREATE USER sManager FOR LOGIN sManager;
+ALTER ROLE db_owner ADD MEMBER sManager;
+GO
+ */

@@ -31,9 +31,9 @@ SELECT
     Course_ID, 
     Semester, 
     Assessment_ID,
-    Grade 
+    Quiz_Grade
 FROM [Assessment]
-WHERE Assessment_ID = 1; 
+WHERE Quiz_Grade IS NOT NULL;
 
 OPEN quiz_cursor;
 
@@ -75,7 +75,7 @@ BEGIN
     VALUES (
         @Cur_University_ID, @Cur_Section_ID, @Cur_Course_ID, @Cur_Semester, @Cur_Assessment_ID,
         'Highest Attemp', @Pass_Score, @Quiz_Time_Limit, @Quiz_Start, @Quiz_End,
-        @Student_Responses, @Completion_Status, @Cur_Grade, -- Lấy điểm từ [Assessment]
+        @Student_Responses, @Completion_Status, @Cur_Grade,
         @Quiz_Content, @Quiz_Type, @Quiz_Weight, @Quiz_Answers
     );
 
