@@ -1,0 +1,74 @@
+[
+  {
+    "LogID": "0",
+    "timestamp": "2025-11-18T16:20:22.9170000",
+    "affected_entities": "Assessment CC02-CO4037-242-3",
+    "section_creation": null,
+    "deadline_extensions": null,
+    "grade_updates": "Final_Grade: 5.80 -> 8.00; Midterm_Grade: 9.50 -> 11.00; Quiz_Grade: 7.80 -> 9.00; "
+  },
+  {
+    "LogID": "1",
+    "timestamp": "2025-11-18T16:23:02.4030000",
+    "affected_entities": "Assessment CC02-CO4037-242-3",
+    "section_creation": null,
+    "deadline_extensions": "Withdrawal_Date: 2025-06-15 -> 2025-07-01; Status: Approved -> Rejected; ",
+    "grade_updates": null
+  },
+  {
+    "LogID": "25",
+    "timestamp": "2025-11-19T02:12:05.1670000",
+    "affected_entities": "Assessment 2211073-L05-PE1053-241-0",
+    "section_creation": null,
+    "deadline_extensions": null,
+    "grade_updates": "Final_Grade: 5.80 -> 6.30; "
+  },
+  {
+    "LogID": "26",
+    "timestamp": "2025-11-19T02:12:05.1670000",
+    "affected_entities": "Assessment 2211073-L04-SA4001-241-2",
+    "section_creation": null,
+    "deadline_extensions": null,
+    "grade_updates": "Final_Grade: 4.40 -> 4.90; "
+  },
+  {
+    "LogID": "27",
+    "timestamp": "2025-11-19T02:12:05.1670000",
+    "affected_entities": "Assessment 2211073-L01-ME2141-241-1",
+    "section_creation": null,
+    "deadline_extensions": null,
+    "grade_updates": "Final_Grade: 4.20 -> 4.70; "
+  },
+  {
+    "LogID": "28",
+    "timestamp": "2025-11-19T02:12:05.1670000",
+    "affected_entities": "Assessment 2211073-KSTN1-EE4357-242-4",
+    "section_creation": null,
+    "deadline_extensions": null,
+    "grade_updates": "Final_Grade: 4.70 -> 5.20; "
+  },
+  {
+    "LogID": "29",
+    "timestamp": "2025-11-19T02:12:05.1670000",
+    "affected_entities": "Assessment 2211073-CC03-CO3069-242-5",
+    "section_creation": null,
+    "deadline_extensions": null,
+    "grade_updates": "Final_Grade: 9.40 -> 9.90; "
+  },
+  {
+    "LogID": "30",
+    "timestamp": "2025-11-19T02:12:05.1670000",
+    "affected_entities": "Assessment 2211073-CC02-CO4037-242-3",
+    "section_creation": null,
+    "deadline_extensions": null,
+    "grade_updates": "Final_Grade: 8.00 -> 8.50; "
+  },
+  {
+    "LogID": "31",
+    "timestamp": "2025-11-19T02:12:05.1670000",
+    "affected_entities": "Assessment 2211073-CC02-CO4037-241-2818",
+    "section_creation": null,
+    "deadline_extensions": null,
+    "grade_updates": "Final_Grade: NULL -> 0.50; "
+  }
+]
