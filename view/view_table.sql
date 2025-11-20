@@ -1,24 +1,25 @@
 USE lms_system; 
 GO
 
--- View all data from Users table
-/* SELECT *
-FROM [Users]; */
+/* SELECT TOP 4344
+    Section_ID,
+    Course_ID,
+    Semester,
+    Building_ID,
+    Room_ID,
+    Building_Name
+FROM [Section]
+ORDER BY Semester;
+GO
 
--- Or view specific columns
--- SELECT University_ID, First_Name, Last_Name, Email, Phone_Number, [Address], National_ID, System_name
--- FROM [Users];
+PRINT '';
+PRINT '========================================';
+PRINT 'Script completed!';
+PRINT '========================================';
+GO */
 
--- View with ordering
--- SELECT *
--- FROM [Users]
--- ORDER BY University_ID;
-
--- View limited rows (first 10)
--- SELECT TOP 10 *
--- FROM [Users];
-
-/* SELECT *
-FROM [Teaches] */
-SELECT *
-FROM [Department]
+SELECT 
+    T.University_ID,
+    T.NAME
+FROM Tutor as T
+Where T.University_ID = 1733

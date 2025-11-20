@@ -1,0 +1,520 @@
+[
+  {
+    "department_name": "Computer Engineering",
+    "university_id": "4202",
+    "first_name": "Ân",
+    "last_name": "Nguyễn Thiên",
+    "email": "ngthienan.cse@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Engineering",
+    "university_id": "4320",
+    "first_name": "Anh",
+    "last_name": "Phạm Kiều Nhật",
+    "email": "anhpkn@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Engineering",
+    "university_id": "2603",
+    "first_name": "Anh",
+    "last_name": "Phạm Hoàng",
+    "email": "anhpham@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Science",
+    "university_id": "3778",
+    "first_name": "Anh",
+    "last_name": "Trần Tuấn",
+    "email": "trtanh@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Software Engineering",
+    "university_id": "2883",
+    "first_name": "Anh",
+    "last_name": "Trương Tuấn",
+    "email": "anhtt@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Software Engineering",
+    "university_id": "4351",
+    "first_name": "Bách",
+    "last_name": "Lê Xuân",
+    "email": "lexuanbach@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Engineering",
+    "university_id": "4319",
+    "first_name": "Bình",
+    "last_name": "Võ Tuấn",
+    "email": "binh@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Information Systems",
+    "university_id": "2919",
+    "first_name": "Châu",
+    "last_name": "Võ Thị Ngọc",
+    "email": "chauvtn@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Information Systems",
+    "university_id": "2889",
+    "first_name": "Chi",
+    "last_name": "Trương Quỳnh",
+    "email": "tqchi@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Software Engineering",
+    "university_id": "4297",
+    "first_name": "Công",
+    "last_name": "Nguyễn Thành",
+    "email": "congnguyen@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Engineering",
+    "university_id": "2765",
+    "first_name": "Cường",
+    "last_name": "Phạm Quốc",
+    "email": "cuongpham@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Systems and Computer Networks",
+    "university_id": "2415",
+    "first_name": "Dat",
+    "last_name": "Nguyễn Cao",
+    "email": "dat@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Systems and Computer Networks",
+    "university_id": "3726",
+    "first_name": "Đăng",
+    "last_name": "Diệp Thanh",
+    "email": "dang@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Science",
+    "university_id": "4267",
+    "first_name": "Đẳng",
+    "last_name": "Lê Bình",
+    "email": "binhdang@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Information Systems",
+    "university_id": "4340",
+    "first_name": "Đức",
+    "last_name": "Dương Huỳnh Anh",
+    "email": "anhducduonghuynh@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Science",
+    "university_id": "3682",
+    "first_name": "Dũng",
+    "last_name": "Nguyễn Đức",
+    "email": "nddung@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Systems and Computer Networks",
+    "university_id": "3446",
+    "first_name": "Duy",
+    "last_name": "Nguyễn Phương",
+    "email": "pdnguyen@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Engineering",
+    "university_id": "2607",
+    "first_name": "Duy",
+    "last_name": "Phan Đình Thế",
+    "email": "duypdt@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Science",
+    "university_id": "3904",
+    "first_name": "Duy",
+    "last_name": "Trần Ngọc Bảo",
+    "email": "duytnb@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Science",
+    "university_id": "4272",
+    "first_name": "Duy",
+    "last_name": "Trần Nguyễn Minh",
+    "email": "tnmduy@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Systems and Computer Networks",
+    "university_id": "3591",
+    "first_name": "Giang",
+    "last_name": "Bùi Xuân",
+    "email": "xuangiang@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Science",
+    "university_id": "4356",
+    "first_name": "Giang",
+    "last_name": "Trịnh Văn",
+    "email": "van-giang.trinh@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Science",
+    "university_id": "4278",
+    "first_name": "Hiền",
+    "last_name": "Lương Minh",
+    "email": "minhhienluongbk@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Systems and Computer Networks",
+    "university_id": "3718",
+    "first_name": "Hiếu",
+    "last_name": "Nguyễn Hữu",
+    "email": "nguyenhuuhieu@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Software Engineering",
+    "university_id": "4206",
+    "first_name": "Hiếu",
+    "last_name": "Phan Trung",
+    "email": "hieupt@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Systems and Computer Networks",
+    "university_id": "1742",
+    "first_name": "Hoài",
+    "last_name": "Trần Văn",
+    "email": "hoai@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Systems and Computer Networks",
+    "university_id": "2609",
+    "first_name": "Hùng",
+    "last_name": "Nguyễn Quang",
+    "email": "nqhung@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Science",
+    "university_id": "3282",
+    "first_name": "Hùng",
+    "last_name": "Võ Thanh",
+    "email": "vthung@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Science",
+    "university_id": "4141",
+    "first_name": "Huy",
+    "last_name": "Trần",
+    "email": "tranhuy@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Science",
+    "university_id": "4350",
+    "first_name": "Khôi",
+    "last_name": "Nguyễn Tuấn",
+    "email": "tuankhoin@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Science",
+    "university_id": "3634",
+    "first_name": "Khương",
+    "last_name": "Nguyễn An",
+    "email": "nakhuong@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Science",
+    "university_id": "4343",
+    "first_name": "Lân",
+    "last_name": "Trương Vĩnh",
+    "email": "lantv@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Systems and Computer Networks",
+    "university_id": "2921",
+    "first_name": "Lai",
+    "last_name": "Nguyễn Lê Duy",
+    "email": "lai@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Engineering",
+    "university_id": "4269",
+    "first_name": "Lộc",
+    "last_name": "Nguyễn Thành",
+    "email": "loknguyen@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Engineering",
+    "university_id": "4322",
+    "first_name": "Long",
+    "last_name": "Tôn Huỳnh",
+    "email": "huynhlong.ton@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Science",
+    "university_id": "4318",
+    "first_name": "Minh",
+    "last_name": "Nguyễn Quốc",
+    "email": "minhnguyen@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Engineering",
+    "university_id": "1528",
+    "first_name": "Minh",
+    "last_name": "Nguyễn Xuân",
+    "email": "minh@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Software Engineering",
+    "university_id": "3717",
+    "first_name": "Minh",
+    "last_name": "Trương Thị Thái",
+    "email": "thaiminh@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Systems and Computer Networks",
+    "university_id": "1748",
+    "first_name": "Nam",
+    "last_name": "Thoại",
+    "email": "namthoai@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Engineering",
+    "university_id": "4077",
+    "first_name": "Nghị",
+    "last_name": "Huỳnh Phúc",
+    "email": "nghihp@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Information Systems",
+    "university_id": "2890",
+    "first_name": "Nguyệt",
+    "last_name": "Trần Thị Quế",
+    "email": "ttqnguyet@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Engineering",
+    "university_id": "3777",
+    "first_name": "Nhân",
+    "last_name": "Lê Trọng",
+    "email": "trongnhanle@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Information Systems",
+    "university_id": "3178",
+    "first_name": "Nhân",
+    "last_name": "Phan Trọng",
+    "email": "nhanpt@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Software Engineering",
+    "university_id": "4282",
+    "first_name": "Phát",
+    "last_name": "Trần Trương Tuấn",
+    "email": "phatttt@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Science",
+    "university_id": "1733",
+    "first_name": "Phùng",
+    "last_name": "Nguyễn Hứa",
+    "email": "nhphung@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Science",
+    "university_id": "4321",
+    "first_name": "Quân",
+    "last_name": "Thi Khắc",
+    "email": "tkquan@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Information Systems",
+    "university_id": "1964",
+    "first_name": "Quang",
+    "last_name": "Trần Minh",
+    "email": "quangtran@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Science",
+    "university_id": "1995",
+    "first_name": "Sách",
+    "last_name": "Lê Thành",
+    "email": "ltsach@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Science",
+    "university_id": "2715",
+    "first_name": "Sơn",
+    "last_name": "Trần Giang",
+    "email": "tgson@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Engineering",
+    "university_id": "4339",
+    "first_name": "Sỹ",
+    "last_name": "Phan Văn",
+    "email": "syphan.cse@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Software Engineering",
+    "university_id": "4271",
+    "first_name": "Tâm",
+    "last_name": "Nguyễn Minh",
+    "email": "tam.nguyen272@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Science",
+    "university_id": "4075",
+    "first_name": "Tài",
+    "last_name": "Trần Hồng",
+    "email": "thtai@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Engineering",
+    "university_id": "4258",
+    "first_name": "Thái",
+    "last_name": "Phạm Công",
+    "email": "thaipham@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Systems and Computer Networks",
+    "university_id": "3048",
+    "first_name": "Thái",
+    "last_name": "Nguyễn Đức",
+    "email": "ngdthai@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Software Engineering",
+    "university_id": "1966",
+    "first_name": "Thắng",
+    "last_name": "Bùi Hoài",
+    "email": "bhthang@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Systems and Computer Networks",
+    "university_id": "3972",
+    "first_name": "Thanh",
+    "last_name": "Hoàng Lê Hải",
+    "email": "thanhhoang@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Information Systems",
+    "university_id": "3183",
+    "first_name": "Thảo",
+    "last_name": "Nguyễn Thị Ái",
+    "email": "thaonguyen@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Systems and Computer Networks",
+    "university_id": "3633",
+    "first_name": "Thìn",
+    "last_name": "Nguyễn Mạnh",
+    "email": "nmthin@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Engineering",
+    "university_id": "1897",
+    "first_name": "Thịnh",
+    "last_name": "Trần Ngọc",
+    "email": "tnthinh@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Science",
+    "university_id": "3444",
+    "first_name": "Thịnh",
+    "last_name": "Vương Bá",
+    "email": "vbthinh@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Science",
+    "university_id": "4336",
+    "first_name": "Thống",
+    "last_name": "Huỳnh Văn",
+    "email": "vthuynh@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Software Engineering",
+    "university_id": "2416",
+    "first_name": "Thơ",
+    "last_name": "Quản Thành",
+    "email": "qttho@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Information Systems",
+    "university_id": "3383",
+    "first_name": "Thu",
+    "last_name": "Lê Thị Bảo",
+    "email": "thule@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Software Engineering",
+    "university_id": "3185",
+    "first_name": "Thuận",
+    "last_name": "Lê Đình",
+    "email": "thuanle@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Science",
+    "university_id": "4305",
+    "first_name": "Tin",
+    "last_name": "Dương Đức",
+    "email": "ddtin@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Science",
+    "university_id": "4143",
+    "first_name": "Toàn",
+    "last_name": "Mai Xuân",
+    "email": "mxtoan@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Information Systems",
+    "university_id": "3744",
+    "first_name": "Trang",
+    "last_name": "Lê Hồng",
+    "email": "lhtrang@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Software Engineering",
+    "university_id": "1690",
+    "first_name": "Trí",
+    "last_name": "Nguyễn Cao",
+    "email": "caotri@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Software Engineering",
+    "university_id": "3710",
+    "first_name": "Trung",
+    "last_name": "Mai Đức",
+    "email": "mdtrung@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Information Systems",
+    "university_id": "4352",
+    "first_name": "Tú",
+    "last_name": "Vũ Ngọc",
+    "email": "tuvn@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Information Systems",
+    "university_id": "3379",
+    "first_name": "Tùng",
+    "last_name": "Nguyễn Thanh",
+    "email": "thanhtung@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Systems and Computer Networks",
+    "university_id": "3332",
+    "first_name": "Vân",
+    "last_name": "Lê Thanh",
+    "email": "ltvan@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Systems and Computer Networks",
+    "university_id": "2178",
+    "first_name": "Vũ",
+    "last_name": "Phạm Trần",
+    "email": "ptvu@hcmut.edu.vn"
+  },
+  {
+    "department_name": "Computer Engineering",
+    "university_id": "1966",
+    "first_name": "Vững",
+    "last_name": "Đoàn Minh",
+    "email": "vungdm@hcmut.edu.vn"
+  }
+]
