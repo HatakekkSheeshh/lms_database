@@ -18,8 +18,17 @@ PRINT 'Script completed!';
 PRINT '========================================';
 GO */
 
-SELECT 
+/* SELECT 
     T.University_ID,
     T.NAME
 FROM Tutor as T
-Where T.University_ID = 1733
+Where T.University_ID = 1733 */ 
+
+/* SELECT *
+FROM Section */
+
+select *
+from [Room]
+
+select *
+from [Building]
