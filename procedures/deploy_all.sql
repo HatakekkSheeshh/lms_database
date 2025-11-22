@@ -53,6 +53,22 @@ GO
 :r get_user_details.sql
 GO
 
+-- Filter Users
+:r filter_users.sql
+GO
+
+-- Audit Log Queries
+:r audit_log_queries.sql
+GO
+
+-- Advanced Statistics
+:r advanced_statistics.sql
+GO
+
+-- Password Reset
+:r password_reset.sql
+GO
+
 PRINT 'All procedures deployed successfully!'
 GO
 

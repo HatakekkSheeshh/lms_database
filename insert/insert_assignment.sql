@@ -29,6 +29,8 @@ BEGIN
     RAISERROR('No Assessment records with Assignment_Grade found. Cannot insert assignments.', 16, 1);
 END;
 
+PRINT @AssessmentCount
+
 DECLARE @Msg NVARCHAR(200);
 SET @Msg = 'Found ' + CAST(@AssessmentCount AS NVARCHAR(10)) + ' Assessment records with Assignment_Grade. Starting assignment insertion...';
 PRINT @Msg;

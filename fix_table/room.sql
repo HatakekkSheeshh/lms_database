@@ -48,28 +48,111 @@ PRINT 'Room_Name must follow pattern [1-9][0-9][1-9] (e.g., 101, 102, 206, 601)'
 GO
 
 -- ============================================
--- Step 3: Make Room_Name NOT NULL (after data is populated)
+-- Step 3a: Drop FK constraint from takes_place (must be done first)
 -- ============================================
 
--- Note: This step should be run after insert_room.sql has populated Room_Name
--- Uncomment the following if you want to make it NOT NULL immediately
+-- Drop FK constraint from takes_place if exists (it depends on Room_Name column)
+IF EXISTS (
+    SELECT * FROM sys.foreign_keys 
+    WHERE name = 'FK_Place_Room'
+      AND parent_object_id = OBJECT_ID('takes_place')
+)
+BEGIN
+    ALTER TABLE [takes_place] DROP CONSTRAINT FK_Place_Room;
+    PRINT 'Dropped FK constraint FK_Place_Room temporarily';
+END
+-- Also check if FK references Room table (in case name is different)
+ELSE IF EXISTS (
+    SELECT * FROM sys.foreign_keys fk
+    WHERE fk.parent_object_id = OBJECT_ID('takes_place')
+      AND fk.referenced_object_id = OBJECT_ID('Room')
+)
+BEGIN
+    DECLARE @FKName NVARCHAR(128);
+    SELECT TOP 1 @FKName = fk.name
+    FROM sys.foreign_keys fk
+    WHERE fk.parent_object_id = OBJECT_ID('takes_place')
+      AND fk.referenced_object_id = OBJECT_ID('Room');
+    
+    IF @FKName IS NOT NULL
+    BEGIN
+        DECLARE @DropFKSQL NVARCHAR(MAX) = N'ALTER TABLE [takes_place] DROP CONSTRAINT ' + QUOTENAME(@FKName);
+        EXEC sp_executesql @DropFKSQL;
+        PRINT 'Dropped FK constraint ' + @FKName + ' temporarily';
+    END
+END
+GO
 
-/*
+-- ============================================
+-- Step 3b: Make Room_Name NOT NULL (after data is populated)
+-- ============================================
+
 IF EXISTS (SELECT * FROM sys.columns WHERE object_id = OBJECT_ID('Room') AND name = 'Room_Name' AND is_nullable = 1)
 BEGIN
     -- Check if all rooms have Room_Name
     IF NOT EXISTS (SELECT * FROM [Room] WHERE Room_Name IS NULL)
     BEGIN
+        -- Drop unique constraint if exists (it depends on Room_Name column)
+        IF EXISTS (
+            SELECT * FROM sys.indexes 
+            WHERE object_id = OBJECT_ID('Room') 
+              AND name = 'UQ_Room_Building_Name_Room_Name'
+        )
+        BEGIN
+            ALTER TABLE [Room] DROP CONSTRAINT UQ_Room_Building_Name_Room_Name;
+            PRINT 'Dropped unique constraint UQ_Room_Building_Name_Room_Name temporarily';
+        END
+        
+        -- Set Room_Name to NOT NULL
         ALTER TABLE [Room] ALTER COLUMN Room_Name NVARCHAR(10) NOT NULL;
-        PRINT 'Set Room_Name to NOT NULL';
+        PRINT 'Set Room_Name to NOT NULL in Room table';
+        
+        -- Recreate unique constraint
+        IF NOT EXISTS (
+            SELECT * FROM sys.indexes 
+            WHERE object_id = OBJECT_ID('Room') 
+              AND name = 'UQ_Room_Building_Name_Room_Name'
+        )
+        BEGIN
+            ALTER TABLE [Room]
+            ADD CONSTRAINT UQ_Room_Building_Name_Room_Name
+            UNIQUE (Building_Name, Room_Name);
+            PRINT 'Recreated unique constraint UQ_Room_Building_Name_Room_Name on Room table';
+        END
     END
     ELSE
     BEGIN
         PRINT 'WARNING: Some rooms have NULL Room_Name. Please populate Room_Name before setting to NOT NULL.';
     END
 END
+ELSE
+BEGIN
+    PRINT 'Room_Name is already NOT NULL in Room table';
+END
 GO
-*/
+
+-- ============================================
+-- Step 3c: Recreate FK constraint
+-- ============================================
+
+-- Recreate FK constraint
+IF NOT EXISTS (
+    SELECT * FROM sys.foreign_keys 
+    WHERE name = 'FK_Place_Room'
+      AND parent_object_id = OBJECT_ID('takes_place')
+)
+BEGIN
+    ALTER TABLE [takes_place]
+    ADD CONSTRAINT FK_Place_Room
+    FOREIGN KEY (Building_Name, Room_Name)
+    REFERENCES [Room](Building_Name, Room_Name);
+    PRINT 'Recreated FK constraint FK_Place_Room';
+END
+ELSE
+BEGIN
+    PRINT 'FK constraint FK_Place_Room already exists';
+END
+GO
 
 -- ============================================
 -- Step 4: Verify results
