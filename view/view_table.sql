@@ -30,5 +30,3 @@ FROM Section */
 select *
 from [Room]
 
-select *
-from [Building]
