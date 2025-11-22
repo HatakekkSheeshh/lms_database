@@ -73,7 +73,6 @@ select @ass = count(*)
 from [Assessment]
 print 'Number of Elements: ' + cast(@ass as nvarchar(10)) */
 
-
-select *
-from [Student] as S
-Where S.Major = 'ComputerEngineering'
+select 
+    count (*) 
+from [Course]

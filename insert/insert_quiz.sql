@@ -20,7 +20,11 @@ DECLARE
     @Quiz_Weight FLOAT,
     @Student_Responses NVARCHAR(100),
     @Completion_Status NVARCHAR(100),
-    @Pass_Score DECIMAL(3,1);
+    @Pass_Score DECIMAL(3,1),
+    @RandomPercent INT,
+    @MinPercent INT,
+    @MaxPercent INT,
+    @Threshold INT;
 
 SET @Pass_Score = 5.0;
 
@@ -42,42 +46,51 @@ INTO @Cur_University_ID, @Cur_Section_ID, @Cur_Course_ID, @Cur_Semester, @Cur_As
 
 WHILE @@FETCH_STATUS = 0
 BEGIN
-
-    SET @Quiz_Time_Limit = '00:45:00'; 
-    SET @Quiz_Content = N'Midterm Quiz - ' + @Cur_Course_ID;
-    SET @Quiz_Type = N'Multiple Choice';
-    SET @Quiz_Weight = 0.3; 
-    SET @Quiz_Answers = N'A,C,B,D,A,C,C,B,D,A'; 
-    SET @Student_Responses = N'A,B,B,D,A,C,D,B,D,C'; 
-
-    IF @Cur_Semester = '241'
+    -- Random decision: 60-80% chance to create quiz
+    SET @RandomPercent = ABS(CHECKSUM(NEWID())) % 100;
+    SET @MinPercent = 60;
+    SET @MaxPercent = 80;
+    SET @Threshold = @MinPercent + (ABS(CHECKSUM(NEWID())) % (@MaxPercent - @MinPercent + 1));
+    
+    -- Only create quiz if random value is within threshold
+    IF @RandomPercent < @Threshold
     BEGIN
-        SET @Quiz_Start = '2024-10-20 07:00:00'; 
-        SET @Quiz_End = '2024-10-27 23:59:00';   
-    END
-    ELSE
-    BEGIN
-        SET @Quiz_Start = '2025-03-15 07:00:00'; 
-        SET @Quiz_End = '2025-03-22 23:59:00';   
-    END;
+        SET @Quiz_Time_Limit = '00:45:00'; 
+        SET @Quiz_Content = N'Midterm Quiz - ' + @Cur_Course_ID;
+        SET @Quiz_Type = N'Multiple Choice';
+        SET @Quiz_Weight = 0.3; 
+        SET @Quiz_Answers = N'A,C,B,D,A,C,C,B,D,A'; 
+        SET @Student_Responses = N'A,B,B,D,A,C,D,B,D,C'; 
 
-    IF @Cur_Grade >= @Pass_Score
-        SET @Completion_Status = 'Passed';
-    ELSE
-        SET @Completion_Status = 'Failed';
+        IF @Cur_Semester = '241'
+        BEGIN
+            SET @Quiz_Start = '2024-10-20 07:00:00'; 
+            SET @Quiz_End = '2024-10-27 23:59:00';   
+        END
+        ELSE
+        BEGIN
+            SET @Quiz_Start = '2025-03-15 07:00:00'; 
+            SET @Quiz_End = '2025-03-22 23:59:00';   
+        END;
 
-    INSERT INTO [Quiz] (
-        University_ID, Section_ID, Course_ID, Semester, Assessment_ID, 
-        Grading_method, pass_score, Time_limits, [Start_Date], End_Date, 
-        Responses, completion_status, score, 
-        content, [types], [Weight], Correct_answer
-    )
-    VALUES (
-        @Cur_University_ID, @Cur_Section_ID, @Cur_Course_ID, @Cur_Semester, @Cur_Assessment_ID,
-        'Highest Attemp', @Pass_Score, @Quiz_Time_Limit, @Quiz_Start, @Quiz_End,
-        @Student_Responses, @Completion_Status, @Cur_Grade,
-        @Quiz_Content, @Quiz_Type, @Quiz_Weight, @Quiz_Answers
-    );
+        IF @Cur_Grade >= @Pass_Score
+            SET @Completion_Status = 'Passed';
+        ELSE
+            SET @Completion_Status = 'Failed';
+
+        INSERT INTO [Quiz] (
+            University_ID, Section_ID, Course_ID, Semester, Assessment_ID, 
+            Grading_method, pass_score, Time_limits, [Start_Date], End_Date, 
+            Responses, completion_status, score, 
+            content, [types], [Weight], Correct_answer
+        )
+        VALUES (
+            @Cur_University_ID, @Cur_Section_ID, @Cur_Course_ID, @Cur_Semester, @Cur_Assessment_ID,
+            'Highest Attemp', @Pass_Score, @Quiz_Time_Limit, @Quiz_Start, @Quiz_End,
+            @Student_Responses, @Completion_Status, @Cur_Grade,
+            @Quiz_Content, @Quiz_Type, @Quiz_Weight, @Quiz_Answers
+        );
+    END; -- End of random check
 
     FETCH NEXT FROM quiz_cursor 
     INTO @Cur_University_ID, @Cur_Section_ID, @Cur_Course_ID, @Cur_Semester, @Cur_Assessment_ID, @Cur_Grade;

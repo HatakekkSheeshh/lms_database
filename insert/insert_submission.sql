@@ -31,6 +31,10 @@ DECLARE
 DECLARE @SubmitDate DATETIME;
 DECLARE @LateFlag BIT;
 DECLARE @AttachedFile NVARCHAR(50);
+DECLARE @RandomPercent INT;
+DECLARE @MinPercent INT;
+DECLARE @MaxPercent INT;
+DECLARE @Threshold INT;
 
 DECLARE submission_cursor CURSOR FOR
 SELECT 
@@ -50,36 +54,45 @@ INTO @Cur_University_ID, @Cur_Section_ID, @Cur_Course_ID, @Cur_Semester, @Cur_As
 
 WHILE @@FETCH_STATUS = 0
 BEGIN
-
-    IF RAND() < 0.8
+    -- Random decision: 80-95% chance to create submission
+    SET @RandomPercent = ABS(CHECKSUM(NEWID())) % 100;
+    SET @MinPercent = 80;
+    SET @MaxPercent = 95;
+    SET @Threshold = @MinPercent + (ABS(CHECKSUM(NEWID())) % (@MaxPercent - @MinPercent + 1));
+    
+    -- Only create submission if random value is within threshold
+    IF @RandomPercent < @Threshold
     BEGIN
-        SET @SubmitDate = DATEADD(DAY, -2, @Cur_Deadline); 
-        SET @LateFlag = 0; 
-    END
-    ELSE
-    BEGIN
-        SET @SubmitDate = DATEADD(DAY, 1, @Cur_Deadline); 
-        SET @LateFlag = 1;
-    END;
+        IF RAND() < 0.8
+        BEGIN
+            SET @SubmitDate = DATEADD(DAY, -2, @Cur_Deadline); 
+            SET @LateFlag = 0; 
+        END
+        ELSE
+        BEGIN
+            SET @SubmitDate = DATEADD(DAY, 1, @Cur_Deadline); 
+            SET @LateFlag = 1;
+        END;
 
-    SET @AttachedFile = N'FinalReport_' + CAST(@Cur_University_ID AS NVARCHAR(7)) + N'.pdf';
+        SET @AttachedFile = N'FinalReport_' + CAST(@Cur_University_ID AS NVARCHAR(7)) + N'.pdf';
 
-    INSERT INTO [Submission] (
-        University_ID, Section_ID, Course_ID, Semester, Assessment_ID,
-        accepted_specification,
-        late_flag_indicator,
-        SubmitDate,
-        attached_files,
-        [status]
-    )
-    VALUES (
-        @Cur_University_ID, @Cur_Section_ID, @Cur_Course_ID, @Cur_Semester, @Cur_Assessment_ID,
-        @Cur_Spec,
-        @LateFlag,
-        @SubmitDate,
-        @AttachedFile,
-        'Submitted' 
-    );
+        INSERT INTO [Submission] (
+            University_ID, Section_ID, Course_ID, Semester, Assessment_ID,
+            accepted_specification,
+            late_flag_indicator,
+            SubmitDate,
+            attached_files,
+            [status]
+        )
+        VALUES (
+            @Cur_University_ID, @Cur_Section_ID, @Cur_Course_ID, @Cur_Semester, @Cur_Assessment_ID,
+            @Cur_Spec,
+            @LateFlag,
+            @SubmitDate,
+            @AttachedFile,
+            'Submitted' 
+        );
+    END; -- End of random check
 
     FETCH NEXT FROM submission_cursor 
     INTO @Cur_University_ID, @Cur_Section_ID, @Cur_Course_ID, @Cur_Semester, @Cur_Assessment_ID, @Cur_Deadline, @Cur_Spec;

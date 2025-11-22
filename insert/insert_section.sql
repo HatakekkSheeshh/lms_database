@@ -1,6 +1,18 @@
 USE [lms_system];
 GO
 
+DELETE FROM [Teaches]
+GO
+
+DELETE FROM [Assessment]
+GO
+
+DELETE FROM [takes_place]
+GO
+
+DELETE FROM [Online];
+GO
+
 DELETE FROM [Section];
 GO
 
@@ -29,39 +41,23 @@ WHILE @@FETCH_STATUS = 0
 BEGIN
     BEGIN TRY
         SET @Current_Semester = '241';
-        SET @Counter = 1;
-        WHILE @Counter <= 5
-        BEGIN
-            INSERT INTO [Section] (Section_ID, Course_ID, Semester)
-            VALUES (N'CC0' + CAST(@Counter AS NVARCHAR(1)), @Current_Course_ID, @Current_Semester);
-            SET @Counter = @Counter + 1;
-        END;
-        SET @Counter = 1;
-        WHILE @Counter <= 5
-        BEGIN
-            INSERT INTO [Section] (Section_ID, Course_ID, Semester)
-            VALUES (N'L0' + CAST(@Counter AS NVARCHAR(1)), @Current_Course_ID, @Current_Semester);
-            SET @Counter = @Counter + 1;
-        END;
-        INSERT INTO [Section] (Section_ID, Course_ID, Semester) VALUES (N'CLC1', @Current_Course_ID, @Current_Semester);
+        -- 2 CC0 sections
+        INSERT INTO [Section] (Section_ID, Course_ID, Semester) VALUES (N'CC01', @Current_Course_ID, @Current_Semester);
+        INSERT INTO [Section] (Section_ID, Course_ID, Semester) VALUES (N'CC02', @Current_Course_ID, @Current_Semester);
+        -- 2 L0 sections
+        INSERT INTO [Section] (Section_ID, Course_ID, Semester) VALUES (N'L01', @Current_Course_ID, @Current_Semester);
+        INSERT INTO [Section] (Section_ID, Course_ID, Semester) VALUES (N'L02', @Current_Course_ID, @Current_Semester);
+        -- 1 KSTN section
         INSERT INTO [Section] (Section_ID, Course_ID, Semester) VALUES (N'KSTN1', @Current_Course_ID, @Current_Semester);
         
         SET @Current_Semester = '242';
-        SET @Counter = 1;
-        WHILE @Counter <= 5
-        BEGIN
-            INSERT INTO [Section] (Section_ID, Course_ID, Semester)
-            VALUES (N'CC0' + CAST(@Counter AS NVARCHAR(1)), @Current_Course_ID, @Current_Semester);
-            SET @Counter = @Counter + 1;
-        END;
-        SET @Counter = 1;
-        WHILE @Counter <= 5
-        BEGIN
-            INSERT INTO [Section] (Section_ID, Course_ID, Semester)
-            VALUES (N'L0' + CAST(@Counter AS NVARCHAR(1)), @Current_Course_ID, @Current_Semester);
-            SET @Counter = @Counter + 1;
-        END;
-        INSERT INTO [Section] (Section_ID, Course_ID, Semester) VALUES (N'CLC1', @Current_Course_ID, @Current_Semester);
+        -- 2 CC0 sections
+        INSERT INTO [Section] (Section_ID, Course_ID, Semester) VALUES (N'CC01', @Current_Course_ID, @Current_Semester);
+        INSERT INTO [Section] (Section_ID, Course_ID, Semester) VALUES (N'CC02', @Current_Course_ID, @Current_Semester);
+        -- 2 L0 sections
+        INSERT INTO [Section] (Section_ID, Course_ID, Semester) VALUES (N'L01', @Current_Course_ID, @Current_Semester);
+        INSERT INTO [Section] (Section_ID, Course_ID, Semester) VALUES (N'L02', @Current_Course_ID, @Current_Semester);
+        -- 1 KSTN section
         INSERT INTO [Section] (Section_ID, Course_ID, Semester) VALUES (N'KSTN1', @Current_Course_ID, @Current_Semester);
     END TRY
     BEGIN CATCH

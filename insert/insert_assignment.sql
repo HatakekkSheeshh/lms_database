@@ -17,6 +17,10 @@ DECLARE @Assignment_Deadline DATETIME;
 DECLARE @Assignment_Instructions NVARCHAR(50);
 DECLARE @AssessmentCount INT;
 DECLARE @ErrorMsg NVARCHAR(500);
+DECLARE @RandomPercent INT;
+DECLARE @MinPercent INT;
+DECLARE @MaxPercent INT;
+DECLARE @Threshold INT;
 
 -- Check if Assessment table has records with Assignment_Grade
 SELECT @AssessmentCount = COUNT(*) 
@@ -55,41 +59,51 @@ INTO @Cur_University_ID, @Cur_Section_ID, @Cur_Course_ID, @Cur_Semester, @Cur_As
 WHILE @@FETCH_STATUS = 0
 BEGIN
     BEGIN TRY
-        IF @Cur_Semester = '241'
+        -- Random decision: 70-90% chance to create assignment
+        SET @RandomPercent = ABS(CHECKSUM(NEWID())) % 100;
+        SET @MinPercent = 70;
+        SET @MaxPercent = 90;
+        SET @Threshold = @MinPercent + (ABS(CHECKSUM(NEWID())) % (@MaxPercent - @MinPercent + 1));
+        
+        -- Only create assignment if random value is within threshold
+        IF @RandomPercent < @Threshold
         BEGIN
-            SET @Assignment_Deadline = '2025-01-10 23:59:00'; 
-            SET @Assignment_Instructions = N'Final Report HK241';
-        END
-        ELSE
-        BEGIN
-            SET @Assignment_Deadline = '2025-06-10 23:59:00';
-            SET @Assignment_Instructions = N'Final Report HK242';
-        END;
-
-        SET @rand = ABS(CHECKSUM(NEWID())) % 4 + 1;
-        SET @Assignment_Spec =
-            CASE @rand
-                WHEN 0 THEN N'.pdf, .zip'
-                WHEN 1 THEN N'.docx, .zip'
-                WHEN 2 THEN N'.zip'
-                WHEN 3 THEN N'.pdf'
-                WHEN 4 THEN N'.docx'
+            IF @Cur_Semester = '241'
+            BEGIN
+                SET @Assignment_Deadline = '2025-01-10 23:59:00'; 
+                SET @Assignment_Instructions = N'Final Report HK241';
+            END
+            ELSE
+            BEGIN
+                SET @Assignment_Deadline = '2025-06-10 23:59:00';
+                SET @Assignment_Instructions = N'Final Report HK242';
             END;
 
-        INSERT INTO [Assignment] (
-            University_ID, Section_ID, Course_ID, Semester, Assessment_ID, 
-            accepted_specification, submission_deadline, instructions
-        )
-        VALUES (
-            @Cur_University_ID, 
-            @Cur_Section_ID, 
-            @Cur_Course_ID, 
-            @Cur_Semester, 
-            @Cur_Assessment_ID,
-            @Assignment_Spec,
-            @Assignment_Deadline,
-            @Assignment_Instructions
-        );
+            SET @rand = ABS(CHECKSUM(NEWID())) % 4 + 1;
+            SET @Assignment_Spec =
+                CASE @rand
+                    WHEN 0 THEN N'.pdf, .zip'
+                    WHEN 1 THEN N'.docx, .zip'
+                    WHEN 2 THEN N'.zip'
+                    WHEN 3 THEN N'.pdf'
+                    WHEN 4 THEN N'.docx'
+                END;
+
+            INSERT INTO [Assignment] (
+                University_ID, Section_ID, Course_ID, Semester, Assessment_ID, 
+                accepted_specification, submission_deadline, instructions
+            )
+            VALUES (
+                @Cur_University_ID, 
+                @Cur_Section_ID, 
+                @Cur_Course_ID, 
+                @Cur_Semester, 
+                @Cur_Assessment_ID,
+                @Assignment_Spec,
+                @Assignment_Deadline,
+                @Assignment_Instructions
+            );
+        END; -- End of random check
     END TRY
     BEGIN CATCH
         SET @ErrorMsg = 'Error inserting assignment for Assessment_ID: ' + CAST(@Cur_Assessment_ID AS NVARCHAR(10));
