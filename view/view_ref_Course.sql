@@ -8,4 +8,4 @@ FROM
 INNER JOIN 
     sys.foreign_key_columns AS fkc ON fk.object_id = fkc.constraint_object_id
 WHERE 
-    OBJECT_NAME(fk.referenced_object_id) = 'Course';
+    OBJECT_NAME(fk.referenced_object_id) = 'Section';
