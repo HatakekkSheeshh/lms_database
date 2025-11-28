@@ -65,7 +65,7 @@ WHERE name = 'lms_system';
 
 Standalone root file:
 
-- `create_database.sql` — bootstrap database with correct collation.
+- `create_database.sql` — bootstrap database with correct collation. But, since using Azure SQL, it is not neccessary anymore.
 
 ## Database schema overview
 
