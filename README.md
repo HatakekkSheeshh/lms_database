@@ -50,7 +50,6 @@ WHERE name = 'lms_system';
 
 - `amend/` — one-off corrective scripts created while debugging production data (kept separate so patches can be replayed without touching the main schema).
 - `blob_storage/` — sample scripts that load large data objects; isolated to mimic Azure Blob ingestion routines.
-- `cache/` — helper utilities (SQL + Python generator) used to precompute cache tables without mixing them into core DDL.
 - `data_mock/` — JSON, CSV, and PDF artifacts that back every insert script; separating raw data keeps SQL scripts lightweight.
 - `database/` — authoritative DDL; only this folder should define the base schema so upgrades stay traceable.
 - `example/` — runnable demos and manual tests showing how to call procedures/triggers; keeps README concise while still preserving usage references.
