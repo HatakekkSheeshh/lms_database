@@ -10,6 +10,8 @@ This repository hosts everything needed to provision the LMS (Learning Managemen
 
 ## Setup Workflow
 
+> **Important:** Before running any script, create or select a connection to your SQL Server / Azure SQL instance in SSMS or Azure Data Studio, and make sure it points to the correct server.
+
 ### 1. Create the database
 
 Run `create_database.sql` to create (or recreate) the `lms_system` database with the correct collation. The script safely drops the existing database before recreating it.
