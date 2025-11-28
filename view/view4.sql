@@ -1,4 +1,4 @@
--- takes_place
+/* -- takes_place
 PRINT '--- takes_place ---';
 SELECT * FROM [takes_place];
 PRINT '';
@@ -11,7 +11,7 @@ PRINT '';
 -- Tutor
 PRINT '--- Tutor ---';
 SELECT * FROM [Tutor];
-PRINT '';
+PRINT ''; */
 
 -- Users
 PRINT '--- Users ---';

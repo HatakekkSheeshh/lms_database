@@ -1,0 +1,1 @@
+DROP TABLE [Quiz_Backup]

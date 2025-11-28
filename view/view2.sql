@@ -1,16 +1,5 @@
 use [lms_system]
 
-
--- Online
-PRINT '--- Online ---';
-SELECT * FROM [Online];
-PRINT '';
-
--- PasswordResetTokens
-PRINT '--- PasswordResetTokens ---';
-SELECT * FROM [PasswordResetTokens];
-PRINT '';
-
 -- Platform
 PRINT '--- Platform ---';
 SELECT * FROM [Platform];
@@ -31,8 +20,4 @@ PRINT '--- Reference_To ---';
 SELECT * FROM [Reference_To];
 PRINT '';
 
--- review
-PRINT '--- review ---';
-SELECT * FROM [review];
-PRINT '';
 

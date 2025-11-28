@@ -1,223 +1,97 @@
 # LMS System Database Setup Guide
 
-Complete guide to set up the LMS (Learning Management System) database.
+This repository hosts everything needed to provision the LMS (Learning Management System) database: base schema, seed data, stored procedures, views, triggers, utilities, and test fixtures.
 
 ## Prerequisites
 
-- SQL Server 2019 or later
+- SQL Server 2019 (or later) with permissions to create/drop databases
 - SQL Server Management Studio (SSMS) or Azure Data Studio
-- Permissions to create databases and tables
+- `Vietnamese_100_CI_AS` collation installed on the SQL Server instance
 
-## Step-by-Step Setup
+## Setup Workflow
 
-### Step 1: Create Database
+### 1. Create the database
 
-Run the `create_database.sql` file to create the `lms_system` database with Vietnamese collation:
+Run `create_database.sql` to create (or recreate) the `lms_system` database with the correct collation. The script safely drops the existing database before recreating it.
 
-```sql
--- File: create_database.sql
--- Creates database with Vietnamese_100_CI_AS collation for Vietnamese language support
-```
+### 2. Create the schema
 
-**How to run:**
-1. Open SQL Server Management Studio (SSMS) or Azure Data Studio
-2. Connect to your SQL Server instance
-3. Open the `create_database.sql` file
-4. Press F5 or click "Execute" to run the script
+Run `database/lms_database.sql` to build all core tables: `Users`, `Account`, `Student`, `Tutor`, `Course`, `Section`, `Assessment`, `Assignment`, `Quiz`, `Submission`, and supporting tables. The script uses `NVARCHAR` columns and applies the Vietnamese collation everywhere text is stored.
 
-**Result:** The `lms_system` database will be created with `Vietnamese_100_CI_AS` collation
+### 3. Seed essential data
 
----
+Start with `insert/insert_users.sql`, which loads 464 users extracted from `data_mock/user_db.json`. All Unicode literals already use the `N` prefix (for example `N'Nguyễn'`). Additional inserts are organized in the same folder if you need to populate other tables.
 
-### Step 2: Create Tables
+### 4. Verify the deployment
 
-Run the `database.sql` file to create all tables in the database:
-
-```sql
--- File: database.sql
--- Creates all tables: Users, Account, Admin, Student, Tutor, Course, Section, etc.
-```
-
-**How to run:**
-1. Open the `database.sql` file
-2. Press F5 or click "Execute" to run the script
-
-**Notes:**
-- The script will automatically DROP and recreate all tables
-- All text columns have been changed to `NVARCHAR` for Vietnamese language support
-- `Vietnamese_100_CI_AS` collation is applied to text columns
-
-**Result:** All tables will be created with complete structure
-
----
-
-### Step 3: Insert Data
-
-Run the `insert/insert_users.sql` file to insert user data:
-
-```sql
--- File: insert/insert_users.sql
--- Inserts 464 users from user_db.json with N prefix for Unicode
-```
-
-**How to run:**
-1. Open the `insert/insert_users.sql` file
-2. Press F5 or click "Execute" to run the script
-
-**Notes:**
-- The file uses prefix `N` for all Unicode strings to support Vietnamese characters
-- Example: `N'Nguyễn'` instead of `'Nguyễn'`
-
-**Result:** 464 users will be inserted into the `Users` table
-
----
-
-### Step 4: Verify
-
-Run the following queries to verify the data:
-
-#### 4.1. Check user count:
 ```sql
 USE [lms_system];
 GO
 
-SELECT COUNT(*) AS TotalUsers
-FROM [Users];
-```
+SELECT COUNT(*) AS TotalUsers FROM [Users];
 
-#### 4.2. View user data (check Vietnamese characters):
-```sql
-SELECT TOP 10 
-    University_ID,
-    First_Name,
-    Last_Name,
-    Email,
-    Phone_Number,
-    [Address]
+SELECT TOP 10 University_ID, First_Name, Last_Name
 FROM [Users]
 ORDER BY University_ID;
-```
 
-#### 4.3. Check collation:
-```sql
--- Check database collation
-SELECT name, collation_name 
-FROM sys.databases 
+SELECT name, collation_name
+FROM sys.databases
 WHERE name = 'lms_system';
-
--- Check column collation
-SELECT COLUMN_NAME, DATA_TYPE, COLLATION_NAME
-FROM INFORMATION_SCHEMA.COLUMNS
-WHERE TABLE_NAME = 'Users'
-AND COLUMN_NAME IN ('First_Name', 'Last_Name', 'Address');
 ```
 
----
+## Quick start (run-all)
 
-## Quick Start
+1. `create_database.sql`
+2. `database/lms_database.sql`
+3. `insert/insert_users.sql`
+4. Any verification query you need, e.g. `SELECT COUNT(*) FROM [Users];`
 
-To run everything at once:
+## Folder notes
 
-1. **Create database:**
-   ```sql
-   -- Run: create_database.sql
-   ```
+- `amend/` — one-off corrective scripts created while debugging production data (kept separate so patches can be replayed without touching the main schema).
+- `blob_storage/` — sample scripts that load large data objects; isolated to mimic Azure Blob ingestion routines.
+- `cache/` — helper utilities (SQL + Python generator) used to precompute cache tables without mixing them into core DDL.
+- `data_mock/` — JSON, CSV, and PDF artifacts that back every insert script; separating raw data keeps SQL scripts lightweight.
+- `database/` — authoritative DDL; only this folder should define the base schema so upgrades stay traceable.
+- `example/` — runnable demos and manual tests showing how to call procedures/triggers; keeps README concise while still preserving usage references.
+- `fix_table/` — structural hot-fixes (add/drop columns, cascade rules) that must be applied sequentially during schema evolution; stored apart from the clean DDL.
+- `foreignkey_seek/` — investigative scripts that trace FK relationships when diagnosing constraint failures.
+- `function/` — scalar/table-valued functions extracted from procedures to encourage reuse.
+- `insert/` — deterministic seed data grouped per entity; splitting by entity makes it easy to reseed a single table.
+- `mock/` — end-to-end login and assessment simulations, helpful for QA without polluting production data.
+- `procedures/` — CRUD, reporting, and orchestration procedures; isolating them here avoids noise in the core schema folder.
+- `security/` — role/grant definitions so permission changes are versioned independently.
+- `trigger/` — DML triggers (validation, auditing, automation) grouped to simplify enable/disable flows during maintenance.
+- `view/` — reporting/projection views; segregated so analytics teams can extend them without editing procedures.
 
-2. **Create tables:**
-   ```sql
-   -- Run: database.sql
-   ```
+Standalone root file:
 
-3. **Insert data:**
-   ```sql
-   -- Run: insert/insert_users.sql
-   ```
+- `create_database.sql` — bootstrap database with correct collation.
 
-4. **Verify:**
-   ```sql
-   SELECT COUNT(*) FROM [Users];
-   ```
+## Database schema overview
 
----
+Main logical areas:
+
+- **Identity & Access** — `Users`, `Account`, `Admin`, `Student`, `Tutor`.
+- **Course Delivery** — `Course`, `Section`, `Scheduler`, `TakesPlace`.
+- **Assessment Pipeline** — `Assessment`, `Assignment`, `Quiz`, `Submission`, feedback tables.
+- **Reference Data** — campus buildings, rooms, equipment, and platform metadata.
 
 ## Troubleshooting
 
-### Issue: Vietnamese characters display as question marks (?)
+- **Vietnamese characters show as `?`** — truncate affected rows and rerun the relevant `insert/*.sql` script (they all enforce the `N` prefix and NVARCHAR columns).
+- **Foreign key constraint failures** — ensure `database/lms_database.sql` completes before running any insert or fix script, and execute `fix_table/` patches in order.
+- **Database already exists** — re-run `create_database.sql`; it drops and recreates the database in one go.
 
-**Cause:**
-- Data was inserted before changing to NVARCHAR
-- INSERT statements don't use prefix `N`
+## Operational notes
 
-**Solution:**
-1. Delete old data:
-   ```sql
-   DELETE FROM [Users];
-   ```
+- Unicode everywhere: all textual columns use `NVARCHAR` and `Vietnamese_100_CI_AS`.
+- Sample data volume: 464 verified user records (extendible via `data_mock/`).
+- Keep procedure/function/view changes within their folders so git history remains readable.
 
-2. Run `insert/insert_users.sql` again (already has prefix `N`)
+## Support checklist
 
-### Issue: Foreign key constraint error
-
-**Cause:**
-- Inserting data before creating related tables
-
-**Solution:**
-- Make sure to run `database.sql` before inserting data
-
-### Issue: Database already exists
-
-**Solution:**
-- The `create_database.sql` file will automatically DROP the old database if it exists
-
----
-
-## File Structure
-
-```
-database_assignment/
-├── create_database.sql      # Create lms_system database
-├── database.sql             # Create all tables
-├── insert/
-│   └── insert_users.sql     # Insert user data
-├── data_mock/
-│   └── user_db.json         # User data (JSON)
-├── security/
-│   └── security.sql         # Security scripts
-└── view/
-    └── view_table.sql        # View data scripts
-```
-
----
-
-## Database Schema Overview
-
-### Main Tables:
-- **Users**: User information (supports Vietnamese)
-- **Account**: Login accounts
-- **Student**: Student information
-- **Tutor**: Tutor/Instructor information
-- **Course**: Courses
-- **Section**: Course sections
-- **Assessment**: Assessments
-- **Assignment**: Assignments
-- **Quiz**: Quizzes
-- **Submission**: Submissions
-
----
-
-## Notes
-
-- All text columns have been changed to `NVARCHAR` for Unicode support
-- Database collation: `Vietnamese_100_CI_AS`
-- INSERT statements use prefix `N` for Unicode strings
-- Sample data: 464 users from `data_mock/user_db.json`
-
----
-
-## Support
-
-If you encounter issues, check:
-1. SQL Server version (should use 2019+)
-2. Database collation must be `Vietnamese_100_CI_AS`
-3. All text columns must be `NVARCHAR`
-4. INSERT statements must use prefix `N`
+1. SQL Server version ≥ 2019.
+2. Database collation matches `Vietnamese_100_CI_AS`.
+3. All INSERT statements use the `N` prefix for Unicode literals.
+4. Run scripts in the order described above before reporting an issue.

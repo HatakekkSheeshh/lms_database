@@ -6,6 +6,11 @@ PRINT '--- Room ---';
 SELECT * FROM [Room];
 PRINT '';
 
+-- Building
+PRINT '--- Building ---';
+SELECT * FROM [Building];
+PRINT '';
+
 -- Room_Equipment
 PRINT '--- Room_Equipment ---';
 SELECT * FROM [Room_Equipment];
@@ -24,11 +29,6 @@ PRINT '';
 -- Student
 PRINT '--- Student ---';
 SELECT * FROM [Student];
-PRINT '';
-
--- Submission
-PRINT '--- Submission ---';
-SELECT * FROM [Submission];
 PRINT '';
 
 

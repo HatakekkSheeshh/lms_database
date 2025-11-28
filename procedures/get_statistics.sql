@@ -18,9 +18,10 @@ BEGIN
         (SELECT COUNT(*) FROM [Admin]) as total_admins,
         (SELECT COUNT(*) FROM [Course]) as total_courses,
         (SELECT COUNT(*) FROM [Section]) as total_sections,
-        (SELECT COUNT(*) FROM [Assignment]) as total_assignments,
-        (SELECT COUNT(*) FROM [Quiz]) as total_quizzes,
-        (SELECT COUNT(*) FROM [Submission]) as total_submissions,
+        (SELECT COUNT(*) FROM [Assignment_Definition]) as total_assignments,
+        (SELECT COUNT(*) FROM [Quiz_Questions]) as total_quizzes,
+        (SELECT COUNT(*) FROM [Assignment_Submission]) as total_submissions,
+        (SELECT COUNT(DISTINCT AssignmentID) FROM [Assignment_Submission]) as completed_assignments,
         (SELECT COUNT(*) FROM [Assessment] WHERE Status = 'Pending') as pending_assessments;
 END
 GO
